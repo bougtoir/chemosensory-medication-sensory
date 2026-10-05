@@ -1,0 +1,8 @@
+rsid,gene,chrom,pos_grch38,ref,alts,effect_allele,effect_allele_complement,basis
+rs713598,TAS2R38,7,141973545,C,A/G/T,G,C,TAS2R38 p.A49P transcript ENST00000547270 strand -1
+rs1726866,TAS2R38,7,141972905,G,A,G,C,TAS2R38 p.A262V transcript ENST00000547270 strand -1
+rs10246939,TAS2R38,7,141972804,T,C,C,G,TAS2R38 p.I296V transcript ENST00000547270 strand -1
+rs3741845,TAS2R9,12,10809516,A,G,G,C,TAS2R9 p.V187A transcript ENST00000240691 strand -1
+rs10772420,TAS2R19,12,11021677,G,A,,,amendment-only variant; no effect allele frozen
+rs11988795,TRPA1,8,72037366,C,A/G/T,,,amendment-only variant; no effect allele frozen
+rs12033832,TAS1R2,1,18839800,G,A/C,G,C,"synonymous (VEP); literature effect allele G (Eny et al. 2010), forward strand"

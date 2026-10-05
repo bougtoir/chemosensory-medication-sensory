@@ -1,0 +1,13 @@
+prediction_id,gene,drug,evidence_tier,evidence_score,G_human_genotype_sensory,H_human_drug_sensory,R_receptor_drug,V_variant_function,Rep_replication,F_formulation,O_observability,A_alt_explanation_penalty,rationale,key_citations
+P01,TAS2R38,propylthiouracil,A,15,3,3,3,3,2,1,1,1,TAS2R38 agonism (BitterDB; PROP EC50 2.1uM PAV),12595690;15723792;20675712;23632915
+P02,TAS2R38,methimazole (thiamazole),B,14,3,2,3,3,1,1,2,1,methimazole = validated TAS2R38 ligand (Behrens 2013; BitterDB),23632915;BitterDB
+P03,TAS2R38,chloramphenicol,A,12,3,3,3,3,1,1,0,2,TAS2R38-dependent bitterness in human panel,35967977
+P04,TAS2R38,chlorpheniramine,C,11,3,1,3,3,0,2,1,2,chlorpheniramine -> TAS2R38/46 (BitterDB); known bitter antihistamine,BitterDB
+P05,TAS2R9,ofloxacin,A,9,2,2,3,2,0,1,1,2,human cohort assoc + BitterDB TAS2R9 edge,35967977;BitterDB
+P06,TAS2R19,quinine / quinidine,A,11,3,2,2,2,2,1,1,2,"GWAS lead (P=1.8e-15, 5.8% var); salivary-gene confound possible",20675712;26024668
+P07,TAS2R38,liquid oral medications (aggregate),B,12,3,2,3,3,1,2,1,3,bitter intensity -> acceptance (pediatric chain),22440514;26391354;25381313
+P08,TAS1R2,sweetened oral formulations,B,7,2,1,1,2,1,2,1,3,sweet receptor sensitivity alters masking,sweet_loci_pool
+P09,TRPA1,chemesthetic oral liquids (ibuprofen susp),B,10,2,3,2,2,0,2,1,2,pediatric GWAS panel hit; not taste,37685855
+P10,TAS2R4,PROP / thiourea exposure in AVI carriers,C,6,2,1,2,2,0,1,0,2,compensatory activation rescues AVI phenotype,38732607
+P11,TAS2R43/TAS2R46,acesulfame-K sweetened formulations,B,7,2,2,3,1,0,1,1,3,Ace-K bitterness varies with receptor polymorphisms; BitterDB edges,BitterDB
+P12,TAS2R38,erythromycin (suspension),C,10,3,1,2,3,0,2,1,2,erythromycin -> TAS2R1/10 (not TAS2R38): generalized bitter intensity proxy only,BitterDB

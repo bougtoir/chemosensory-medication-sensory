@@ -1,0 +1,62 @@
+# Logical-to-delivered variable map. See docs/INSTRUCTION_REGISTER.csv and DECISION_LOG.md.
+# Every analysis script reads column names ONLY through this file.
+# Real ToMMo column names are unknown before receipt. At receipt the
+# operator replaces the synthetic names below using the delivered
+# data dictionary, BEFORE any genotype-outcome analysis, and records the
+# edit (old/new hash) in 23_DATA_RECEIPT_EVENT_LOG. Mapping edits are
+# technical (24_AMENDMENT_POLICY class T) and may not change any
+# definition in 06/07/08/09/14.
+version: 1.0.0
+id_column: participant_id
+family_column: family_id          # three-generation family identifier; set null if not delivered
+encoding_candidates: [utf-8, utf-8-sig, cp932]
+files:                            # glob patterns relative to the data directory
+  demographics: "demographics*.csv"
+  cohort_profile: "cohort_profile*.csv"
+  lifestyle_ph1: "qa_lifestyle.ph1*.csv"
+  lifestyle_ph2: "qa_lifestyle.ph2*.csv"
+  ffq_ph1: "qa_ffq.ph1*.csv"
+  ffq_ph2: "qa_ffq.ph2*.csv"
+  laboratory_ph1: "laboratory_test.ph1*.csv"
+  laboratory_ph2: "laboratory_test.ph2*.csv"
+  physiological_ph1: "physiological_test.ph1*.csv"
+  physiological_ph2: "physiological_test.ph2*.csv"
+  snp_genotypes: "snp_genotypes*.csv"
+  snp_manifest: "snp_manifest*.csv"
+snp_manifest_columns: {rsid: rsid, gene: gene, chrom: chrom, pos: pos, build: build, ref: ref, alt: alt}
+medication:
+  n_slots: 45
+  waves:
+    ph1: lifestyle_ph1
+    ph2: lifestyle_ph2
+  any_use_column: med_any                 # 過去2週間の薬・サプリ使用 (1=yes, 0=no)
+  any_use_yes: [1, "1"]
+  slot_columns:                           # {k} = slot number 1..n_slots
+    text: "med_text_{k}"                  # 製品名・成分名 (free text)
+    kedd_id: "med_kedd_{k}"
+    drug_id: "med_drugid_{k}"
+    rx: "med_rx_{k}"                      # 入手方法: 処方
+    other: "med_other_{k}"                # 入手方法: その他 (OTC/supplement)
+    duration_value: "med_dur_{k}"
+    duration_unit: "med_dur_unit_{k}"
+    frequency_value: "med_freq_{k}"
+    frequency_unit: "med_freq_unit_{k}"
+    dose_value: "med_dose_{k}"
+    dose_unit: "med_dose_unit_{k}"
+  flag_true_values: [1, "1", "TRUE", "True", "true"]
+questionnaire_date: {ph1: {file: lifestyle_ph1, column: answer_date}, ph2: {file: lifestyle_ph2, column: answer_date}}
+covariates:
+  age:            {file: demographics, column: age_ph1, type: numeric}
+  sex:            {file: demographics, column: sex, type: categorical}
+  cohort_type:    {file: cohort_profile, column: cohort_type, type: categorical}
+  bmi:            {file: physiological_ph1, column: bmi, type: numeric}
+  smoking:        {file: lifestyle_ph1, column: smoking_status, type: categorical}
+  alcohol:        {file: lifestyle_ph1, column: alcohol_freq, type: numeric}
+  education:      {file: lifestyle_ph1, column: education, type: categorical}
+  hypertension:   {file: lifestyle_ph1, column: hx_hypertension, type: binary}
+  diabetes:       {file: lifestyle_ph1, column: hx_diabetes, type: binary}
+  dyslipidemia:   {file: lifestyle_ph1, column: hx_dyslipidemia, type: binary}
+  sbp:            {file: physiological_ph1, column: sbp, type: numeric}
+  hba1c:          {file: laboratory_ph1, column: hba1c, type: numeric}
+  ldl:            {file: laboratory_ph1, column: ldl, type: numeric}
+  alcohol_flush:  {file: lifestyle_ph1, column: alcohol_flush, type: binary}

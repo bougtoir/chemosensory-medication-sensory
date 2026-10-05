@@ -1,0 +1,90 @@
+# Frozen analysis configuration. See docs/INSTRUCTION_REGISTER.csv and DECISION_LOG.md.
+version: 1.0.0
+seed: 42
+population:
+  require_both_waves: true          # ph1 and ph2 lifestyle questionnaire medication section answered
+  min_age_ph1: 20
+  require_genotype_qc_pass: true
+medication_scope:
+  primary: prescription             # rows with rx flag; OTC/supplement rows only in S11 and N12
+  require_resolved_ingredient: true
+endpoints:
+  dose_ratio_increase: 1.25         # standardized daily dose ratio ph2/ph1 >= 1.25 -> increase
+  dose_ratio_decrease: 0.80         # <= 0.80 -> decrease
+  list: [ANY_MEDICATION_CHANGE, ACTIVE_INGREDIENT_CHANGE, WITHIN_CLASS_SWITCH, MEDICATION_ADDITION,
+         MEDICATION_REMOVAL, STANDARDIZED_DOSE_INCREASE, STANDARDIZED_DOSE_DECREASE]
+testability:
+  min_exposed: 200                  # 73: expected exposed n < 200 -> PRE-SPECIFIED BUT UNTESTABLE
+  min_events: 20                    # fewer outcome events (or non-events) -> UNTESTABLE
+  small_cell_suppression: 10        # export suppression threshold
+genetic_model: additive
+covariates:
+  primary: [age, sex, cohort_type, followup_years, bmi, smoking, alcohol, education, hypertension, diabetes, dyslipidemia]
+  within_user_extra: [n_rx_ph1]     # added for drug-specific and user-restricted endpoints
+  minimal: [age, sex, cohort_type, followup_years]
+  allow_missing_optional: [education, cohort_type, followup_years]   # dropped from model (and logged) if not delivered
+cluster: family_id_if_available     # else HC1 robust SE
+families:
+  A:  {tests: [P01, P02, P05], method: holm, alpha: 0.05, status: confirmatory}
+  AS: {tests: [P03, P04, P07, P08, P12], method: fdr_bh, q: 0.10, status: confirmatory-secondary}
+  C:  {variants: [TAS2R38_PAV, TAS2R9_V187A, TAS1R2_rs12033832], endpoints: all, method: holm, alpha: 0.05, status: confirmatory-secondary}
+  C2: {variants: [TAS2R38_PAV, TAS2R9_V187A, TAS1R2_rs12033832], categories: all, endpoint: ANY_MEDICATION_CHANGE, method: fdr_bh, q: 0.05, status: secondary}
+  B:  {endpoint: ANY_MEDICATION_CHANGE, method: fdr_bh, q: 0.05, status: secondary-gene-constrained}
+  D:  {method: fdr_bh, q: 0.05, status: secondary-triangulation}
+  E:  {gradient: GR1, contrasts: [C1, C2, C3, C4], route_null: C5, method: holm, alpha: 0.05, status: conditional-confirmatory}
+  F:  {controls: [N01, N02, N03, N04, N05, N06, N07, N08, N09, N10, N12], failure_alpha: 0.05, status: negative-control}
+  G:  {permutations: 10000, min_evaluable: 5, status: confirmatory-calibration}    # min_evaluable: DECISION_LOG D07 (new pre-receipt decision; AMENDMENT_LOG AM06)
+  H:  {status: secondary-ml}
+prediction_variant:                 # 05_SNP_ANALYSIS_HIERARCHY.csv
+  P01: TAS2R38_PAV
+  P02: TAS2R38_PAV
+  P03: TAS2R38_PAV
+  P04: TAS2R38_PAV
+  P05: TAS2R9_V187A
+  P07: TAS2R38_PAV
+  P08: TAS1R2_rs12033832
+  P12: TAS2R38_PAV
+prediction_sign:                    # s_i fixed by 13 predicted_direction; +1 = effect allele increases change-away
+  P01: 1
+  P02: 1
+  P03: 1
+  P04: 1
+  P05: 1
+  P07: 1
+  P08: 1
+  P12: 1
+evidence_score: {P01: 15, P02: 14, P03: 12, P04: 11, P05: 9, P06: 11, P07: 12, P08: 7, P09: 10, P10: 6, P11: 7, P12: 10}
+negative_controls:                  # control -> [variant, paired prediction whose sign defines a failure]
+  N01: [TAS2R38_PAV, P01]
+  N02: [TAS2R38_PAV, P01]
+  N03: [TAS2R38_PAV, P01]
+  N04: [TAS2R38_PAV, P01]
+  N05: [TAS2R38_PAV, P01]
+  N06: [TAS2R38_PAV, P12]
+  N07: [TAS2R9_V187A, P05]
+  N08: [TAS2R38_PAV, P01]
+  N09: [TAS2R38_PAV, P01]
+  N10: [TAS1R2_rs12033832, P08]
+  N12: [TAS2R38_PAV, P01]
+controls_behave_max_failures: 0     # DECISION_LOG D13: any control failure -> controls do not behave (85 pattern C)
+formulation_module:
+  gradient_variant: TAS2R38_PAV
+  min_ex_coverage: 0.70             # DECISION_LOG D14: share of ph1 Rx rows with EX class assigned
+  require_realstring_parser_gate: true   # 92: 300-500 genotype-blind real strings, >=95% field accuracy
+contrasts:                          # DECISION_LOG D05: C1-C5 = 25_FORMULATION_ROUTE_CONTRASTS.csv (72 labels superseded, AMENDMENT_LOG AM05)
+  C1: {ingredients: [erythromycin], high: [syrup/suspension, dry syrup], low: [enteric-coated tablet, film-coated tablet]}
+  C2: {ingredients: [paracetamol], high: [syrup/suspension, dry syrup], low: [film-coated tablet]}
+  C3: {ingredients: [theophylline], high: [syrup/suspension, dry syrup], low: [controlled-release tablet]}
+  C4: {ingredients: [potassium chloride], high: [syrup/suspension, oral solution], low: [controlled-release tablet]}
+  C5: {atc_prefix: [A10A], route_null: true}   # parenteral route: genotype effect expected absent (reported, not in Holm set)
+family_c_sign: 1                    # effect alleles (PAV, 187A, rs12033832-G) predicted to increase change
+ml:
+  mi_imputations: 20
+  outer_folds: 5
+  inner_folds: 3
+  bootstrap: 2000
+  models: [elastic_net_logistic, gradient_boosting]
+  endpoint: ANY_MEDICATION_CHANGE
+sensitivity: [S03_A49P_only, S04_age40, S07_carrier, S08_minimal_adjustment, S09_evalue, S10_multiple_imputation,
+              S11_all_medications, S12_dose_threshold_any, S12b_dose_threshold_50, S13_exclude_unknown_id,
+              S14_exclude_combination, S15_ph1_users_only_addition]

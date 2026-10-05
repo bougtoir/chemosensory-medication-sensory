@@ -1,0 +1,25 @@
+prediction_id,original_status,biological_priority,population_priority,confirmatory_status,negative_control_status,minimum_data_requirement,allowed_if_sparse,replacement_allowed,reason
+P01,primary,BIOLOGICAL PRIMARY,BIOLOGICAL PRIMARY,primary,paired: non-oral drug same genotype -> null,thiourea drug exposure present; may be sparse — UNTESTABLE if ~0,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+P02,primary,POPULATION-FEASIBILITY PRIMARY,POPULATION-FEASIBILITY PRIMARY,primary,paired: carbimazole prodrug / non-oral route,thiamazole users n>=~100 at any wave,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+P03,secondary,SECONDARY CONFIRMATORY,SECONDARY CONFIRMATORY,secondary,paired: ofloxacin (TAS2R9),drug observable in free-text medication fields,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+P04,secondary,SECONDARY CONFIRMATORY,SECONDARY CONFIRMATORY,secondary,paired: tablet (masked) contrast,drug observable in free-text medication fields,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+P05,primary,BIOLOGICAL PRIMARY,BIOLOGICAL PRIMARY,primary,paired: non-TAS2R9 bitter drug,ofloxacin/fluoroquinolone users n>=~100,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+P06,secondary,SECONDARY CONFIRMATORY,SECONDARY CONFIRMATORY,secondary,paired: caffeine (no GWAS hit same study),drug observable in free-text medication fields,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+P07,secondary,SECONDARY CONFIRMATORY,SECONDARY CONFIRMATORY,secondary,paired: enteric-coated masked formulation,drug observable in free-text medication fields,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+P08,secondary,SECONDARY CONFIRMATORY,SECONDARY CONFIRMATORY,secondary,paired: unflavored formulation,drug observable in free-text medication fields,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+P09,secondary,SECONDARY CONFIRMATORY,SECONDARY CONFIRMATORY,secondary,paired: non-irritating formulation,drug observable in free-text medication fields,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+P10,secondary,SECONDARY CONFIRMATORY,SECONDARY CONFIRMATORY,secondary,paired: PAV homozygotes,drug observable in free-text medication fields,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+P11,secondary,SECONDARY CONFIRMATORY,SECONDARY CONFIRMATORY,secondary,paired: sugar-sweetened only,drug observable in free-text medication fields,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+P12,secondary,SECONDARY CONFIRMATORY,SECONDARY CONFIRMATORY,secondary,paired: enteric-coated tab,drug observable in free-text medication fields,report UNTESTABLE; never substitute,FALSE,frozen hierarchy; sparse primary stays untestable
+N01,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity
+N02,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity
+N03,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity
+N04,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity
+N05,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity
+N06,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity
+N07,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity
+N08,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity
+N09,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity
+N10,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity
+N11,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity
+N12,negative_control,,,,CONTROL,any observable exposure,report as PRE-SPECIFIED BUT UNTESTABLE,FALSE,control integrity

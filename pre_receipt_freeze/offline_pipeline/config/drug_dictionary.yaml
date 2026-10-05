@@ -1,0 +1,69 @@
+# Drug identification, ingredient, class and drug-set definitions. See docs/INSTRUCTION_REGISTER.csv and DECISION_LOG.md.
+version: 1.0.0
+id_priority: [drug_id, kedd_id, free_text]     # structured identifiers first; free text = fallback + QC
+masters:
+  drug_id:                                       # ToMMo Drug ID master; "DATA:<glob>" = file in the data directory; null if not delivered
+    path: "DATA:drug_id_master*.csv"
+    id_column: drug_id
+    ingredient_column: ingredients               # ';'-separated English INN, lower case
+    atc_column: atc                              # optional ';'-separated ATC codes
+    formulation_column: formulation_text         # optional product/formulation string
+    strength_mg_column: strength_mg              # optional mg per unit for count-unit doses
+  kedd_id:
+    path: "DATA:kedd_master*.csv"
+    id_column: kedd_id
+    ingredient_column: ingredients
+    atc_column: atc
+    formulation_column: formulation_text
+    strength_mg_column: strength_mg
+id_conflict_rule: "drug_id wins; conflict flagged in qc_id_conflicts.csv"
+free_text:
+  parser: ../../../71_MEDICATION_PARSER/medication_parser.py
+  parser_version: 1.0.0
+  parser_sha256: c722341a04419e32b8e999411d5fb4977e809fbbc3038ad519481676a5fa99de
+  uses: [ingredient_fallback, brand_resolution, formulation, route, oral_sensory_exposure, qc]
+atc_snapshot:
+  path: ../../../data/raw_atc_20261004/br08303.json
+  sha256: 69c3d45d9131312b005b5bd7db9a86b6bf27f63bbdccf713427eca89977e672a
+  source: KEGG BRITE br08303 (ATC), retrieved 2026-10-04T18:41:44Z
+  class_level: 4                                 # ATC level 4 (5 characters) defines "class"
+ingredient_aliases:                              # alias -> canonical INN used in ATC snapshot
+  methimazole: thiamazole
+  thiamazole (methimazole): thiamazole
+  acetaminophen: paracetamol
+  chlorpheniramine: chlorphenamine
+  d-chlorpheniramine: dexchlorphenamine
+  aspirin: acetylsalicylic acid
+atc_name_synonyms:                               # canonical INN -> name used in KEGG br08303 (lookup only)
+  dexchlorphenamine: dexchlorpheniramine
+  chlorphenamine: chlorpheniramine
+bitter_ligands:                                  # defines "bitter ingredient" for the gradient (11/14)
+  path: ../../../evidence/bitterdb_receptor_ligands.csv
+  human_receptor_prefix: TAS2R
+drug_categories:                                 # 2026-06-13 revised plan categories (Family C2); ATC prefixes
+  antihypertensive: [C02, C03, C07, C08, C09]
+  statin: [C10AA]
+  nsaid: [M01A]
+  digestive: [A02, A03, A06, A07]
+  metformin: [A10BA02]
+prediction_drugs:                                # frozen 13_LOCKED_PREDICTIONS_v2_FINAL drug fields -> ingredient sets
+  P01: {ingredients: [propylthiouracil]}
+  P02: {ingredients: [thiamazole]}
+  P03: {ingredients: [chloramphenicol]}
+  P04: {ingredients: [chlorphenamine, dexchlorphenamine]}
+  P05: {ingredients: [ofloxacin]}
+  P07: {ex_class: [3], route: [oral]}            # class-level: EX3 oral rows
+  P08: {formulation_any: [syrup/suspension, dry syrup, chewable tablet, lozenge]}   # sweetened-form proxy (72: pediatric/liquid forms)
+  P12: {ingredients: [erythromycin]}
+negative_control_drugs:
+  N01: {atc_prefix: [A10A]}                      # insulin, parenteral
+  N02: {ingredients: [gentamicin], route: [parenteral, injection]}
+  N03: {ingredients: [remdesivir]}
+  N04: {ingredients: [fentanyl], route: [transdermal]}
+  N05: {ingredients: [omeprazole, esomeprazole, lansoprazole, rabeprazole], formulation_any: [enteric-coated tablet, capsule, OD tablet]}
+  N06: {ingredients: [erythromycin], formulation_any: [enteric-coated tablet, film-coated tablet]}
+  N07: {ingredients: [propylthiouracil]}
+  N08: {ingredients: [ofloxacin]}
+  N09: {ingredients: [clindamycin]}
+  N10: {ingredients: [quinine]}
+  N12: {supplement: true}

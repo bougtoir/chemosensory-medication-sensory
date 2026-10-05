@@ -1,0 +1,23 @@
+formulation,taste_masking,oral_sensory_exposure,rationale
+OD tablet,UNMASKED,2,active ingredient contacts oral mucosa before swallowing
+enteric-coated tablet,STRONGLY MASKED,1,barrier (capsule/enteric/sugar coat/skin/GI tract) prevents oral taste contact
+controlled-release tablet,PARTIALLY MASKED,1,coating/matrix delays but does not fully prevent oral contact
+film-coated tablet,PARTIALLY MASKED,1,coating/matrix delays but does not fully prevent oral contact
+sugar-coated tablet,STRONGLY MASKED,1,barrier (capsule/enteric/sugar coat/skin/GI tract) prevents oral taste contact
+chewable tablet,UNMASKED,3,active ingredient contacts oral mucosa before swallowing
+sublingual/buccal,UNMASKED,2,active ingredient contacts oral mucosa before swallowing
+lozenge,UNMASKED,3,active ingredient contacts oral mucosa before swallowing
+dry syrup,UNMASKED,3,active ingredient contacts oral mucosa before swallowing
+syrup/suspension,UNMASKED,3,active ingredient contacts oral mucosa before swallowing
+fine granules,UNMASKED,3,active ingredient contacts oral mucosa before swallowing
+granules,UNMASKED,3,active ingredient contacts oral mucosa before swallowing
+powder,UNMASKED,3,active ingredient contacts oral mucosa before swallowing
+capsule,STRONGLY MASKED,1,barrier (capsule/enteric/sugar coat/skin/GI tract) prevents oral taste contact
+tablet (unspecified coating),UNKNOWN,2,coating status cannot be determined from label text
+transdermal,STRONGLY MASKED,0,barrier (capsule/enteric/sugar coat/skin/GI tract) prevents oral taste contact
+inhaled/intranasal,PARTIALLY MASKED,1,coating/matrix delays but does not fully prevent oral contact
+ophthalmic,STRONGLY MASKED,0,barrier (capsule/enteric/sugar coat/skin/GI tract) prevents oral taste contact
+rectal,STRONGLY MASKED,0,barrier (capsule/enteric/sugar coat/skin/GI tract) prevents oral taste contact
+injection,STRONGLY MASKED,0,barrier (capsule/enteric/sugar coat/skin/GI tract) prevents oral taste contact
+topical,STRONGLY MASKED,0,barrier (capsule/enteric/sugar coat/skin/GI tract) prevents oral taste contact
+inhaled/intranasal,PARTIALLY MASKED,1,oropharyngeal deposition possible; analyzed separately

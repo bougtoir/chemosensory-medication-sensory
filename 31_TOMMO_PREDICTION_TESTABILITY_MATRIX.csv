@@ -1,0 +1,25 @@
+prediction_id,required_genotype,required_medication_variable,required_formulation_variable,required_route_variable,required_dietary_sensory_variable,required_covariates,publicly_confirmed_availability,uncertain_availability,fatal_missing_variable,testability_status,note
+P01,likely,confirmed:brand free-text,proxy:brand suffix,proxy:units,yes,yes,confirmed:brand free-text,likely;proxy:brand suffix;proxy:units,,TESTABLE WITH PROXY,PTU/PROP exposure rare in Japan; thin N
+P02,likely,confirmed:brand free-text,proxy:brand suffix,proxy:units,yes,yes,confirmed:brand free-text,likely;proxy:brand suffix;proxy:units,,TESTABLE WITH PROXY,thiamazole common; tablet exposure moderate
+P03,likely,confirmed,proxy,proxy,yes,yes,confirmed,likely;proxy;proxy,sensory phenotype measure (none publicly documented),PARTIALLY TESTABLE,chloramphenicol rare in Japan
+P04,likely,confirmed incl OTC,proxy,proxy,yes,yes,confirmed incl OTC,likely;proxy;proxy,,TESTABLE WITH PROXY,syrup vs tab distinguishable by brand
+P05,likely,confirmed,proxy,proxy,yes,yes,confirmed,likely;proxy;proxy,,TESTABLE WITH PROXY,ofloxacin use moderate
+P06,likely,confirmed,proxy,proxy,yes,yes,confirmed,likely;proxy;proxy,sensory phenotype measure (none publicly documented),PARTIALLY TESTABLE,quinine use rare
+P07,likely,confirmed,proxy,proxy,yes,yes,confirmed,likely;proxy;proxy,,TESTABLE WITH PROXY,liquid-use aggregate outcome
+P08,likely,confirmed,weak proxy,proxy,yes,yes,confirmed,likely;weak proxy;proxy,sensory phenotype measure (none publicly documented),PARTIALLY TESTABLE,sweetening rarely in brand name
+P09,likely,confirmed incl OTC,proxy,proxy,yes,yes,confirmed incl OTC,likely;proxy;proxy,,TESTABLE WITH PROXY,ibuprofen susp
+P10,uncertain:rare allele,confirmed,proxy,proxy,yes,yes,confirmed,uncertain:rare allele;proxy;proxy,sensory phenotype measure (none publicly documented),PARTIALLY TESTABLE,allele availability unconfirmed
+P11,uncertain,confirmed,weak proxy,proxy,yes,yes,confirmed,uncertain;weak proxy;proxy,sensory phenotype measure (none publicly documented),PARTIALLY TESTABLE,ingredient-level exposure unseen
+P12,likely,confirmed,proxy,proxy,yes,yes,confirmed,likely;proxy;proxy,,TESTABLE WITH PROXY,suspension vs tab brands
+N01,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,TESTABLE WITH PROXY,route
+N02,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,TESTABLE WITH PROXY,route
+N03,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,TESTABLE WITH PROXY,route
+N04,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,TESTABLE WITH PROXY,route
+N05,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,TESTABLE WITH PROXY,masking
+N06,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,TESTABLE WITH PROXY,masking
+N07,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,TESTABLE WITH PROXY,mismatch
+N08,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,TESTABLE WITH PROXY,mismatch
+N09,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,PARTIALLY TESTABLE,published_null
+N10,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,TESTABLE WITH PROXY,mismatch
+N11,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,TESTABLE WITH PROXY,masking
+N12,likely,confirmed:brand free-text,proxy,proxy:unit/brand,yes,yes,medication use section confirmed in wave1/2 questionnaires,formulation via brand parsing,,TESTABLE WITH PROXY,adherence

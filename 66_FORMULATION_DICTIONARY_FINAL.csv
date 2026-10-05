@@ -1,0 +1,23 @@
+match_pattern_ja,formulation,release_type,route,oral_sensory_exposure,taste_masking,rule_order
+OD錠|口腔内崩壊錠|オーラリー|口腔内速崩,OD tablet,IR,oral,2,UNMASKED,1
+腸溶錠|腸溶性|EC錠,enteric-coated tablet,EC,oral,1,STRONGLY MASKED,2
+CR錠|徐放錠|持続性|SR錠|L錠|R錠,controlled-release tablet,CR,oral,1,PARTIALLY MASKED,3
+フィルムコーティング錠|FC錠|コーティング錠,film-coated tablet,IR,oral,1,PARTIALLY MASKED,4
+糖衣錠|糖衣,sugar-coated tablet,IR,oral,1,STRONGLY MASKED,5
+チュアブル錠|チュアブル,chewable tablet,IR,oral,3,UNMASKED,6
+舌下錠|舌下|バッカル,sublingual/buccal,IR,sublingual,2,UNMASKED,7
+トローチ,lozenge,IR,oral,3,UNMASKED,8
+ドライシロップ,dry syrup,IR,oral,3,UNMASKED,9
+シロップ|内服液|内用液|内服薬|液剤|エリキシル|懸濁液|懸濁用,syrup/suspension,IR,oral,3,UNMASKED,10
+細粒,fine granules,IR,oral,3,UNMASKED,11
+顆粒,granules,IR,oral,3,UNMASKED,12
+散剤|散,powder,IR,oral,3,UNMASKED,13
+カプセル,capsule,IR,oral,1,STRONGLY MASKED,14
+錠剤|錠,tablet (unspecified coating),IR,oral,2,UNKNOWN,15
+貼付|パップ|テープ|パッチ|TTS,transdermal,TD,transdermal,0,STRONGLY MASKED,16
+吸入|インヘラー|エアゾール|点鼻,inhaled/intranasal,IR,inhaled,1,PARTIALLY MASKED,17
+点眼,ophthalmic,IR,topical,0,STRONGLY MASKED,18
+坐剤|座薬,rectal,IR,rectal,0,STRONGLY MASKED,19
+注射|注,injection,IV,parenteral,0,STRONGLY MASKED,20
+軟膏|クリーム|外用|ローション|ゲル,topical,IR,topical,0,STRONGLY MASKED,21
+"(brand-inherent: ユニフィル=controlled-release tablet, ニトロダーム=transdermal, フェントス=transdermal)",see_brand,per_rule,per_rule,per_rule,per_rule,0

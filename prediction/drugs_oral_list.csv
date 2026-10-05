@@ -1,0 +1,198 @@
+generic_name,drug_class,route,oral_exposure,formulation_note
+acetaminophen,analgesic,oral,high,tablet/liquid both common
+ibuprofen,NSAID,oral,high,tablet/liquid; pediatric suspension taste-studied
+aspirin,NSAID/antiplatelet,oral,high,tablet/enteric
+diclofenac,NSAID,oral,medium,enteric-coated tablet
+naproxen,NSAID,oral,medium,tablet
+celecoxib,COX2 inhibitor,oral,low,capsule (low oral-taste exposure)
+morphine,opioid,oral,high,immediate-release tablet/liquid bitter
+codeine,opioid,oral,medium,tablet/syrup
+oxycodone,opioid,oral,medium,tablet/liquid
+tramadol,opioid,oral,medium,tablet/capsule
+metformin,biguanide,oral,high,tablet; known metallic-bitter taste
+gliclazide,sulfonylurea,oral,medium,tablet
+sitagliptin,DPP4 inhibitor,oral,low,tablet
+empagliflozin,SGLT2 inhibitor,oral,low,tablet
+insulin,peptide,parenteral,none,negative control (non-oral)
+warfarin,anticoagulant,oral,medium,tablet
+apixaban,DOAC,oral,low,film-coated tablet
+clopidogrel,antiplatelet,oral,low,tablet
+atorvastatin,statin,oral,low,film-coated tablet
+rosuvastatin,statin,oral,low,tablet
+pravastatin,statin,oral,low,tablet
+ezetimibe,lipid,oral,low,tablet
+amlodipine,CCB,oral,medium,tablet/OD tablet (palatability studies exist)
+nifedipine,CCB,oral,medium,capsule/CR tablet
+losartan,ARB,oral,medium,tablet
+valsartan,ARB,oral,medium,tablet
+candesartan,ARB,oral,medium,tablet
+enalapril,ACE inhibitor,oral,medium,tablet
+furosemide,loop diuretic,oral,medium,tablet bitter
+spironolactone,MRA,oral,medium,tablet
+hydrochlorothiazide,thiazide,oral,medium,tablet
+metoprolol,beta blocker,oral,medium,tablet
+propranolol,beta blocker,oral,medium,tablet/liquid
+atenolol,beta blocker,oral,medium,tablet
+carvedilol,beta blocker,oral,medium,tablet
+levothyroxine,thyroid,oral,medium,tablet
+omeprazole,PPI,oral,low,enteric-coated capsule (masked)
+esomeprazole,PPI,oral,low,enteric-coated (masked)
+lansoprazole,PPI,oral,low,enteric-coated/OD
+famotidine,H2 blocker,oral,low,tablet
+clarithromycin,macrolide,oral,high,notoriously bitter tablet/suspension
+azithromycin,macrolide,oral,high,suspension taste-masked
+erythromycin,macrolide,oral,high,bitter; TAS2R10 agonist reported
+amoxicillin,penicillin,oral,high,suspension flavored
+cephalexin,cephalosporin,oral,high,suspension
+levofloxacin,fluoroquinolone,oral,medium,tablet bitter
+ofloxacin,fluoroquinolone,oral,high,TAS2R9-linked bitterness reported
+ciprofloxacin,fluoroquinolone,oral,medium,tablet bitter
+moxifloxacin,fluoroquinolone,oral,low,tablet
+doxycycline,tetracycline,oral,medium,capsule/tablet
+minocycline,tetracycline,oral,medium,capsule
+metronidazole,nitroimidazole,oral,high,very bitter tablet
+chloroquine,antimalarial,oral,high,bitter; multiple TAS2Rs
+hydroxychloroquine,antimalarial,oral,high,very bitter tablet
+quinine,antimalarial,oral,high,canonical bitter
+dapsone,antimicrobial,oral,medium,TAS2R agonist reported
+isoniazid,antitubercular,oral,medium,tablet
+ethambutol,antitubercular,oral,medium,tablet
+pyrazinamide,antitubercular,oral,medium,tablet
+oseltamivir,antiviral,oral,medium,capsule/suspension bitter
+valacyclovir,antiviral,oral,medium,tablet
+prednisolone,corticosteroid,oral,high,very bitter; pediatric taste barrier
+prednisone,corticosteroid,oral,high,bitter tablet
+dexamethasone,corticosteroid,oral,high,bitter
+hydrocortisone,corticosteroid,oral,high,bitter
+montelukast,LTRA,oral,medium,granules/chewable
+cetirizine,antihistamine,oral,high,liquid bitter
+loratadine,antihistamine,oral,medium,tablet
+fexofenadine,antihistamine,oral,medium,tablet
+diphenhydramine,antihistamine,oral,high,bitter elixir
+chlorpheniramine,antihistamine,oral,high,bitter
+promethazine,phenothiazine,oral,high,bitter syrup
+ondansetron,5HT3 antagonist,oral,medium,OD tablet (masked)
+domperidone,dopamine antagonist,oral,medium,tablet
+metoclopramide,dopamine antagonist,oral,medium,tablet
+sennosides,laxative,oral,medium,tablet
+loperamide,antidiarrheal,oral,medium,capsule
+bismuth subsalicylate,antidiarrheal,oral,high,chalky/astringent liquid
+ferrous sulfate,iron,oral,high,metallic/astringent
+potassium chloride,electrolyte,oral,high,very bitter/salty liquid
+calcium carbonate,supplement,oral,high,chalky chewable
+cholecalciferol,vitamin D,oral,low,oil drops/tablet
+folic acid,vitamin,oral,low,tablet
+cyanocobalamin,vitamin B12,oral,low,tablet
+thiamine,vitamin B1,oral,medium,bitter-ish
+ascorbic acid,vitamin C,oral,high,sour chewable
+zinc sulfate,mineral,oral,high,metallic/astringent
+fluoxetine,SSRI,oral,medium,capsule/liquid
+sertraline,SSRI,oral,medium,tablet/liquid
+paroxetine,SSRI,oral,medium,tablet
+escitalopram,SSRI,oral,low,tablet
+venlafaxine,SNRI,oral,low,capsule XR
+duloxetine,SNRI,oral,low,enteric pellet capsule
+amitriptyline,TCA,oral,high,very bitter tablet
+nortriptyline,TCA,oral,high,bitter
+imipramine,TCA,oral,high,bitter
+mirtazapine,NaSSA,oral,medium,OD tablet
+trazodone,SARI,oral,medium,tablet
+quetiapine,antipsychotic,oral,low,film tablet
+olanzapine,antipsychotic,oral,medium,OD tablet wafer bitter
+risperidone,antipsychotic,oral,medium,OD/liquid bitter
+aripiprazole,antipsychotic,oral,medium,OD tablet
+haloperidol,antipsychotic,oral,high,TAS2R46 agonist reported; drops bitter
+clozapine,antipsychotic,oral,medium,tablet
+lamotrigine,antiepileptic,oral,high,very bitter chewable
+levetiracetam,antiepileptic,oral,high,very bitter liquid
+valproate,antiepileptic,oral,high,bitter syrup/sprinkle
+carbamazepine,antiepileptic,oral,high,suspension
+topiramate,antiepileptic,oral,high,very bitter
+gabapentin,antiepileptic,oral,medium,capsule/liquid
+pregabalin,antiepileptic,oral,medium,capsule
+phenytoin,antiepileptic,oral,high,suspension bitter
+lithium carbonate,mood stabilizer,oral,medium,tablet/capsule salty-bitter
+methylphenidate,stimulant,oral,medium,tablet/capsule
+lisdexamfetamine,stimulant,oral,medium,capsule
+atomoxetine,NRI,oral,low,capsule
+donepezil,AChEI,oral,medium,OD tablet
+memantine,NMDA,oral,medium,tablet
+alendronate,bisphosphonate,oral,medium,tablet (swallow whole)
+risedronate,bisphosphonate,oral,medium,tablet
+allopurinol,xanthine oxidase inh,oral,medium,tablet
+colchicine,anti-gout,oral,high,bitter; TAS2R agonist reported
+febuxostat,xanthine oxidase inh,oral,low,tablet
+sildenafil,PDE5 inhibitor,oral,low,film tablet
+tamsulosin,alpha blocker,oral,low,capsule
+dutasteride,5ARI,oral,low,capsule
+finasteride,5ARI,oral,low,tablet
+theophylline,xanthine,oral,high,bitter
+caffeine,xanthine,oral,high,canonical bitter
+pseudoephedrine,decongestant,oral,high,bitter
+guaifenesin,expectorant,oral,high,bitter syrup
+dextromethorphan,antitussive,oral,high,bitter syrup
+levodopa,dopamine precursor,oral,medium,tablet
+ropinirole,dopamine agonist,oral,low,tablet
+levocetirizine,antihistamine,oral,high,bitter liquid
+azelastine,antihistamine,intranasal,medium,nasal spray (bitter via retro-nasal)
+cyclobenzaprine,muscle relaxant,oral,medium,tablet
+carisoprodol,muscle relaxant,oral,medium,TAS2R14 agonist reported
+baclofen,muscle relaxant,oral,medium,tablet
+tizanidine,muscle relaxant,oral,medium,tablet
+naltrexone,opioid antagonist,oral,medium,tablet
+vardenafil,PDE5 inhibitor,oral,low,tablet
+sumatriptan,triptan,oral,medium,tablet
+zolmitriptan,triptan,oral,medium,OD
+acetazolamide,carbonic anhydrase,oral,medium,bitter tablet
+allopregnanolone,neurosteroid,parenteral,none,negative control (non-oral)
+gentamicin,aminoglycoside,parenteral,none,negative control (non-oral)
+remdesivir,antiviral,parenteral,none,negative control (non-oral)
+adrenaline,vasopressor,parenteral,none,negative control (non-oral)
+insulin glargine,peptide,parenteral,none,negative control (non-oral)
+sodium chloride,electrolyte,oral,high,salty reference/negative-control taste axis
+sucrose,nutrient,oral,high,sweet negative control (non-drug)
+saccharin,sweetener,oral,high,TAS2R31/43 agonist; bitter-sweet
+denatonium benzoate,aversive agent,oral,high,canonical bitter reference
+propylthiouracil,antithyroid,oral,high,TAS2R38 probe compound
+captopril,ACE inhibitor,oral,medium,tablet; sulfhydryl taste notes
+digoxin,cardiac glycoside,oral,low,tablet/elixir
+diltiazem,CCB,oral,medium,tablet
+verapamil,CCB,oral,medium,tablet
+lacosamide,antiepileptic,oral,medium,tablet/syrup
+oxcarbazepine,antiepileptic,oral,high,suspension bitter
+zonisamide,antiepileptic,oral,medium,capsule
+rifampicin,antitubercular,oral,high,suspension bitter
+linezolid,oxazolidinone,oral,medium,suspension
+voriconazole,antifungal,oral,medium,suspension
+fluconazole,antifungal,oral,medium,suspension/tablet
+nitrofurantoin,urinary antibiotic,oral,medium,capsule/suspension
+trimethoprim,antibiotic,oral,high,suspension bitter
+sulfamethoxazole,antibiotic,oral,high,suspension bitter
+ciclesonide,corticosteroid,inhaled,low,negative control (low oral taste)
+budesonide,corticosteroid,inhaled,low,negative control (inhaled)
+fluticasone,corticosteroid,inhaled,low,negative control (inhaled)
+salbutamol,beta2 agonist,inhaled,low,inhaled aerosol
+carvedilol phosphate,beta blocker,oral,low,CR capsule
+mesalamine,5-ASA,oral,medium,enteric/PR
+tacrolimus,immunosuppressant,oral,medium,capsule/granules
+mycophenolate,immunosuppressant,oral,medium,suspension bitter
+hydroxyurea,cytotoxic,oral,medium,capsule
+imatinib,TKI,oral,low,film tablet
+lenalidomide,immunomodulatory,oral,low,capsule
+sacubitril valsartan,ARNI,oral,low,film tablet
+fenofibrate,fibrate,oral,low,capsule
+potassium iodide,electrolyte,oral,high,metallic-bitter drops
+chlorphenamine,antihistamine,oral,high,bitter
+dimenhydrinate,antihistamine,oral,medium,tablet
+meclizine,antihistamine,oral,medium,tablet
+ursodeoxycholic acid,bile acid,oral,medium,capsule
+lactulose,osmotic laxative,oral,high,sweet syrup
+sodium picosulfate,laxative,oral,medium,drops
+prucalopride,5HT4 agonist,oral,low,film tablet
+chlordiazepoxide,benzodiazepine,oral,medium,capsule
+diazepam,benzodiazepine,oral,medium,tablet/liquid
+lorazepam,benzodiazepine,oral,medium,tablet
+alprazolam,benzodiazepine,oral,medium,tablet/OD bitter
+zolpidem,hypnotic,oral,low,tablet
+eszopiclone,hypnotic,oral,high,notorious metallic-bitter
+melatonin,hormone,oral,low,tablet

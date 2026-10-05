@@ -1,0 +1,42 @@
+# FFQ secondary-triangulation lock (Family D). See docs/INSTRUCTION_REGISTER.csv. Mirrors docs/09_CHEMOSENSORY_FFQ_LOCK.csv.
+# Food selection, derivation, gene, direction and family are scientific and frozen; column binding is technical.
+version: 1.0.0
+frequency_to_per_day:        # rule: midpoint of each frequency category in times/day (frozen); codes bound to the delivered codebook at receipt
+  1: 0.0       # ほとんど飲まない/食べない
+  2: 0.07      # 月1-3回
+  3: 0.14      # 週1回
+  4: 0.36      # 週2-4回
+  5: 0.79      # 週5-6回
+  6: 1.0       # 毎日1回
+  7: 2.5       # 毎日2-3回
+  8: 4.5       # 毎日4-6回
+  9: 7.0       # 毎日7回以上
+items:   # dictionary label / item code verified against tommoデータセット.xlsx (調査票（食）情報; ph1=1, ph2=1). ph1/ph2 = logical column names, bound at receipt
+  coffee:        {ph1: ffq1_coffee, ph2: ffq2_coffee, label: "摂取頻度～コーヒー（缶コーヒー以外）", item_code: "402510_00"}
+  canned_coffee: {ph1: ffq1_canned_coffee, ph2: ffq2_canned_coffee, label: "摂取頻度～缶コーヒー", item_code: "402520_00"}
+  green_tea:     {ph1: ffq1_sencha, ph2: ffq2_sencha, label: "摂取頻度～せん茶", item_code: "402470_00"}
+  bancha:        {ph1: ffq1_bancha, ph2: ffq2_bancha, label: "摂取頻度～番茶・玄米茶", item_code: "402480_00"}
+  oolong:        {ph1: ffq1_oolong, ph2: ffq2_oolong, label: "摂取頻度～ウーロン茶", item_code: "402490_00"}
+  black_tea:     {ph1: ffq1_black_tea, ph2: ffq2_black_tea, label: "摂取頻度～紅茶", item_code: "402500_00"}
+  sugar_in_coffee: {ph1: ffq1_sugar_coffee, ph2: ffq2_sugar_coffee, type: binary, label: "コーヒーに砂糖を入れる", item_code: "402640_00"}
+  sugar_in_tea:  {ph1: ffq1_sugar_tea, ph2: ffq2_sugar_tea, type: binary, label: "紅茶に砂糖を入れる", item_code: "402620_00"}
+  chocolate:     {ph1: ffq1_chocolate, ph2: ffq2_chocolate, label: "摂取頻度～チョコレート", item_code: "401960_00"}
+  wagashi:       {ph1: ffq1_wagashi, ph2: ffq2_wagashi, label: "摂取頻度～和菓子", item_code: "401900_00"}
+  soft_drink:    {ph1: ffq1_soft_drink, ph2: ffq2_soft_drink, label: "摂取頻度～清涼飲料水", item_code: "402580_00"}
+  cabbage:       {ph1: ffq1_cabbage, ph2: ffq2_cabbage, label: "摂取頻度～キャベツ", item_code: "401060_00"}
+  broccoli:      {ph1: ffq1_broccoli, ph2: ffq2_broccoli, label: "摂取頻度～ブロッコリー", item_code: "401340_00"}
+  green_pepper:  {ph1: ffq1_green_pepper, ph2: ffq2_green_pepper, label: "摂取頻度～ピーマン", item_code: "401220_00"}
+binary_yes_values: [1]          # codebook value(s) meaning "yes"; bound at receipt as a logged technical change
+binary_no_values: [0]
+phenotypes:   # id: derivation, gene, variant, direction, family, rationale (see 09 csv)
+  F01: {name: bitter_beverage_total, items: [coffee, canned_coffee, green_tea, bancha, oolong, black_tea], transform: log1p_sum, variant: TAS2R38_PAV, direction: "-", family: D}
+  F02: {name: coffee, items: [coffee, canned_coffee], transform: log1p_sum, variant: TAS2R38_PAV, direction: two-sided, family: D}
+  F03: {name: green_tea, items: [green_tea, bancha], transform: log1p_sum, variant: TAS2R38_PAV, direction: two-sided, family: D}
+  F04: {name: brassica_bitter_veg, items: [cabbage, broccoli, green_pepper], transform: log1p_sum, variant: TAS2R38_PAV, direction: "-", family: D}
+  F05: {name: sugar_added_to_coffee_tea, items: [sugar_in_coffee, sugar_in_tea], transform: binary_any, variant: TAS2R38_PAV, direction: "+", family: D}
+  F06: {name: sweet_foods, items: [chocolate, wagashi, soft_drink], transform: log1p_sum, variant: TAS1R2_rs12033832, direction: "+", family: D}
+  F07: {name: sugar_added_to_coffee_tea_sweet, items: [sugar_in_coffee, sugar_in_tea], transform: binary_any, variant: TAS1R2_rs12033832, direction: "+", family: D}
+  F08: {name: bitter_beverage_total_tas2r9, items: [coffee, canned_coffee, green_tea, bancha, oolong, black_tea], transform: log1p_sum, variant: TAS2R9_V187A, direction: two-sided, family: D}
+primary_wave: ph1
+replication_wave: ph2
+change_scores_used: false

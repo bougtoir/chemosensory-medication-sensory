@@ -1,0 +1,2908 @@
+{
+ "nodes": [
+  {
+   "id": "6-month low/regular/high sweet exposure",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "8-wk low-sodium cereal",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "CA6 (gustin):rs2274333",
+   "type": "Variant"
+  },
+  {
+   "id": "S1:54% disliked taste; variation not explained by TAS2R38/TRPA1",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:MSG / MSG+IMP (umami) perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:NO change in pleasantness for bitter/sour; sweet/salty impro",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:NaCl perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:PROP (in TAS2R38 AVI carriers) perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:PROP perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:PROP sensitivity",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:PTC and PROP perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:PTC perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:PTC, PROP, goitrin, methimazole, sinigrin perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:PTC/PROP perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:PTC/TAS2R38",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:TAS2R38 A49P",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:TAS2R38 bitter-sensitive genotype",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:TAS2R38 haplotype",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:acceptance increased but taste preferences and thresholds un",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:acceptance increased with exposure",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:acesulfame-K (non-nutritive sweetener) perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:altered salt taste in normal volunteers",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:chloramphenicol (antibiotic) perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:chromium picolinate? no\u2014bitter stimuli battery perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:clindamycin liquid (pediatric antibiotic) perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:commercial prednisolone powder intensely bitter; masking met",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:dislike of taste (54%)",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:dominant sensation bitterness (~moderate gLMS); genotype-lin",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:ethanol detection threshold",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:goitrin (crucifer toxin, PROP analog) perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:increased liking",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:increased liking of low-salt soup over repeated exposure",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:large inter-product palatability differences for same API",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:minimal sensitization",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:no change in salt DT/RT/suprathreshold",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:ofloxacin (antibiotic) perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:pediatric ibuprofen formulation perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:perceived sweet intensity increased; pleasantness unchanged",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:phenylbutazone etc. perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:practice effects on taste acceptance",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:preferred salt level declined; salt taste adapted over month",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:quinine perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:reduced oral burn (desensitization)",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:salt (dietary sodium behavior) perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:salt taste preference responds to diet",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:salt taste preference shifted up with higher intake",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:sucrose perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:sucrose suppresses bitterness",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:sweet liking/intake outcomes",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:sweet tastants perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:tablet shape/size/color",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:taste acceptability",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:taste/palatability of formulations",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:tobacco (real-world bitter exposure) perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:up to ~40% (bread)/~70% (meat) reduction without acceptabili",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:wide individual variation in taste/chemesthesis; TRPA1 rs119",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S1:\u2014 perception",
+   "type": "SensoryPhenotype"
+  },
+  {
+   "id": "S2:acceptability/adherence impact",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "S2:adherence",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "S2:adherence + side effects (36%)",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "S2:alcohol intake",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "S2:brassica intake",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "S2:dietary pattern, BMI",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "S2:improved acceptance",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "S2:reported rejection of liquid medication",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "S2:smoking status",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "S2:solid formulation usage history",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "SCNN1A:A663T",
+   "type": "Variant"
+  },
+  {
+   "id": "SCNN1B:rs239345; rs3785368",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS1R1/TAS1R3 receptor",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS1R1/TAS1R3:TAS1R1-372T/A; TAS1R3-757C/R",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS1R2:rs12033832",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS1R3:promoter polymorphism",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R family:151 coding haplotypes across 24 genes",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R family:loss-of-function and pseudogene alleles",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R1",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R10",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R13",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R14",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R19:R299C",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R2",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R2 receptor",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R2:functional variant in some populations",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R3",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R31/TAS2R43:polymorphisms",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R31:allelic variants",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R38 receptor",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R38:5 coding haplotypes",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:A49P",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:A49P P allele",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:A49P etc.",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:PAV haplotype",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:PAV vs AVI diplotype (A49P,V262A,I296V)",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:PAV/AVI + rare haplotypes",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:PTC locus haplotypes",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:bitter-sensitive haplotype",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:diplotype",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:diplotypes",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:haplotype",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R38:rs713598",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R39",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R4",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R4 receptor",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R40",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R41",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R43",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R44",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R46",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R47",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R4:\u2014",
+   "type": "Variant"
+  },
+  {
+   "id": "TAS2R7",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R8",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R9",
+   "type": "Receptor"
+  },
+  {
+   "id": "TAS2R9:V187A",
+   "type": "Variant"
+  },
+  {
+   "id": "TRPA1:rs11988795",
+   "type": "Variant"
+  },
+  {
+   "id": "acetaminophen",
+   "type": "Drug"
+  },
+  {
+   "id": "amlodipine ODT (10 products)",
+   "type": "Drug"
+  },
+  {
+   "id": "bitter/sour novel foods x10 exposures",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "caffeine",
+   "type": "Drug"
+  },
+  {
+   "id": "capsaicin repeated low-dose oral rinsing (17d)",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "carisoprodol",
+   "type": "Drug"
+  },
+  {
+   "id": "chloramphenicol + ofloxacin",
+   "type": "Drug"
+  },
+  {
+   "id": "chloroquine",
+   "type": "Drug"
+  },
+  {
+   "id": "chlorpheniramine",
+   "type": "Drug"
+  },
+  {
+   "id": "clindamycin liquid",
+   "type": "Drug"
+  },
+  {
+   "id": "colchicine",
+   "type": "Drug"
+  },
+  {
+   "id": "dapsone",
+   "type": "Drug"
+  },
+  {
+   "id": "denatonium benzoate",
+   "type": "Drug"
+  },
+  {
+   "id": "dextromethorphan",
+   "type": "Drug"
+  },
+  {
+   "id": "diclofenac",
+   "type": "Drug"
+  },
+  {
+   "id": "diphenhydramine",
+   "type": "Drug"
+  },
+  {
+   "id": "dutasteride",
+   "type": "Drug"
+  },
+  {
+   "id": "erythromycin",
+   "type": "Drug"
+  },
+  {
+   "id": "experimental sodium depletion",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "famotidine",
+   "type": "Drug"
+  },
+  {
+   "id": "ferrous sulfate",
+   "type": "Drug"
+  },
+  {
+   "id": "finasteride",
+   "type": "Drug"
+  },
+  {
+   "id": "haloperidol",
+   "type": "Drug"
+  },
+  {
+   "id": "herb/spice seasoning of low-salt soup",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "hydrocortisone",
+   "type": "Drug"
+  },
+  {
+   "id": "ibuprofen pediatric formulation",
+   "type": "Drug"
+  },
+  {
+   "id": "increasing dietary salt",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "liquid medication rejection reports (children)",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "long-term dietary sodium reduction",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "ofloxacin",
+   "type": "Drug"
+  },
+  {
+   "id": "oral NaCl rinsing without consumption (2wk)",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "prednisolone powder",
+   "type": "Drug"
+  },
+  {
+   "id": "propylthiouracil",
+   "type": "Drug"
+  },
+  {
+   "id": "quinine",
+   "type": "Drug"
+  },
+  {
+   "id": "reduced simple-sugar diet (3 months)",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "repeated capsaicin in real food",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "repeated exposure to disliked Nordic bars",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "repeated exposure to reduced-energy-dense food",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "repeated taste exposure (longitudinal)",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "repeated taste exposure (vegetables)",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "saccharin",
+   "type": "Drug"
+  },
+  {
+   "id": "salt-reduced reformulation (products)",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "short-term diet change",
+   "type": "TrainingIntervention"
+  },
+  {
+   "id": "solid formulation usage (children)",
+   "type": "BehavioralPhenotype"
+  },
+  {
+   "id": "spironolactone",
+   "type": "Drug"
+  },
+  {
+   "id": "theophylline",
+   "type": "Drug"
+  },
+  {
+   "id": "thiamine",
+   "type": "Drug"
+  }
+ ],
+ "edges": [
+  {
+   "src": "TAS2R38:PAV vs AVI diplotype (A49P,V262A,I296V)",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:PTC/PROP perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 12595690,
+   "study_design": "positional cloning + psychophysics + functional assay",
+   "species": "human",
+   "n": "pedigree+families",
+   "effect": "PAV detects/strong bitterness; AVI null",
+   "p_value": "<1e-10 (linkage+assoc)",
+   "evidence_grade": "A",
+   "note": "establishes G->S1 architecture; PTC/PROP are drug-adjacent thiourea ligands"
+  },
+  {
+   "src": "TAS2R38:PAV vs AVI diplotype (A49P,V262A,I296V)",
+   "src_type": "Variant",
+   "relation": "variant->receptor_function",
+   "dst": "TAS2R38 receptor",
+   "dst_type": "Receptor",
+   "citation_pmid": 12595690,
+   "study_design": "positional cloning + psychophysics + functional assay",
+   "species": "human",
+   "n": "",
+   "effect": "in vitro PAV-responsive, AVI null",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": ""
+  },
+  {
+   "src": "TAS2R38:5 coding haplotypes",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:PTC and PROP perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 15723792,
+   "study_design": "psychophysics + heterologous expression",
+   "species": "human",
+   "n": "~60",
+   "effect": "in vitro receptor response correlates with individual perception",
+   "p_value": "<0.05 (correlations)",
+   "evidence_grade": "B",
+   "note": "genotype->receptor->perception closed loop"
+  },
+  {
+   "src": "TAS2R38:5 coding haplotypes",
+   "src_type": "Variant",
+   "relation": "variant->receptor_function",
+   "dst": "TAS2R38 receptor",
+   "dst_type": "Receptor",
+   "citation_pmid": 15723792,
+   "study_design": "psychophysics + heterologous expression",
+   "species": "human",
+   "n": "",
+   "effect": "five haplotypes = operatively distinct receptors",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": ""
+  },
+  {
+   "src": "TAS2R38:A49P",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:PROP perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 15687429,
+   "study_design": "cross-sectional genotype + psychophysics",
+   "species": "human",
+   "n": "143 children + mothers",
+   "effect": "P allele -> higher PROP bitterness; children P-carriers prefer sweeter sucrose",
+   "p_value": "<0.05",
+   "evidence_grade": "A",
+   "note": "pediatric genotype->S1"
+  },
+  {
+   "src": "TAS2R38:A49P",
+   "src_type": "Variant",
+   "relation": "variant->receptor_function",
+   "dst": "TAS2R38 receptor",
+   "dst_type": "Receptor",
+   "citation_pmid": 15687429,
+   "study_design": "cross-sectional genotype + psychophysics",
+   "species": "human",
+   "n": "",
+   "effect": "A49P known functional",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": ""
+  },
+  {
+   "src": "TAS2R38:A49P etc.",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:PROP perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 15466815,
+   "study_design": "isolate cohort",
+   "species": "human",
+   "n": "Sardinian isolate cohort",
+   "effect": "association of PTC/PROP sensitivity with TAS2R38 haplotype",
+   "p_value": "<0.05",
+   "evidence_grade": "A",
+   "note": NaN
+  },
+  {
+   "src": "TAS2R38:PAV/AVI + rare haplotypes",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:PTC, PROP, goitrin, methimazole, sinigrin perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 23632915,
+   "study_design": "sequencing + assay + threshold",
+   "species": "human",
+   "n": "56",
+   "effect": "continuous allele-function range; PAV/AVI significant; rare haplotypes no phenotypic assoc",
+   "p_value": "SNP P<0.002; haplotype P<0.001",
+   "evidence_grade": "B",
+   "note": "methimazole = drug ligand of TAS2R38"
+  },
+  {
+   "src": "TAS2R38:PAV/AVI + rare haplotypes",
+   "src_type": "Variant",
+   "relation": "variant->receptor_function",
+   "dst": "TAS2R38 receptor",
+   "dst_type": "Receptor",
+   "citation_pmid": 23632915,
+   "study_design": "sequencing + assay + threshold",
+   "species": "human",
+   "n": "",
+   "effect": "EC50 PROP 2.1uM, PTC 1.1uM (PAV); AVI null",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": ""
+  },
+  {
+   "src": "TAS2R38:diplotypes",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:PROP perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 20675712,
+   "study_design": "GWAS in 1457 twins",
+   "species": "human",
+   "n": "large twin cohort",
+   "effect": "rs713598 P=1.6e-104, 45.9% of trait variance",
+   "p_value": "1.6e-104",
+   "evidence_grade": "A",
+   "note": "same GWAS: quinine -> chr12 TAS2R19 cluster rs10772420 P=1.8e-15 (5.8% var); caffeine/SOA no hit"
+  },
+  {
+   "src": "TAS2R38:diplotype",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:goitrin (crucifer toxin, PROP analog) perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 20551074,
+   "study_design": "psychophysics + functional assay",
+   "species": "human",
+   "n": "50",
+   "effect": "goitrin threshold correlates with PROP/PTC thresholds (rs=0.46); PAV EC50 65uM, AVI no response",
+   "p_value": "8.9e-4 (PROP), 7.5e-4 (PTC)",
+   "evidence_grade": "B",
+   "note": "H2 support: drug-like ligand generalization"
+  },
+  {
+   "src": "TAS2R38:diplotype",
+   "src_type": "Variant",
+   "relation": "variant->receptor_function",
+   "dst": "TAS2R38 receptor",
+   "dst_type": "Receptor",
+   "citation_pmid": 20551074,
+   "study_design": "psychophysics + functional assay",
+   "species": "human",
+   "n": "",
+   "effect": "PAV vs AVI dose-response",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": ""
+  },
+  {
+   "src": "TAS2R38:A49P",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:PROP perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 20594349,
+   "study_design": "cross-sectional",
+   "species": "human",
+   "n": "adults, age-stratified",
+   "effect": "genotype-phenotype relationship modified by age",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": "moderation by age; relevant to adult plasticity interpretation"
+  },
+  {
+   "src": "TAS2R38:haplotype",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:PTC perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 16612383,
+   "study_design": "comparative genetics",
+   "species": "human",
+   "n": "worldwide panels",
+   "effect": "independent convergent evolution of taster alleles in humans and chimps",
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": "evolutionary: ancient functional variation"
+  },
+  {
+   "src": "TAS2R38:PTC locus haplotypes",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:PTC perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 14997422,
+   "study_design": "population genetics",
+   "species": "human",
+   "n": "global populations",
+   "effect": "balancing selection signature; ancient polymorphism maintained",
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": "evolutionary depth of the key locus"
+  },
+  {
+   "src": "TAS2R family:151 coding haplotypes across 24 genes",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:\u2014 perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 16086309,
+   "study_design": "resequencing",
+   "species": "human",
+   "n": "55 worldwide",
+   "effect": "elevated amino-acid diversity (Ka/Ks 0.94), FST 0.22",
+   "p_value": "pi=0.11% p<0.01; FST p<0.05",
+   "evidence_grade": "B",
+   "note": "broad functional variation substrate"
+  },
+  {
+   "src": "TAS2R family:loss-of-function and pseudogene alleles",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:\u2014 perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 15367488,
+   "study_design": "evolutionary analysis",
+   "species": "human",
+   "n": "25 genes",
+   "effect": "relaxed selective constraint; segregating LoF",
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": NaN
+  },
+  {
+   "src": "TAS2R19:R299C",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:quinine perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 20675712,
+   "study_design": "GWAS",
+   "species": "human",
+   "n": "1457 twins + replication",
+   "effect": "common variant explains 5.8% of quinine intensity variance",
+   "p_value": "1.8e-15; rep p=1e-5",
+   "evidence_grade": "A",
+   "note": "drug-like alkaloid stimulus (quinine is itself a drug)"
+  },
+  {
+   "src": "TAS2R31:allelic variants",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:quinine perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 26024668,
+   "study_design": "candidate assoc",
+   "species": "human",
+   "n": NaN,
+   "effect": "TAS2R31 variants associate with quinine bitterness and grapefruit liking",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": NaN
+  },
+  {
+   "src": "TAS2R31/TAS2R43:polymorphisms",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:acesulfame-K (non-nutritive sweetener) perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 23599216,
+   "study_design": "candidate assoc",
+   "species": "human",
+   "n": NaN,
+   "effect": "Ace-K bitterness varies with TAS2R31/43 variants",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": "non-food-adjacent synthetic compound"
+  },
+  {
+   "src": "TAS2R38:rs713598",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:chloramphenicol (antibiotic) perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 35967977,
+   "study_design": "genotype + sensory panel",
+   "species": "human",
+   "n": "143",
+   "effect": "TAS2R38 diplotype associates with chloramphenicol bitterness",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": "DIRECT drug-S1 association"
+  },
+  {
+   "src": "TAS2R9:V187A",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:ofloxacin (antibiotic) perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 35967977,
+   "study_design": "genotype + sensory panel",
+   "species": "human",
+   "n": "143",
+   "effect": "TAS2R9 V187A associates with ofloxacin bitterness",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": "DIRECT drug-S1 association; receptor matches BitterDB ofloxacin->TAS2R9"
+  },
+  {
+   "src": "TAS1R1/TAS1R3:TAS1R1-372T/A; TAS1R3-757C/R",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:MSG / MSG+IMP (umami) perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 19696921,
+   "study_design": "genotype + threshold + assay",
+   "species": "human",
+   "n": NaN,
+   "effect": "thresholds track in vitro variant dose-response",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": "non-bitter modality: G->S1 generalizes beyond TAS2R"
+  },
+  {
+   "src": "TAS1R1/TAS1R3:TAS1R1-372T/A; TAS1R3-757C/R",
+   "src_type": "Variant",
+   "relation": "variant->receptor_function",
+   "dst": "TAS1R1/TAS1R3 receptor",
+   "dst_type": "Receptor",
+   "citation_pmid": 19696921,
+   "study_design": "genotype + threshold + assay",
+   "species": "human",
+   "n": "",
+   "effect": "heterologous expression",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": ""
+  },
+  {
+   "src": "TAS1R2:rs12033832",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:sucrose perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 26279452,
+   "study_design": "candidate assoc",
+   "species": "human",
+   "n": "696; subset n=95",
+   "effect": "genotype-BMI interaction on sensitivity and sugar intake",
+   "p_value": "0.01 (sens), 0.003 (intake)",
+   "evidence_grade": "B",
+   "note": NaN
+  },
+  {
+   "src": "TAS1R3:promoter polymorphism",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:sweet tastants perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 19559618,
+   "study_design": "candidate assoc",
+   "species": "human",
+   "n": NaN,
+   "effect": "TAS1R3 promoter allele associates with sweet sensitivity",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": NaN
+  },
+  {
+   "src": "SCNN1B:rs239345; rs3785368",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:NaCl perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 23118204,
+   "study_design": "candidate assoc",
+   "species": "human",
+   "n": "95",
+   "effect": "AA (rs239345) and TT (rs3785368) perceive salt less intensely",
+   "p_value": "0.02; 0.03",
+   "evidence_grade": "B",
+   "note": "TRPV1 rs8065080 also associated (P=0.008)"
+  },
+  {
+   "src": "SCNN1A:A663T",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:NaCl perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 24317554,
+   "study_design": "candidate assoc",
+   "species": "human",
+   "n": "207",
+   "effect": "threshold-zinc interaction only in AA homozygous women; no main genotype effect on preference",
+   "p_value": "0.02 (interaction)",
+   "evidence_grade": "B",
+   "note": "weak/conditional evidence for ENaC"
+  },
+  {
+   "src": "CA6 (gustin):rs2274333",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:\u2014 perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 25447475,
+   "study_design": "candidate assoc",
+   "species": "human",
+   "n": NaN,
+   "effect": "gustin variant associated with papilla density (indirect sensory mechanism)",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": "non-receptor confounder pathway"
+  },
+  {
+   "src": "TAS2R38:diplotype",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:PROP perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 24025627,
+   "study_design": "expression assoc",
+   "species": "human",
+   "n": NaN,
+   "effect": "perception correlates with receptor mRNA expression in taste cells",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": "expression-level mechanism beyond coding variants"
+  },
+  {
+   "src": "TAS2R38:diplotype",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:chromium picolinate? no\u2014bitter stimuli battery perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 18209019,
+   "study_design": "psychophysics",
+   "species": "human",
+   "n": NaN,
+   "effect": "diplotype explains part but not all of PROP supertasting",
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": "supertasting depends on more than TAS2R38"
+  },
+  {
+   "src": "TAS2R38:haplotype",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:salt (dietary sodium behavior) perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 32453275,
+   "study_design": "cross-sectional + biomarker",
+   "species": "human",
+   "n": "42",
+   "effect": "PAV/PAV predicts lower urinary Na (b=-1780.6); no genotype effect on salt sensitivity",
+   "p_value": "0.036",
+   "evidence_grade": "B",
+   "note": "behaviorally relevant marker, but sensitivity null"
+  },
+  {
+   "src": "TAS2R38:A49P",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:clindamycin liquid (pediatric antibiotic) perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 42162282,
+   "study_design": "prospective cohort + genotyping",
+   "species": "human",
+   "n": "67 children",
+   "effect": "NO association of TAS2R38 or TRPA1 variants with clindamycin liking/side effects",
+   "p_value": "ns",
+   "evidence_grade": "B",
+   "note": "KEY NULL: genotype->drug sensory null for a non-TAS2R38 ligand"
+  },
+  {
+   "src": "TRPA1:rs11988795",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:pediatric ibuprofen formulation perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 37685855,
+   "study_design": "GWAS + sensory panel",
+   "species": "human",
+   "n": "trained adult panel",
+   "effect": "TRPA1 variant associated with tingling sensation, independent of ancestry",
+   "p_value": "<5e-8 (GWAS-level reported)",
+   "evidence_grade": "A",
+   "note": "chemesthesis channel, not taste receptor; supports G->S1_drug generalization beyond TAS2R"
+  },
+  {
+   "src": "TAS2R4:\u2014",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:PROP (in TAS2R38 AVI carriers) perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 38732607,
+   "study_design": "functional + sensory",
+   "species": "human",
+   "n": NaN,
+   "effect": "differential TAS2R4 activation may restore PROP tasting in some AVI individuals",
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": "redundancy complicates genotype->phenotype mapping"
+  },
+  {
+   "src": "TAS2R4:\u2014",
+   "src_type": "Variant",
+   "relation": "variant->receptor_function",
+   "dst": "TAS2R4 receptor",
+   "dst_type": "Receptor",
+   "citation_pmid": 38732607,
+   "study_design": "functional + sensory",
+   "species": "human",
+   "n": "",
+   "effect": "heterologous assay",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": ""
+  },
+  {
+   "src": "TAS2R2:functional variant in some populations",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:phenylbutazone etc. perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 36929150,
+   "study_design": "screening",
+   "species": "human",
+   "n": NaN,
+   "effect": "TAS2R2 (former pseudogene) responds to 8/122 compounds incl. drug phenylbutazone",
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": "population-dependent receptor functionality"
+  },
+  {
+   "src": "TAS2R2:functional variant in some populations",
+   "src_type": "Variant",
+   "relation": "variant->receptor_function",
+   "dst": "TAS2R2 receptor",
+   "dst_type": "Receptor",
+   "citation_pmid": 36929150,
+   "study_design": "screening",
+   "species": "human",
+   "n": "",
+   "effect": "heterologous assay",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": ""
+  },
+  {
+   "src": "TAS2R38:PAV haplotype",
+   "src_type": "Variant",
+   "relation": "variant->sensory_phenotype",
+   "dst": "S1:tobacco (real-world bitter exposure) perception",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 27711175,
+   "study_design": "multi-cohort assoc",
+   "species": "human",
+   "n": "237 + 1353 + 2363 + 4973",
+   "effect": "PTC tasters less common among smokers (71.5% vs 82.5%, P=0.03); genotype trend ns in larger cohorts",
+   "p_value": "0.03 small cohort; ns replication",
+   "evidence_grade": "B",
+   "note": "weak/inconsistent S1->behavior translation in adults"
+  },
+  {
+   "src": "acetaminophen",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R39",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "diclofenac",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "spironolactone",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "famotidine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R10",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "famotidine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R44",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "erythromycin",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R1",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "erythromycin",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R10",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "ofloxacin",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R9",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chloroquine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R3",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chloroquine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R7",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chloroquine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R10",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chloroquine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chloroquine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R39",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "quinine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R1",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "quinine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R4",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "quinine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R7",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "quinine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R10",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "quinine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "quinine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R39",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "quinine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R40",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "quinine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R41",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "quinine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R43",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "quinine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R44",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "quinine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R46",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "dapsone",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R4",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "dapsone",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R10",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "dapsone",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R40",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "hydrocortisone",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R46",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "diphenhydramine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R7",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "diphenhydramine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "diphenhydramine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R40",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chlorpheniramine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R4",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chlorpheniramine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R7",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chlorpheniramine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R10",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chlorpheniramine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chlorpheniramine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R38",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chlorpheniramine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R39",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chlorpheniramine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R40",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "chlorpheniramine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R46",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "ferrous sulfate",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R7",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "thiamine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R1",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "thiamine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R39",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "haloperidol",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R10",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "haloperidol",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "colchicine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R4",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "colchicine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R39",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "colchicine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R46",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "dutasteride",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "finasteride",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "theophylline",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R7",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "theophylline",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R10",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "theophylline",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "theophylline",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R43",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "theophylline",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R46",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "caffeine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R7",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "caffeine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R10",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "caffeine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "caffeine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R43",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "caffeine",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R46",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "dextromethorphan",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R1",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "dextromethorphan",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R7",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "dextromethorphan",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R10",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "carisoprodol",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R14",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "carisoprodol",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R46",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "saccharin",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R43",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "saccharin",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R44",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "denatonium benzoate",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R4",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "denatonium benzoate",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R8",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "denatonium benzoate",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R10",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "denatonium benzoate",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R13",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "denatonium benzoate",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R39",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "denatonium benzoate",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R43",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "denatonium benzoate",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R46",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "denatonium benzoate",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R47",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "propylthiouracil",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R2",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "propylthiouracil",
+   "src_type": "Drug",
+   "relation": "drug->receptor_activation",
+   "dst": "TAS2R38",
+   "dst_type": "Receptor",
+   "citation_pmid": 39535052,
+   "study_design": "curated heterologous assays (BitterDB)",
+   "species": "human",
+   "n": "",
+   "effect": "agonist/activator",
+   "p_value": "",
+   "evidence_grade": "B",
+   "note": "BitterDB 2024 update"
+  },
+  {
+   "src": "S1:TAS2R38 bitter-sensitive genotype",
+   "src_type": "SensoryPhenotype",
+   "relation": "sensory_phenotype->medication_behavior",
+   "dst": "S2:solid formulation usage history",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 22440514,
+   "study_design": "retrospective pooled",
+   "species": "human",
+   "n": 448.0,
+   "effect": "bitter-sensitive children more likely to have used solid formulations",
+   "p_value": "<0.05",
+   "evidence_grade": "C",
+   "note": "genotype->S2 proxy; pediatric only"
+  },
+  {
+   "src": "S1:TAS2R38 A49P",
+   "src_type": "SensoryPhenotype",
+   "relation": "sensory_phenotype->medication_behavior",
+   "dst": "S2:reported rejection of liquid medication",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 26391354,
+   "study_design": "retrospective interview",
+   "species": "human",
+   "n": 172.0,
+   "effect": "P-allele carriers more likely to report rejecting liquids (chi2=5.72)",
+   "p_value": "0.02",
+   "evidence_grade": "C",
+   "note": NaN
+  },
+  {
+   "src": "S1:taste/palatability of formulations",
+   "src_type": "SensoryPhenotype",
+   "relation": "sensory_phenotype->medication_behavior",
+   "dst": "S2:adherence",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 22088684,
+   "study_design": "narrative review",
+   "species": "human",
+   "n": NaN,
+   "effect": "taste/palatability affect adherence to antibiotics",
+   "p_value": NaN,
+   "evidence_grade": "C",
+   "note": "established pediatric link"
+  },
+  {
+   "src": "S1:dislike of taste (54%)",
+   "src_type": "SensoryPhenotype",
+   "relation": "sensory_phenotype->medication_behavior",
+   "dst": "S2:adherence + side effects (36%)",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 42162282,
+   "study_design": "prospective cohort",
+   "species": "human",
+   "n": 67.0,
+   "effect": "substantial individual variability; taste linked to behavioral responses",
+   "p_value": "<0.001 distaste expressions",
+   "evidence_grade": "B",
+   "note": "S1->S2 proximate but genotype null"
+  },
+  {
+   "src": "S1:taste acceptability",
+   "src_type": "SensoryPhenotype",
+   "relation": "sensory_phenotype->medication_behavior",
+   "dst": "S2:acceptability/adherence impact",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 40837710,
+   "study_design": "scoping review",
+   "species": "human",
+   "n": NaN,
+   "effect": "documented impact across medicines",
+   "p_value": NaN,
+   "evidence_grade": "C",
+   "note": NaN
+  },
+  {
+   "src": "S1:sucrose suppresses bitterness",
+   "src_type": "SensoryPhenotype",
+   "relation": "sensory_phenotype->medication_behavior",
+   "dst": "S2:improved acceptance",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 25381313,
+   "study_design": "controlled psychophysics",
+   "species": "human",
+   "n": NaN,
+   "effect": "sucrose reduces bitterness moderate->weak (adults); TAS1R3-sensitive report more reduction",
+   "p_value": "<0.05",
+   "evidence_grade": "C",
+   "note": "formulation lever; genotype interaction suggested"
+  },
+  {
+   "src": "S1:tablet shape/size/color",
+   "src_type": "SensoryPhenotype",
+   "relation": "sensory_phenotype->medication_behavior",
+   "dst": "S2:adherence",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 42391492,
+   "study_design": "review/survey",
+   "species": "human",
+   "n": NaN,
+   "effect": "physical form influences adherence",
+   "p_value": NaN,
+   "evidence_grade": "C",
+   "note": "adult evidence is form not flavor"
+  },
+  {
+   "src": "S1:ethanol detection threshold",
+   "src_type": "SensoryPhenotype",
+   "relation": "sensory_phenotype->medication_behavior",
+   "dst": "S2:alcohol intake",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 7878095,
+   "study_design": "cross-sectional",
+   "species": "human",
+   "n": 20.0,
+   "effect": "intake correlates with threshold + pharmacological reactivity (23% var)",
+   "p_value": NaN,
+   "evidence_grade": "C",
+   "note": "adult S1->consumption (non-medication)"
+  },
+  {
+   "src": "S1:TAS2R38 haplotype",
+   "src_type": "SensoryPhenotype",
+   "relation": "sensory_phenotype->medication_behavior",
+   "dst": "S2:brassica intake",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 21338274,
+   "study_design": "cohort",
+   "species": "human",
+   "n": 500.0,
+   "effect": "NULL association",
+   "p_value": "ns",
+   "evidence_grade": "B",
+   "note": "NEGATIVE: genotype does not predict real-world intake"
+  },
+  {
+   "src": "S1:PROP sensitivity",
+   "src_type": "SensoryPhenotype",
+   "relation": "sensory_phenotype->medication_behavior",
+   "dst": "S2:dietary pattern, BMI",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 17659901,
+   "study_design": "cross-sectional",
+   "species": "human",
+   "n": NaN,
+   "effect": NaN,
+   "p_value": "ns",
+   "evidence_grade": "C",
+   "note": "NEGATIVE"
+  },
+  {
+   "src": "S1:PTC/TAS2R38",
+   "src_type": "SensoryPhenotype",
+   "relation": "sensory_phenotype->medication_behavior",
+   "dst": "S2:smoking status",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 27711175,
+   "study_design": "multi-cohort",
+   "species": "human",
+   "n": 8626.0,
+   "effect": "small-cohort assoc, larger cohorts ns",
+   "p_value": "0.03/ns",
+   "evidence_grade": "B",
+   "note": "weak translation"
+  },
+  {
+   "src": "long-term dietary sodium reduction",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:preferred salt level declined; salt taste adapted over month",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 7148734,
+   "study_design": "longitudinal intervention",
+   "species": "human",
+   "n": "~20",
+   "effect": "preference shift toward lower salt",
+   "p_value": "significant (classic)",
+   "evidence_grade": "B",
+   "note": "classic plasticity evidence; small n"
+  },
+  {
+   "src": "increasing dietary salt",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:salt taste preference shifted up with higher intake",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 3797487,
+   "study_design": "dietary manipulation",
+   "species": "human",
+   "n": NaN,
+   "effect": "preference shift",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": NaN
+  },
+  {
+   "src": "short-term diet change",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:salt taste preference responds to diet",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 1562204,
+   "study_design": "short-term intervention",
+   "species": "human",
+   "n": NaN,
+   "effect": NaN,
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": NaN
+  },
+  {
+   "src": "experimental sodium depletion",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:altered salt taste in normal volunteers",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 2185626,
+   "study_design": "controlled depletion",
+   "species": "human",
+   "n": NaN,
+   "effect": NaN,
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": "physiological modulation of salt taste"
+  },
+  {
+   "src": "reduced simple-sugar diet (3 months)",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:perceived sweet intensity increased; pleasantness unchanged",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 26607941,
+   "study_design": "dietary RCT",
+   "species": "human",
+   "n": NaN,
+   "effect": "sensitivity shift without hedonic shift",
+   "p_value": "<0.05",
+   "evidence_grade": "A",
+   "note": "plasticity is perceptual, not hedonic"
+  },
+  {
+   "src": "6-month low/regular/high sweet exposure",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:sweet liking/intake outcomes",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 41485871,
+   "study_design": "parallel RCT (Sweet Tooth)",
+   "species": "human",
+   "n": "180",
+   "effect": NaN,
+   "p_value": NaN,
+   "evidence_grade": "A",
+   "note": "large modern RCT; see results in text"
+  },
+  {
+   "src": "repeated taste exposure (vegetables)",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:increased liking",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 20541572,
+   "study_design": "longitudinal exposure",
+   "species": "human",
+   "n": NaN,
+   "effect": "acceptance up",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": "pediatric, not adult"
+  },
+  {
+   "src": "repeated exposure to disliked Nordic bars",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:acceptance increased with exposure",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 21868139,
+   "study_design": "controlled exposure",
+   "species": "human",
+   "n": NaN,
+   "effect": NaN,
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": "adult food-exposure effect"
+  },
+  {
+   "src": "repeated exposure to reduced-energy-dense food",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:increased liking",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 20375191,
+   "study_design": "controlled exposure",
+   "species": "human",
+   "n": NaN,
+   "effect": NaN,
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": NaN
+  },
+  {
+   "src": "repeated taste exposure (longitudinal)",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:practice effects on taste acceptance",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 18585415,
+   "study_design": "longitudinal",
+   "species": "human",
+   "n": NaN,
+   "effect": NaN,
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": NaN
+  },
+  {
+   "src": "capsaicin repeated low-dose oral rinsing (17d)",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:reduced oral burn (desensitization)",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 38135109,
+   "study_design": "controlled desensitization",
+   "species": "human",
+   "n": "51",
+   "effect": "S1 down",
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": "chemesthesis plasticity; receptor-adjacent"
+  },
+  {
+   "src": "repeated capsaicin in real food",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:minimal sensitization",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 40876703,
+   "study_design": "dietary",
+   "species": "human",
+   "n": NaN,
+   "effect": "null-ish",
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": "NEGATIVE: limited plasticity in real-world format"
+  },
+  {
+   "src": "oral NaCl rinsing without consumption (2wk)",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:no change in salt DT/RT/suprathreshold",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 36894246,
+   "study_design": "cross-over intervention",
+   "species": "human",
+   "n": "42",
+   "effect": NaN,
+   "p_value": ">0.05 all",
+   "evidence_grade": "B",
+   "note": "KEY NEGATIVE: taste exposure alone insufficient; consumption context matters"
+  },
+  {
+   "src": "8-wk low-sodium cereal",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:acceptance increased but taste preferences and thresholds un",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 31006818,
+   "study_design": "RCT",
+   "species": "human",
+   "n": "39",
+   "effect": "hedonic shift, no S1 shift",
+   "p_value": "ns (preference/threshold)",
+   "evidence_grade": "A",
+   "note": "mixed: liking plastic, sensory threshold not"
+  },
+  {
+   "src": "bitter/sour novel foods x10 exposures",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:NO change in pleasantness for bitter/sour; sweet/salty impro",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 7878095,
+   "study_design": "controlled exposure",
+   "species": "human",
+   "n": "20",
+   "effect": "null for bitter",
+   "p_value": "ns",
+   "evidence_grade": "B",
+   "note": "NEGATIVE: bitter specifically resistant to exposure-driven liking in adults"
+  },
+  {
+   "src": "herb/spice seasoning of low-salt soup",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:increased liking of low-salt soup over repeated exposure",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 24879887,
+   "study_design": "consumer test",
+   "species": "human",
+   "n": NaN,
+   "effect": NaN,
+   "p_value": NaN,
+   "evidence_grade": "B",
+   "note": "compensation strategy"
+  },
+  {
+   "src": "salt-reduced reformulation (products)",
+   "src_type": "TrainingIntervention",
+   "relation": "diet/training->sensory_phenotype",
+   "dst": "S1:up to ~40% (bread)/~70% (meat) reduction without acceptabili",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 26745848,
+   "study_design": "systematic review + meta-analysis",
+   "species": "human",
+   "n": "50 studies",
+   "effect": NaN,
+   "p_value": "ns acceptability change",
+   "evidence_grade": "B",
+   "note": "masking-by-matrix, not perceiver plasticity"
+  },
+  {
+   "src": "chloramphenicol + ofloxacin",
+   "src_type": "Drug",
+   "relation": "drug->sensory_phenotype",
+   "dst": "S1:dominant sensation bitterness (~moderate gLMS); genotype-lin",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 35967977,
+   "study_design": "human sensory panel n=143",
+   "species": "human",
+   "n": "",
+   "effect": "dominant sensation bitterness (~moderate gLMS); genotype-linked variation",
+   "p_value": "",
+   "evidence_grade": "A",
+   "note": NaN
+  },
+  {
+   "src": "ibuprofen pediatric formulation",
+   "src_type": "Drug",
+   "relation": "drug->sensory_phenotype",
+   "dst": "S1:wide individual variation in taste/chemesthesis; TRPA1 rs119",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 37685855,
+   "study_design": "GWAS sensory panel",
+   "species": "human",
+   "n": "",
+   "effect": "wide individual variation in taste/chemesthesis; TRPA1 rs11988795 -> tingling; ancestry differences",
+   "p_value": "",
+   "evidence_grade": "A",
+   "note": NaN
+  },
+  {
+   "src": "clindamycin liquid",
+   "src_type": "Drug",
+   "relation": "drug->sensory_phenotype",
+   "dst": "S1:54% disliked taste; variation not explained by TAS2R38/TRPA1",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 42162282,
+   "study_design": "prospective cohort n=67",
+   "species": "human",
+   "n": "",
+   "effect": "54% disliked taste; variation not explained by TAS2R38/TRPA1",
+   "p_value": "",
+   "evidence_grade": "A",
+   "note": "negative for candidate genes"
+  },
+  {
+   "src": "prednisolone powder",
+   "src_type": "Drug",
+   "relation": "drug->sensory_phenotype",
+   "dst": "S1:commercial prednisolone powder intensely bitter; masking met",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 18827377,
+   "study_design": "human + taste sensor",
+   "species": "human",
+   "n": "",
+   "effect": "commercial prednisolone powder intensely bitter; masking methods quantified",
+   "p_value": "",
+   "evidence_grade": "A",
+   "note": NaN
+  },
+  {
+   "src": "amlodipine ODT (10 products)",
+   "src_type": "Drug",
+   "relation": "drug->sensory_phenotype",
+   "dst": "S1:large inter-product palatability differences for same API",
+   "dst_type": "SensoryPhenotype",
+   "citation_pmid": 23927469,
+   "study_design": "human panel",
+   "species": "human",
+   "n": "",
+   "effect": "large inter-product palatability differences for same API",
+   "p_value": "",
+   "evidence_grade": "A",
+   "note": "formulation dominates API taste"
+  },
+  {
+   "src": "TAS2R38:bitter-sensitive haplotype",
+   "src_type": "Variant",
+   "relation": "variant->medication_behavior",
+   "dst": "solid formulation usage (children)",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 22440514,
+   "study_design": "retrospective",
+   "species": "human",
+   "n": "448",
+   "effect": "more solid-form use",
+   "p_value": "<0.05",
+   "evidence_grade": "B",
+   "note": ""
+  },
+  {
+   "src": "TAS2R38:A49P P allele",
+   "src_type": "Variant",
+   "relation": "variant->medication_behavior",
+   "dst": "liquid medication rejection reports (children)",
+   "dst_type": "BehavioralPhenotype",
+   "citation_pmid": 26391354,
+   "study_design": "retrospective interview",
+   "species": "human",
+   "n": "172",
+   "effect": "more rejection",
+   "p_value": "0.02",
+   "evidence_grade": "B",
+   "note": ""
+  }
+ ]
+}

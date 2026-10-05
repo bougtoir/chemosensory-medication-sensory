@@ -1,0 +1,38 @@
+# SNP hierarchy and harmonization. See docs/INSTRUCTION_REGISTER.csv and DECISION_LOG.md. Mirrors docs/05_SNP_ANALYSIS_HIERARCHY.csv.
+version: 1.0.0
+approved_genes: [TAS1R1, TAS1R2, TAS1R3, TAS2R8, TAS2R9, TAS2R10, TAS2R14, TAS2R16, TAS2R38, TAS2R46,
+                 SCNN1A, SCNN1B, SCNN1G, SCNN1D, OTOP1, GNAT3, GNG13, PLCB2, ITPR3, TRPM5]
+effect_alleles: derived/effect_alleles.csv          # from data/raw_ensembl_20261004b (VEP, GRCh38 forward strand)
+gene_regions: derived/approved_gene_regions.csv     # Ensembl gene span +/-10 kb, GRCh38 and GRCh37
+genotype_coding: auto                               # 'dosage_alt' (0/1/2 of manifest alt) or allele strings 'A/G'
+qc: {min_call_rate: 0.95, min_maf: 0.01, hwe_p: 1.0e-6}
+proxy:
+  window_bp: 250000
+  ld_source: within-sample genotype correlation (genotype-only, outcome-blind) = ToMMo-internal reference (64 rule 2)
+  tie_break: [max_r2, min_distance, rsid]
+level_a:
+  TAS2R38_PAV:
+    gene: TAS2R38
+    type: haplotype
+    snps: [rs713598, rs1726866, rs10246939]          # PAV allele = effect_allele in derived file
+    min_posterior: 0.9
+    fallback: {rsid: rs713598, label: "A49P proxy", status: TESTABLE WITH PRE-SPECIFIED PROXY}
+    predictions: [P01, P02, P03, P04, P07, P12]
+  TAS2R9_V187A:
+    gene: TAS2R9
+    type: snp
+    rsid: rs3741845
+    proxy_r2: 0.8
+    predictions: [P05]
+  TAS1R2_rs12033832:
+    gene: TAS1R2
+    type: snp
+    rsid: rs12033832
+    proxy_r2: 0.9
+    predictions: [P08]
+amendment_only:                                     # outside the approved 20-gene universe: never analysed without approved amendment
+  TAS2R19_rs10772420: {gene: TAS2R19, rsid: rs10772420, predictions: [P06]}
+  TRPA1_rs11988795: {gene: TRPA1, rsid: rs11988795, predictions: [P09, N11]}
+  TAS2R4_unresolved: {gene: TAS2R4, rsid: null, predictions: [P10]}
+  TAS2R43_46: {gene: TAS2R43, rsid: null, predictions: [P11]}
+status_labels: [DIRECTLY TESTABLE, TESTABLE WITH PRE-SPECIFIED PROXY, GENE-LEVEL SECONDARY ONLY, UNTESTABLE]

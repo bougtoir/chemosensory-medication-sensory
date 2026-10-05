@@ -1,0 +1,13 @@
+control_id,control_type,genotype,exposure,expected_result,interpretation_if_positive,interpretation_if_negative,observability
+N01,route,TAS2R38,insulin (parenteral),null,genotype has non-sensory pleiotropic effect or residual confounding,supports sensory-channel specificity,TESTABLE
+N02,route,TAS2R38,gentamicin (parenteral),null,same as N01,supports specificity,UNTESTABLE
+N03,route,TAS2R38,remdesivir (IV),null,same as N01,supports specificity,UNTESTABLE
+N04,route,TAS2R38,fentanyl patch (transdermal),null,same as N01,supports specificity,CONDITIONAL
+N05,masking,TAS2R38,omeprazole enteric-coated,null-or-attenuated,oral association not taste-specific,supports masking logic,CONDITIONAL
+N06,masking,TAS2R38,erythromycin enteric/film tab,attenuated vs suspension,formulation does not modulate -> taste channel doubtful,predicted masking attenuation confirmed,CONDITIONAL
+N07,receptor-mismatch,TAS2R9,PROP/thiourea,null,prediction cross-assigns receptors; panel logic wrong,supports receptor specificity,CONDITIONAL
+N08,receptor-mismatch,TAS2R38,ofloxacin (TAS2R9 ligand),null,associations track exposure not receptor -> specificity broken,supports receptor specificity,CONDITIONAL
+N09,receptor-mismatch,TAS2R38,clindamycin liquid,null,same,supports specificity,UNTESTABLE
+N10,receptor-mismatch,TAS1R2,quinine (TAS2R19 ligand),null,same,supports specificity,UNTESTABLE
+N11,masking,TRPA1,ibuprofen film-coated tab,attenuated vs suspension,formulation does not modulate,predicted attenuation confirmed,TESTABLE
+N12,behavioral,TAS2R38,supplement/health-food use,null,general health-behavior drift explains results,supports medication-specificity,TESTABLE

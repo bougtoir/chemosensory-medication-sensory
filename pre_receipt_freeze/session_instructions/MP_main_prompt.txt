@@ -1,0 +1,1255 @@
+PROJECT TITLE
+
+Ancient chemosensory variation, sensory plasticity, and a new direction for precision medicine
+
+==================================================
+SESSION STATUS
+==================================================
+
+This is a NEW, INDEPENDENT DEVIN SESSION.
+
+The user expects to receive formally distributed participant-level ToMMo data shortly.
+
+The scientific chronology must be preserved:
+
+THEORY
+→ DRY EVIDENCE
+→ PREDICTION FREEZE
+→ GATES
+→ FINAL PRE-RECEIPT FREEZE
+→ INDEPENDENT TIMESTAMP
+→ TOMMO DATA RECEIPT
+→ OFFLINE VALIDATION
+→ MANUSCRIPT.
+
+The immediate objective is NOT participant-level analysis.
+
+The immediate objective is:
+
+COMPLETE AND TIME-STAMP THE ENTIRE SCIENTIFIC AND STATISTICAL PLAN BEFORE RECEIPT OR INSPECTION OF THE PARTICIPANT-LEVEL TOMMO DATA.
+
+==================================================
+ACTUAL TOMMO PROJECT
+==================================================
+
+The approved project title is:
+
+味蕾関連遺伝子多型が処方変更に与える影響の解明
+
+The approved study explicitly aims to investigate whether taste-related genetic polymorphisms influence medication changes and medication-related individual differences.
+
+The submitted protocol already frames taste-related receptors as biologically broader than tongue perception alone, noting their roles in tissues including the intestine and airway and their relevance to innate immunity, nutrient sensing, gastrointestinal function, food intake, and glucose metabolism.
+
+Therefore:
+
+the broader "chemical-surveillance" interpretation developed during the dry phase is potentially compatible with the conceptual background of the approved protocol.
+
+However:
+
+do not claim that immune mediation or extraoral receptor signaling has been directly tested unless the distributed ToMMo variables permit such testing.
+
+==================================================
+ACTUAL EXPECTED DATA DISTRIBUTION
+==================================================
+
+The supplied ToMMo data specification indicates that the participant-level distributed dataset is expected to include the standard release:
+
+Release 3.1.1
+
+地域住民・三世代コホート 宮城（20歳以上）
+
+ベースライン・第2段階調査 86K
+
+with the following selected data families:
+
+BASIC INFORMATION
+
+demographics
+
+COHORT PROFILE
+
+cohort profile
+
+PHASE 1 / BASELINE
+
+laboratory_test.ph1
+qa_lifestyle.ph1
+qa_ffq.ph1
+physiological_test.ph1
+
+PHASE 2
+
+laboratory_test.ph2
+qa_lifestyle.ph2
+qa_ffq.ph2
+physiological_test.ph2
+
+No metabolomics dataset is currently included in the supplied distribution specification.
+
+Do NOT assume receipt of claims data merely because claims were mentioned in the research plan.
+
+Do NOT assume receipt of long-term prescription claims.
+
+Do NOT assume receipt of WGS or unrestricted genome-wide data.
+
+In addition to the above standard dataset, the user states that SNP information corresponding to the taste-related genetic scope specified in the approved research plan will be distributed.
+
+Treat that SNP delivery as the genomic dataset for this project unless the actual delivery manifest states otherwise.
+
+==================================================
+APPROVED GENE UNIVERSE
+==================================================
+
+The approved protocol identifies the following chemosensory-related gene families / genes:
+
+TAS1R family:
+TAS1R1
+TAS1R2
+TAS1R3
+
+TAS2R family:
+TAS2R8
+TAS2R9
+TAS2R10
+TAS2R14
+TAS2R16
+TAS2R38
+TAS2R46
+
+Epithelial sodium channel genes:
+SCNN1A
+SCNN1B
+SCNN1G
+SCNN1D
+
+Other chemosensory signaling genes:
+OTOP1
+GNAT3
+GNG13
+PLCB2
+ITPR3
+TRPM5
+
+The actual SNP list must be taken from the distributed SNP file / manifest.
+
+Do NOT invent SNP availability.
+
+Do NOT assume that every previously dry-frozen SNP is distributed.
+
+Upon receipt:
+
+map the distributed SNPs against the pre-ToMMo locked predictions.
+
+Each prediction must become one of:
+
+DIRECTLY TESTABLE
+
+TESTABLE WITH PRE-SPECIFIED PROXY
+
+GENE-LEVEL SECONDARY ONLY
+
+UNTESTABLE
+
+Do not replace an unavailable frozen SNP with a more favorable observed SNP after outcome inspection.
+
+==================================================
+NO GWAS ASSUMPTION
+==================================================
+
+The approved research plan mentions GWAS as an exploratory option if data volume and computational resources permit.
+
+However:
+
+the presently supplied distribution specification does not establish that unrestricted genome-wide genotype data will be delivered.
+
+Therefore:
+
+DO NOT include GWAS as part of the pre-receipt confirmatory plan.
+
+GWAS may be performed only if:
+
+1. genome-wide genotype data are actually distributed;
+2. the approved ToMMo scope permits their use;
+3. the analysis is explicitly classified as exploratory;
+4. it does not alter the confirmatory candidate-gene results.
+
+==================================================
+ACTUAL MEDICATION DATA STRUCTURE
+==================================================
+
+The expected lifestyle questionnaire contains medication information.
+
+At minimum the data dictionary includes:
+
+past-two-week medication / supplement use;
+
+for medication slots up to 45 entries:
+
+product or ingredient text;
+KEDD ID;
+Drug ID;
+prescription vs other acquisition;
+duration of use;
+duration unit;
+frequency of use;
+frequency unit;
+amount per administration;
+amount unit.
+
+These medication variables appear in the standard lifestyle-questionnaire structure.
+
+Therefore the medication-normalization hierarchy should be:
+
+PRIMARY:
+
+Drug ID / KEDD ID where valid and available
+
+SECONDARY:
+
+structured medication fields
+
+TERTIARY:
+
+free-text product / ingredient string
+
+Use free text primarily for:
+
+quality control;
+brand resolution;
+formulation identification;
+release-form identification;
+route inference when supported;
+reconciliation when structured IDs are absent.
+
+Do NOT make NLP/free-text parsing the primary drug-identification method when structured identifiers are available.
+
+==================================================
+TWO-WAVE DESIGN IS CENTRAL
+==================================================
+
+The actual distribution includes both:
+
+PHASE 1
+
+and
+
+PHASE 2
+
+lifestyle questionnaire data.
+
+Therefore the manuscript should explicitly exploit the prospective/repeated structure where technically valid.
+
+Core longitudinal medication constructs may include:
+
+same medication present at both waves;
+
+medication present at phase 1 but absent at phase 2;
+
+medication absent at phase 1 but present at phase 2;
+
+active-ingredient change;
+
+same therapeutic class but active-ingredient change;
+
+addition of medication;
+
+reduction in number of medications;
+
+dose proxy increase/decrease when units can be harmonized;
+
+frequency increase/decrease;
+
+formulation change if formulation is recoverable.
+
+Use neutral data-derived terminology.
+
+Do NOT automatically call:
+
+present → absent
+
+"discontinuation due to intolerance."
+
+Do NOT call:
+
+drug A → drug B
+
+"switch due to taste."
+
+The approved protocol permits analysis of medication change, but causal reason must not be invented.
+
+==================================================
+PRIMARY OUTCOME RECONSTRUCTION
+==================================================
+
+The approved protocol defines medication-sensitivity surrogate outcomes as:
+
+dose change;
+
+medication change;
+
+switch;
+
+addition;
+
+deletion.
+
+Therefore reconstruct these outcomes as faithfully as possible from phase 1 and phase 2 medication data.
+
+Before receipt, pre-specify algorithms for:
+
+active-ingredient matching;
+
+therapeutic-class matching;
+
+dose-unit harmonization;
+
+frequency harmonization;
+
+multiple-drug handling;
+
+combination products;
+
+unknown medication identity;
+
+unknown unit;
+
+duplicate entries;
+
+same active ingredient under different brand names.
+
+Create synthetic tests for all of these cases.
+
+==================================================
+DOSE CHANGE
+==================================================
+
+The dataset includes:
+
+amount per administration;
+
+unit;
+
+frequency;
+
+frequency unit;
+
+duration of use.
+
+Where clinically meaningful and units can be harmonized, derive:
+
+dose_per_administration;
+
+administrations_per_day;
+
+estimated_daily_dose.
+
+Possible primary quantity:
+
+standardized daily dose change
+
+from phase 1 to phase 2.
+
+Do not calculate daily dose if unit semantics cannot be safely harmonized.
+
+Do not force conversion across incompatible formulations.
+
+Create explicit:
+
+DOSE_HARMONIZATION_RULES.md
+
+before data receipt.
+
+==================================================
+MEDICATION CHANGE
+==================================================
+
+Create a deterministic algorithm to identify:
+
+same active ingredient;
+
+same therapeutic class;
+
+different active ingredient;
+
+addition;
+
+removal;
+
+potential within-class switch.
+
+Use structured Drug ID / KEDD ID first.
+
+Where drug classes are required, use a locally stored deterministic mapping such as:
+
+ATC or another scientifically defensible classification,
+
+provided licensing and offline use are permitted.
+
+Freeze the classification database/version before participant-level analysis.
+
+==================================================
+FORMULATION INFORMATION
+==================================================
+
+The supplied data dictionary clearly establishes structured medication identity but does NOT itself guarantee a dedicated formulation variable.
+
+Therefore:
+
+formulation and oral-sensory-exposure analyses are CONDITIONAL CONFIRMATORY MODULES.
+
+Formulation may be recovered from:
+
+medication product name;
+brand name;
+structured drug identifier mapping;
+formulation suffix;
+external offline pharmaceutical dictionary.
+
+Before data receipt, define the mapping algorithm.
+
+After receipt, validate it genotype-blind.
+
+If reliable formulation information cannot be reconstructed:
+
+do NOT force the EX0–EX3 analysis.
+
+Mark:
+
+MECHANISTIC GRADIENT NOT TESTABLE FROM DISTRIBUTED DATA.
+
+This must not invalidate the primary genotype–medication-change analysis.
+
+==================================================
+FOOD / FFQ DATA ARE ACTUALLY AVAILABLE
+==================================================
+
+Both:
+
+qa_ffq.ph1
+
+and
+
+qa_ffq.ph2
+
+are expected.
+
+The supplied data dictionary contains detailed food and beverage variables including examples such as:
+
+coffee;
+tea;
+green tea;
+bancha / genmaicha;
+oolong tea;
+black tea;
+alcoholic beverages;
+vegetable intake;
+food-group variables.
+
+Therefore:
+
+the cross-domain chemosensory hypothesis is materially more testable than previously assumed.
+
+However:
+
+do not redesign the confirmatory medication hypothesis around FFQ results after seeing data.
+
+Before receipt classify FFQ analyses as:
+
+PRE-SPECIFIED SECONDARY TRIANGULATION.
+
+The scientific question is:
+
+Do taste-related genotypes associated with medication-change phenotypes also show coherent associations with food/beverage exposures expected from chemosensory biology?
+
+The purpose is triangulation, not fishing for lifestyle associations.
+
+==================================================
+CHEMOSENSORY CROSS-DOMAIN MODULE
+==================================================
+
+Pre-specify a restricted set of food/beverage phenotypes from the dry literature.
+
+Potential domains:
+
+coffee;
+
+tea;
+
+alcohol;
+
+selected bitter-food exposures;
+
+sweet-related exposures;
+
+other chemosensory-relevant dietary variables.
+
+Do NOT select foods after seeing genotype associations.
+
+Create:
+
+CHEMOSENSORY_FFQ_LOCK.csv
+
+before ToMMo receipt.
+
+For each phenotype specify:
+
+biological rationale;
+
+expected direction if evidence exists;
+
+gene/receptor relationship;
+
+confirmatory/secondary status;
+
+multiple-testing family.
+
+==================================================
+LIFESTYLE COVARIATES
+==================================================
+
+The distributed lifestyle dataset includes detailed:
+
+smoking;
+
+alcohol use;
+
+stress/K6;
+
+other health behavior variables.
+
+Use these primarily as:
+
+confounders;
+
+parallel chemical-exposure phenotypes where pre-specified;
+
+sensitivity variables.
+
+Do not indiscriminately turn every lifestyle variable into an outcome.
+
+==================================================
+LABORATORY AND PHYSIOLOGICAL DATA
+==================================================
+
+Phase 1 and Phase 2 laboratory and physiological data are expected.
+
+Use these according to the approved plan for:
+
+confounding control;
+
+disease definition;
+
+clinical phenotype characterization;
+
+supportive tolerance-related analyses where explicitly justified.
+
+The approved protocol allows adverse-event / laboratory information to be used as supplementary tolerance-related indicators if available.
+
+Do not perform broad laboratory phenome scans as confirmatory analyses.
+
+==================================================
+CLAIMS DATA
+==================================================
+
+The approved research plan refers to medical claims information.
+
+However:
+
+the currently supplied expected-distribution XLSX does not list a claims file.
+
+Therefore the PRE-RECEIPT FREEZE must assume:
+
+NO CLAIMS DATA IN THE PRIMARY DISTRIBUTION.
+
+If claims data are separately supplied later:
+
+handle them through a documented DATA-AVAILABILITY AMENDMENT.
+
+Do not make claims data necessary for the primary manuscript.
+
+==================================================
+CENTRAL SCIENTIFIC STORY
+==================================================
+
+Preserve the full theoretical sequence:
+
+CHEMOSENSORY GENOTYPE
+→
+CHEMOSENSORY RESPONSE ARCHITECTURE
+→
+MEDICATION-RELATED RESPONSE.
+
+The deeper long-term hypothesis remains:
+
+S = f(G,E)
+
+where:
+
+G = inherited chemosensory genotype
+
+E = environment / diet / sensory experience.
+
+Medication response:
+
+M = g(S,D)
+
+where:
+
+D = properties of the pharmaceutical chemical exposure.
+
+Thus:
+
+M = g(f(G,E),D)
+
+If:
+
+G predicts medication response
+
+and independent experimental literature supports:
+
+E → ΔS,
+
+then the medication-response interface may plausibly contain a modifiable component.
+
+This motivates—but does not prove—a future intervention.
+
+==================================================
+CHEMICAL-SURVEILLANCE INTERPRETATION
+==================================================
+
+The submitted research plan already describes taste-related biology beyond tongue perception, including extraoral and innate-immune relevance.
+
+Therefore the manuscript may legitimately discuss the results within a broader:
+
+CHEMICAL-SURVEILLANCE
+
+framework.
+
+However classify claims carefully.
+
+DIRECTLY TESTABLE:
+
+taste-related SNPs → medication-change phenotype.
+
+SECONDARY / TRIANGULATIVE:
+
+taste-related SNPs → food/lifestyle chemical-exposure phenotype.
+
+MECHANISTICALLY COMPATIBLE:
+
+broader extraoral chemosensory biology.
+
+NOT DIRECTLY TESTED:
+
+innate immune mediation.
+
+Do not state:
+
+"TAS variants cause medication change through immunity"
+
+from ToMMo association data.
+
+==================================================
+PRE-RECEIPT HYPOTHESIS HIERARCHY
+==================================================
+
+PRIMARY HYPOTHESIS:
+
+Pre-specified taste/chemosensory genetic variation predicts longitudinal medication-change phenotypes between phase 1 and phase 2.
+
+SECONDARY HYPOTHESIS 1:
+
+Effects show consistency with independently frozen receptor–drug predictions.
+
+SECONDARY HYPOTHESIS 2:
+
+Where formulation can be reliably reconstructed, genotype effects vary with oral sensory exposure.
+
+SECONDARY HYPOTHESIS 3:
+
+Pre-specified chemosensory variants show coherent cross-domain associations with selected FFQ / chemical-exposure phenotypes.
+
+SECONDARY HYPOTHESIS 4:
+
+Prediction strength derived before ToMMo receipt calibrates with observed medication-related effects.
+
+NEGATIVE-CONTROL HYPOTHESES:
+
+Use only previously frozen and actually testable controls.
+
+==================================================
+PRIMARY MEDICATION-CHANGE ENDPOINTS
+==================================================
+
+Freeze before receipt:
+
+1.
+ANY_MEDICATION_CHANGE
+
+2.
+ACTIVE_INGREDIENT_CHANGE
+
+3.
+WITHIN_CLASS_SWITCH
+
+4.
+MEDICATION_ADDITION
+
+5.
+MEDICATION_REMOVAL
+
+6.
+STANDARDIZED_DOSE_INCREASE
+
+7.
+STANDARDIZED_DOSE_DECREASE
+
+where technically reconstructable.
+
+Define exact algorithms now using synthetic examples.
+
+Do not invent definitions after seeing real outcome frequencies.
+
+==================================================
+IMPORTANT CHANGE FROM EARLIER PLAN
+==================================================
+
+The primary manuscript should no longer depend mainly on:
+
+CURRENT MEDICATION USE.
+
+Because the actual distributed data include phase 1 and phase 2 medication information, the stronger protocol-aligned endpoint is:
+
+LONGITUDINAL MEDICATION CHANGE.
+
+This directly matches the approved research objective.
+
+Current/recent medication exposure may remain a secondary cross-sectional analysis.
+
+==================================================
+PRIMARY STATISTICAL MODELS
+==================================================
+
+Pre-specify models appropriate to each outcome.
+
+Examples:
+
+binary medication-change outcome:
+
+logit[P(Y=1)] =
+β0
++ β1G
++ covariates.
+
+Drug-specific or class-specific change:
+
+logit[P(Y_d=1)] =
+β0
++ β1G
++ indication
++ covariates.
+
+Dose change:
+
+linear / ordinal / robust regression as appropriate to the frozen outcome definition.
+
+Repeated medication count:
+
+appropriate count model if pre-specified and scientifically justified.
+
+Do not select model family based on whichever produces the smallest P value.
+
+==================================================
+GENE-LEVEL AND VARIANT-LEVEL ANALYSIS
+==================================================
+
+Because the actual SNP panel may contain multiple SNPs per approved gene:
+
+freeze two analytical levels.
+
+LEVEL A:
+
+previously dry-frozen variants
+
+highest confirmatory priority.
+
+LEVEL B:
+
+other distributed SNPs within the approved gene universe
+
+pre-specified gene-constrained secondary analysis.
+
+Use appropriate multiple-testing correction.
+
+Do not promote a novel SNP discovered within ToMMo to the same confirmatory status as the externally frozen predictions.
+
+==================================================
+MULTIPLE TESTING
+==================================================
+
+Create separate families:
+
+Family A:
+externally frozen primary SNP predictions.
+
+Family B:
+remaining approved-gene SNPs.
+
+Family C:
+medication-change endpoint family.
+
+Family D:
+pre-specified FFQ triangulation.
+
+Family E:
+mechanistic formulation/route module if available.
+
+Family F:
+negative controls.
+
+Family G:
+calibration.
+
+Freeze correction strategy before receipt.
+
+==================================================
+MACHINE LEARNING
+==================================================
+
+The approved protocol permits regularized regression and gradient boosting.
+
+Use these only as secondary predictive analyses.
+
+Do NOT allow ML variable importance to replace the pre-specified genetic tests.
+
+Recommended role:
+
+Can pre-specified chemosensory genetic information improve prediction of medication change beyond clinical/lifestyle covariates?
+
+Use nested cross-validation.
+
+Compare:
+
+clinical baseline model
+
+versus
+
+clinical + chemosensory genotype model.
+
+Report:
+
+ΔAUC or appropriate metric;
+
+calibration;
+
+95% CI via resampling.
+
+Do not present in-sample SHAP values as causal evidence.
+
+==================================================
+EXPLORATORY GWAS
+==================================================
+
+Do not include unless genome-wide data are actually delivered.
+
+If available and approved:
+
+classify GWAS as EXPLORATORY.
+
+It must occur after confirmatory candidate-gene analyses have been locked and executed.
+
+==================================================
+PRE-RECEIPT CODE PACKAGE
+==================================================
+
+Produce a complete offline code package before data receipt.
+
+Required modules:
+
+01_inventory
+02_variable_mapping
+03_snp_harmonization
+04_medication_id_mapping
+05_medication_long_format
+06_drug_class_mapping
+07_dose_harmonization
+08_cross_wave_medication_change
+09_ffq_phenotypes
+10_covariates
+11_analysis_dataset
+12_primary_variant_models
+13_gene_constrained_secondary
+14_medication_change_models
+15_formulation_module
+16_negative_controls
+17_calibration
+18_machine_learning_secondary
+19_sensitivity
+20_tables
+21_figures
+22_privacy_safe_export
+
+Use:
+
+config/variable_map.yaml
+
+config/snp_map.yaml
+
+config/drug_dictionary.yaml
+
+config/ffq_lock.yaml
+
+config/analysis_config.yaml
+
+Do not hard-code actual future column names throughout scripts.
+
+==================================================
+SYNTHETIC DATA
+==================================================
+
+Create synthetic PH1 / PH2 structures that mimic:
+
+participant ID;
+
+medication slots 1–45;
+
+Drug ID;
+
+KEDD ID;
+
+free text;
+
+duration;
+
+frequency;
+
+dose;
+
+FFQ;
+
+covariates;
+
+SNP fields.
+
+Run the entire pipeline before real data receipt.
+
+Specifically test:
+
+brand change but same ingredient;
+
+same ingredient with dose change;
+
+within-class switch;
+
+addition;
+
+removal;
+
+duplicate medication;
+
+combination drug;
+
+incompatible dose units;
+
+missing phase;
+
+unknown Drug ID;
+
+unknown KEDD ID.
+
+==================================================
+PRE-RECEIPT TIMESTAMP PACKAGE
+==================================================
+
+Create:
+
+CHEMOSENSORY_TOMMO_PRE_RECEIPT_FREEZE_YYYYMMDD.zip
+
+It must contain:
+
+theory;
+
+approved protocol mapping;
+
+previous gate history;
+
+final SNP hierarchy;
+
+longitudinal medication-change definitions;
+
+FFQ triangulation lock;
+
+negative controls;
+
+SAP;
+
+multiple-testing hierarchy;
+
+calibration plan;
+
+formulation module rules;
+
+interpretation rules;
+
+complete offline code;
+
+synthetic tests;
+
+environment specification;
+
+manifest;
+
+SHA-256 checksums.
+
+The package must be completed before participant-level ToMMo data are received or inspected.
+
+==================================================
+REGISTRATION / TIMESTAMP
+==================================================
+
+Prepare an independently verifiable timestamp package.
+
+Separate:
+
+PUBLIC / REGISTERABLE CONTENT
+
+from
+
+RESTRICTED TOMMO MATERIAL.
+
+Do not redistribute the ToMMo application, data dictionaries, or other restricted material if prohibited.
+
+For restricted source documents:
+
+record filename;
+
+local hash;
+
+document date;
+
+scope summary;
+
+without uploading restricted content.
+
+The registration should contain enough information to establish that before ToMMo receipt the following were fixed:
+
+scientific hypothesis;
+
+gene/SNP hierarchy;
+
+medication-change endpoints;
+
+directional predictions;
+
+negative controls;
+
+FFQ secondary hypotheses;
+
+statistical models;
+
+multiple testing;
+
+calibration;
+
+success/refutation criteria.
+
+==================================================
+DATA RECEIPT EVENT
+==================================================
+
+After ToMMo delivery:
+
+record exact receipt timestamp;
+
+hash all received files;
+
+store offline;
+
+do not immediately run association models.
+
+First perform only:
+
+schema mapping;
+
+variable availability;
+
+missingness;
+
+genotype-independent medication counts;
+
+SNP availability;
+
+genotype-blind medication-ID QC;
+
+technical pipeline validation.
+
+Scientific outcome analysis starts only after these checks are documented.
+
+==================================================
+FINAL MANUSCRIPT STORY
+==================================================
+
+If the primary hypotheses succeed, the manuscript story should be:
+
+1.
+Human chemosensory biology is evolutionarily old and extends beyond conscious taste.
+
+2.
+Modern medicines constitute a novel chemical environment.
+
+3.
+Before accessing ToMMo, external biological evidence was used to derive explicit predictions.
+
+4.
+Those predictions were independently tested in longitudinal participant-level ToMMo data.
+
+5.
+Chemosensory genetic variation predicts medication-change phenotypes.
+
+6.
+If supported, formulation/route and dietary triangulation provide evidence that this is not merely generic pharmacogenetic association.
+
+7.
+Because sensory phenotype is independently known to exhibit plasticity, these findings motivate a future test of whether medication-related response can itself be modified.
+
+8.
+If that intervention succeeds, a new extension of precision medicine becomes possible:
+
+modify the patient-side chemosensory interface rather than necessarily changing the medicine.
+
+9.
+This could ultimately expand access to effective low-cost therapies and have public-health and health-economic implications.
+
+==================================================
+IMPORTANT CAUSAL BOUNDARY
+==================================================
+
+The ToMMo study may establish:
+
+G → longitudinal medication phenotype.
+
+It may strengthen:
+
+G → chemosensory architecture → medication phenotype.
+
+It does NOT establish:
+
+dietary education → medication response.
+
+It does NOT establish:
+
+immune signaling mediates the association.
+
+It does NOT establish:
+
+healthcare costs will fall.
+
+These remain the next research stages.
+
+==================================================
+NATURE-LEVEL SUCCESS CONDITION
+==================================================
+
+Nature-level consideration requires more than one significant SNP.
+
+The strongest package would contain:
+
+multiple pre-specified genetic predictions validated;
+
+longitudinal medication-change outcomes;
+
+directional concordance;
+
+cross-prediction calibration;
+
+appropriate negative controls;
+
+cross-domain chemosensory triangulation;
+
+mechanistic formulation gradient if reconstructable;
+
+robust indication/confounding control;
+
+clear generalization beyond one drug;
+
+and a credible conceptual bridge from inherited chemosensory biology to a potentially modifiable medication-response interface.
+
+==================================================
+FINAL PRE-RECEIPT OUTPUTS
+==================================================
+
+Produce:
+
+01_APPROVED_PROTOCOL_SCOPE.md
+02_ACTUAL_DISTRIBUTION_SCOPE.md
+03_THEORY_TO_PROTOCOL_MAP.csv
+04_GATE_HISTORY_AND_LOCKS.md
+05_SNP_ANALYSIS_HIERARCHY.csv
+06_MEDICATION_LONGITUDINAL_ENDPOINT_FREEZE.md
+07_DOSE_HARMONIZATION_RULES.md
+08_DRUG_CLASS_MAPPING_RULES.md
+09_CHEMOSENSORY_FFQ_LOCK.csv
+10_NEGATIVE_CONTROL_FINAL.md
+11_FORMULATION_MODULE_FREEZE.md
+12_CALIBRATION_FINAL.md
+13_MULTIPLE_TESTING_FINAL.md
+14_CONFIRMATORY_SAP_PRE_RECEIPT.md
+15_ML_SECONDARY_PLAN.md
+16_PRE_POST_RECEIPT_DECISION_BOUNDARY.md
+17_SYNTHETIC_PIPELINE_VALIDATION.md
+18_PRE_RECEIPT_MANIFEST.csv
+19_SHA256_CHECKSUMS.txt
+20_REGISTRATION_CONTENT_PLAN.md
+21_PUBLIC_REGISTRATION_SUMMARY.md
+22_RESTRICTED_SOURCE_HASH_INDEX.md
+23_DATA_RECEIPT_EVENT_LOG_TEMPLATE.md
+24_AMENDMENT_POLICY.md
+25_MANUSCRIPT_ARCHITECTURE.md
+26_NATURE_SUCCESS_CRITERIA.md
+27_FUTURE_INTERVENTION_MODEL.md
+28_HEALTH_ECONOMIC_GLOBAL_HEALTH_MODEL.md
+29_FINAL_PRE_RECEIPT_HANDOFF.md
+
+plus the complete offline source-code directory.
+
+==================================================
+FINAL GATE
+==================================================
+
+Assign:
+
+READY FOR TIMESTAMP
+
+READY WITH TECHNICAL ITEMS ONLY
+
+NOT READY FOR TIMESTAMP.
+
+The project is READY only if all scientifically meaningful choices have been frozen.
+
+Unknown future file paths are acceptable.
+
+Unknown exact ToMMo column names are acceptable.
+
+Unknown actual SNP availability is acceptable if deterministic fallback rules are frozen.
+
+Unknown event counts are acceptable.
+
+Unknown effect estimates are mandatory.
+
+No participant-level outcome result may be known before timestamp.
+
+==================================================
+STOP
+==================================================
+
+STOP after creating the complete pre-receipt freeze package.
+
+Do not wait for the real ToMMo data.
+
+Do not perform participant-level analysis.
+
+The next session will be:
+
+POST-RECEIPT OFFLINE VALIDATION
+
+and must execute the frozen analysis rather than redesign it.

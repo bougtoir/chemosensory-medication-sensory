@@ -1,0 +1,147 @@
+raw_text,gold_generic,gold_formulation,gold_route,gold_exposure,gold_masking,generic_name,formulation,route,oral_sensory_exposure,taste_masking
+アダラートCR錠20mg,nifedipine,controlled-release tablet,oral,1,PARTIALLY MASKED,nifedipine,controlled-release tablet,oral,1,PARTIALLY MASKED
+メルカゾール錠5mg,thiamazole (methimazole),tablet (unspecified coating),oral,2,UNKNOWN,thiamazole (methimazole),tablet (unspecified coating),oral,2,UNKNOWN
+プロパジール錠25mg,propylthiouracil,tablet (unspecified coating),oral,2,UNKNOWN,propylthiouracil,tablet (unspecified coating),oral,2,UNKNOWN
+チウラジール錠50mg,propylthiouracil,tablet (unspecified coating),oral,2,UNKNOWN,propylthiouracil,tablet (unspecified coating),oral,2,UNKNOWN
+タリビット錠100mg,ofloxacin,tablet (unspecified coating),oral,2,UNKNOWN,ofloxacin,tablet (unspecified coating),oral,2,UNKNOWN
+タリビット点眼液,ofloxacin,ophthalmic,topical,0,STRONGLY MASKED,ofloxacin,ophthalmic,topical,0,STRONGLY MASKED
+クラビット錠500mg,levofloxacin,tablet (unspecified coating),oral,2,UNKNOWN,levofloxacin,tablet (unspecified coating),oral,2,UNKNOWN
+ジスロマック錠250mg,azithromycin,tablet (unspecified coating),oral,2,UNKNOWN,azithromycin,tablet (unspecified coating),oral,2,UNKNOWN
+ジスロマック細粒,azithromycin,fine granules,oral,3,UNMASKED,azithromycin,fine granules,oral,3,UNMASKED
+サワシリンカプセル250mg,amoxicillin,capsule,oral,1,STRONGLY MASKED,amoxicillin,capsule,oral,1,STRONGLY MASKED
+サワシリン細粒,amoxicillin,fine granules,oral,3,UNMASKED,amoxicillin,fine granules,oral,3,UNMASKED
+パセトシン細粒,amoxicillin,fine granules,oral,3,UNMASKED,amoxicillin,fine granules,oral,3,UNMASKED
+ケフラールカプセル,cefalexin,capsule,oral,1,STRONGLY MASKED,cefalexin,capsule,oral,1,STRONGLY MASKED
+セフゾンカプセル100mg,cefdinir,capsule,oral,1,STRONGLY MASKED,cefdinir,capsule,oral,1,STRONGLY MASKED
+セフゾン細粒,cefdinir,fine granules,oral,3,UNMASKED,cefdinir,fine granules,oral,3,UNMASKED
+フロモックス錠100mg,cefcapene,tablet (unspecified coating),oral,2,UNKNOWN,cefcapene,tablet (unspecified coating),oral,2,UNKNOWN
+メイアクト錠,cefditoren,tablet (unspecified coating),oral,2,UNKNOWN,cefditoren,tablet (unspecified coating),oral,2,UNKNOWN
+ミノマイシンカプセル,minocycline,capsule,oral,1,STRONGLY MASKED,minocycline,capsule,oral,1,STRONGLY MASKED
+ビブラマイシン錠,doxycycline,tablet (unspecified coating),oral,2,UNKNOWN,doxycycline,tablet (unspecified coating),oral,2,UNKNOWN
+エリスロシン錠200mg,erythromycin,tablet (unspecified coating),oral,2,UNKNOWN,erythromycin,tablet (unspecified coating),oral,2,UNKNOWN
+エリスロシンドライシロップ,erythromycin,dry syrup,oral,3,UNMASKED,erythromycin,dry syrup,oral,3,UNMASKED
+クラリス錠200mg,clarithromycin,tablet (unspecified coating),oral,2,UNKNOWN,clarithromycin,tablet (unspecified coating),oral,2,UNKNOWN
+クラリシッドドライシロップ,clarithromycin,dry syrup,oral,3,UNMASKED,clarithromycin,dry syrup,oral,3,UNMASKED
+ダラシンカプセル150mg,clindamycin,capsule,oral,1,STRONGLY MASKED,clindamycin,capsule,oral,1,STRONGLY MASKED
+カロナール錠300mg,acetaminophen,tablet (unspecified coating),oral,2,UNKNOWN,acetaminophen,tablet (unspecified coating),oral,2,UNKNOWN
+カロナール細粒,acetaminophen,fine granules,oral,3,UNMASKED,acetaminophen,fine granules,oral,3,UNMASKED
+カロナール坐剤,acetaminophen,rectal,rectal,0,STRONGLY MASKED,acetaminophen,rectal,rectal,0,STRONGLY MASKED
+ロキソニン錠60mg,loxoprofen,tablet (unspecified coating),oral,2,UNKNOWN,loxoprofen,tablet (unspecified coating),oral,2,UNKNOWN
+ロキソニンS錠,loxoprofen,tablet (unspecified coating),oral,2,UNKNOWN,loxoprofen,tablet (unspecified coating),oral,2,UNKNOWN
+イブ錠,ibuprofen,tablet (unspecified coating),oral,2,UNKNOWN,ibuprofen,tablet (unspecified coating),oral,2,UNKNOWN
+ブルフェン錠100mg,ibuprofen,tablet (unspecified coating),oral,2,UNKNOWN,ibuprofen,tablet (unspecified coating),oral,2,UNKNOWN
+ポニカ錠,ibuprofen,tablet (unspecified coating),oral,2,UNKNOWN,ibuprofen,tablet (unspecified coating),oral,2,UNKNOWN
+セルセプトカプセル,mycophenolate,capsule,oral,1,STRONGLY MASKED,mycophenolate,capsule,oral,1,STRONGLY MASKED
+ポララミン錠2mg,chlorpheniramine,tablet (unspecified coating),oral,2,UNKNOWN,chlorpheniramine,tablet (unspecified coating),oral,2,UNKNOWN
+ポララミンシロップ,chlorpheniramine,syrup/suspension,oral,3,UNMASKED,chlorpheniramine,syrup/suspension,oral,3,UNMASKED
+プールワン錠,d-chlorpheniramine,tablet (unspecified coating),oral,2,UNKNOWN,d-chlorpheniramine,tablet (unspecified coating),oral,2,UNKNOWN
+アレグラ錠60mg,fexofenadine,tablet (unspecified coating),oral,2,UNKNOWN,fexofenadine,tablet (unspecified coating),oral,2,UNKNOWN
+アレジオン錠20mg,epinastine,tablet (unspecified coating),oral,2,UNKNOWN,epinastine,tablet (unspecified coating),oral,2,UNKNOWN
+ザジテン錠1mg,ketotifen,tablet (unspecified coating),oral,2,UNKNOWN,ketotifen,tablet (unspecified coating),oral,2,UNKNOWN
+ザジテン細粒,ketotifen,fine granules,oral,3,UNMASKED,ketotifen,fine granules,oral,3,UNMASKED
+ムコダイン錠500mg,carbocisteine,tablet (unspecified coating),oral,2,UNKNOWN,carbocisteine,tablet (unspecified coating),oral,2,UNKNOWN
+ムコダインシロップ,carbocisteine,syrup/suspension,oral,3,UNMASKED,carbocisteine,syrup/suspension,oral,3,UNMASKED
+テオドール錠100mg,theophylline,tablet (unspecified coating),oral,2,UNKNOWN,theophylline,tablet (unspecified coating),oral,2,UNKNOWN
+ユニフィル錠200mg,theophylline,controlled-release tablet,oral,1,PARTIALLY MASKED,theophylline,controlled-release tablet,oral,1,PARTIALLY MASKED
+ユニフィルLA錠,theophylline,controlled-release tablet,oral,1,PARTIALLY MASKED,theophylline,controlled-release tablet,oral,1,PARTIALLY MASKED
+キプレスチュアブル錠5mg,montelukast,chewable tablet,oral,3,UNMASKED,montelukast,chewable tablet,oral,3,UNMASKED
+シングレア錠10mg,montelukast,tablet (unspecified coating),oral,2,UNKNOWN,montelukast,tablet (unspecified coating),oral,2,UNKNOWN
+シングレア細粒,montelukast,fine granules,oral,3,UNMASKED,montelukast,fine granules,oral,3,UNMASKED
+リリカカプセル75mg,pregabalin,capsule,oral,1,STRONGLY MASKED,pregabalin,capsule,oral,1,STRONGLY MASKED
+バイアスピリン錠100mg,aspirin,tablet (unspecified coating),oral,2,UNKNOWN,aspirin,tablet (unspecified coating),oral,2,UNKNOWN
+タケキャブ錠20mg,vonoprazan,tablet (unspecified coating),oral,2,UNKNOWN,vonoprazan,tablet (unspecified coating),oral,2,UNKNOWN
+ネキシウムカプセル20mg,esomeprazole,capsule,oral,1,STRONGLY MASKED,esomeprazole,capsule,oral,1,STRONGLY MASKED
+オメプラゾール腸溶錠,omeprazole,enteric-coated tablet,oral,1,STRONGLY MASKED,omeprazole,enteric-coated tablet,oral,1,STRONGLY MASKED
+パリエット錠10mg,rabeprazole,tablet (unspecified coating),oral,2,UNKNOWN,rabeprazole,tablet (unspecified coating),oral,2,UNKNOWN
+ガスター10錠,famotidine,tablet (unspecified coating),oral,2,UNKNOWN,famotidine,tablet (unspecified coating),oral,2,UNKNOWN
+ガスターD錠,famotidine,tablet (unspecified coating),oral,2,UNKNOWN,famotidine,tablet (unspecified coating),oral,2,UNKNOWN
+マイスリー錠10mg,zolpidem,tablet (unspecified coating),oral,2,UNKNOWN,zolpidem,tablet (unspecified coating),oral,2,UNKNOWN
+ルネスタ錠,eszopiclone,tablet (unspecified coating),oral,2,UNKNOWN,eszopiclone,tablet (unspecified coating),oral,2,UNKNOWN
+デエビゴ錠5mg,lemborexant,tablet (unspecified coating),oral,2,UNKNOWN,lemborexant,tablet (unspecified coating),oral,2,UNKNOWN
+ジェイゾロフト錠25mg,sertraline,tablet (unspecified coating),oral,2,UNKNOWN,sertraline,tablet (unspecified coating),oral,2,UNKNOWN
+パキシル錠10mg,paroxetine,tablet (unspecified coating),oral,2,UNKNOWN,paroxetine,tablet (unspecified coating),oral,2,UNKNOWN
+パキシルCR錠,paroxetine,controlled-release tablet,oral,1,PARTIALLY MASKED,paroxetine,controlled-release tablet,oral,1,PARTIALLY MASKED
+レクサプロ錠10mg,escitalopram,tablet (unspecified coating),oral,2,UNKNOWN,escitalopram,tablet (unspecified coating),oral,2,UNKNOWN
+サインバルタカプセル,duloxetine,capsule,oral,1,STRONGLY MASKED,duloxetine,capsule,oral,1,STRONGLY MASKED
+セレネース錠,haloperidol,tablet (unspecified coating),oral,2,UNKNOWN,haloperidol,tablet (unspecified coating),oral,2,UNKNOWN
+ジプレキサ錠5mg,olanzapine,tablet (unspecified coating),oral,2,UNKNOWN,olanzapine,tablet (unspecified coating),oral,2,UNKNOWN
+ジプレキサザイディス錠,olanzapine,tablet (unspecified coating),oral,2,UNKNOWN,olanzapine,tablet (unspecified coating),oral,2,UNKNOWN
+リスパダール錠1mg,risperidone,tablet (unspecified coating),oral,2,UNKNOWN,risperidone,tablet (unspecified coating),oral,2,UNKNOWN
+リスパダールOD錠,risperidone,OD tablet,oral,2,UNMASKED,risperidone,OD tablet,oral,2,UNMASKED
+エビリファイ錠3mg,aripiprazole,tablet (unspecified coating),oral,2,UNKNOWN,aripiprazole,tablet (unspecified coating),oral,2,UNKNOWN
+エビリファイOD錠,aripiprazole,OD tablet,oral,2,UNMASKED,aripiprazole,OD tablet,oral,2,UNMASKED
+エビリファイ内用液,aripiprazole,syrup/suspension,oral,3,UNMASKED,aripiprazole,syrup/suspension,oral,3,UNMASKED
+セロクエル錠25mg,quetiapine,tablet (unspecified coating),oral,2,UNKNOWN,quetiapine,tablet (unspecified coating),oral,2,UNKNOWN
+ノバスカー錠5mg,amlodipine,tablet (unspecified coating),oral,2,UNKNOWN,amlodipine,tablet (unspecified coating),oral,2,UNKNOWN
+ノルバスクOD錠,amlodipine,OD tablet,oral,2,UNMASKED,amlodipine,OD tablet,oral,2,UNMASKED
+ブロプレス錠4mg,candesartan,tablet (unspecified coating),oral,2,UNKNOWN,candesartan,tablet (unspecified coating),oral,2,UNKNOWN
+ディオバン錠80mg,valsartan,tablet (unspecified coating),oral,2,UNKNOWN,valsartan,tablet (unspecified coating),oral,2,UNKNOWN
+ニューロタン錠50mg,losartan,tablet (unspecified coating),oral,2,UNKNOWN,losartan,tablet (unspecified coating),oral,2,UNKNOWN
+オルメテック錠20mg,olmesartan,tablet (unspecified coating),oral,2,UNKNOWN,olmesartan,tablet (unspecified coating),oral,2,UNKNOWN
+メインテート錠5mg,bisoprolol,tablet (unspecified coating),oral,2,UNKNOWN,bisoprolol,tablet (unspecified coating),oral,2,UNKNOWN
+テノーミン錠25mg,atenolol,tablet (unspecified coating),oral,2,UNKNOWN,atenolol,tablet (unspecified coating),oral,2,UNKNOWN
+インデラル錠10mg,propranolol,tablet (unspecified coating),oral,2,UNKNOWN,propranolol,tablet (unspecified coating),oral,2,UNKNOWN
+ワーファリン錠1mg,warfarin,tablet (unspecified coating),oral,2,UNKNOWN,warfarin,tablet (unspecified coating),oral,2,UNKNOWN
+プラザキサカプセル,dabigatran,capsule,oral,1,STRONGLY MASKED,dabigatran,capsule,oral,1,STRONGLY MASKED
+イグザレルト錠15mg,rivaroxaban,tablet (unspecified coating),oral,2,UNKNOWN,rivaroxaban,tablet (unspecified coating),oral,2,UNKNOWN
+エリキュース錠5mg,apixaban,tablet (unspecified coating),oral,2,UNKNOWN,apixaban,tablet (unspecified coating),oral,2,UNKNOWN
+リクシアナ錠30mg,edoxaban,tablet (unspecified coating),oral,2,UNKNOWN,edoxaban,tablet (unspecified coating),oral,2,UNKNOWN
+プレタール錠50mg,cilostazol,tablet (unspecified coating),oral,2,UNKNOWN,cilostazol,tablet (unspecified coating),oral,2,UNKNOWN
+リピトール錠10mg,atorvastatin,tablet (unspecified coating),oral,2,UNKNOWN,atorvastatin,tablet (unspecified coating),oral,2,UNKNOWN
+クレストール錠5mg,rosuvastatin,tablet (unspecified coating),oral,2,UNKNOWN,rosuvastatin,tablet (unspecified coating),oral,2,UNKNOWN
+リバロ錠2mg,pitavastatin,tablet (unspecified coating),oral,2,UNKNOWN,pitavastatin,tablet (unspecified coating),oral,2,UNKNOWN
+メバロチン錠10mg,pravastatin,tablet (unspecified coating),oral,2,UNKNOWN,pravastatin,tablet (unspecified coating),oral,2,UNKNOWN
+ゼチーア錠10mg,ezetimibe,tablet (unspecified coating),oral,2,UNKNOWN,ezetimibe,tablet (unspecified coating),oral,2,UNKNOWN
+アクトス錠30mg,pioglitazone,tablet (unspecified coating),oral,2,UNKNOWN,pioglitazone,tablet (unspecified coating),oral,2,UNKNOWN
+メトグルコ錠500mg,metformin,tablet (unspecified coating),oral,2,UNKNOWN,metformin,tablet (unspecified coating),oral,2,UNKNOWN
+ジャヌビア錠50mg,sitagliptin,tablet (unspecified coating),oral,2,UNKNOWN,sitagliptin,tablet (unspecified coating),oral,2,UNKNOWN
+スイニー錠20mg,teneligliptin,tablet (unspecified coating),oral,2,UNKNOWN,teneligliptin,tablet (unspecified coating),oral,2,UNKNOWN
+フォシーガ錠10mg,dapagliflozin,tablet (unspecified coating),oral,2,UNKNOWN,dapagliflozin,tablet (unspecified coating),oral,2,UNKNOWN
+ジャディアンス錠10mg,empagliflozin,tablet (unspecified coating),oral,2,UNKNOWN,empagliflozin,tablet (unspecified coating),oral,2,UNKNOWN
+ランタス注,insulin glargine,injection,parenteral,0,STRONGLY MASKED,insulin glargine,injection,parenteral,0,STRONGLY MASKED
+ノボラピッド注,insulin aspart,injection,parenteral,0,STRONGLY MASKED,insulin aspart,injection,parenteral,0,STRONGLY MASKED
+ヒューマリンR注,insulin,injection,parenteral,0,STRONGLY MASKED,insulin,injection,parenteral,0,STRONGLY MASKED
+トラネキサム酸カプセル,tranexamic acid,capsule,oral,1,STRONGLY MASKED,tranexamic acid,capsule,oral,1,STRONGLY MASKED
+カルバブ徐放錠,potassium chloride,controlled-release tablet,oral,1,PARTIALLY MASKED,potassium chloride,controlled-release tablet,oral,1,PARTIALLY MASKED
+グルコンサンK内用液,potassium chloride,syrup/suspension,oral,3,UNMASKED,potassium chloride,syrup/suspension,oral,3,UNMASKED
+セレコックス錠100mg,celecoxib,tablet (unspecified coating),oral,2,UNKNOWN,celecoxib,tablet (unspecified coating),oral,2,UNKNOWN
+セレコックスカプセル,celecoxib,capsule,oral,1,STRONGLY MASKED,celecoxib,capsule,oral,1,STRONGLY MASKED
+モービック錠10mg,meloxicam,tablet (unspecified coating),oral,2,UNKNOWN,meloxicam,tablet (unspecified coating),oral,2,UNKNOWN
+アリセプト錠5mg,donepezil,tablet (unspecified coating),oral,2,UNKNOWN,donepezil,tablet (unspecified coating),oral,2,UNKNOWN
+アリセプト細粒,donepezil,fine granules,oral,3,UNMASKED,donepezil,fine granules,oral,3,UNMASKED
+ニトロダームTTS,nitroglycerin,transdermal,transdermal,0,STRONGLY MASKED,nitroglycerin,transdermal,transdermal,0,STRONGLY MASKED
+メニエール錠,isosorbide,tablet (unspecified coating),oral,2,UNKNOWN,isosorbide,tablet (unspecified coating),oral,2,UNKNOWN
+メチコバール錠500µg,mecobalamin,tablet (unspecified coating),oral,2,UNKNOWN,mecobalamin,tablet (unspecified coating),oral,2,UNKNOWN
+フェロミア錠,iron,tablet (unspecified coating),oral,2,UNKNOWN,iron,tablet (unspecified coating),oral,2,UNKNOWN
+カルタ錠100mg,diltiazem,tablet (unspecified coating),oral,2,UNKNOWN,diltiazem,tablet (unspecified coating),oral,2,UNKNOWN
+ヘルベッサーRカプセル,diltiazem,capsule,oral,1,STRONGLY MASKED,diltiazem,capsule,oral,1,STRONGLY MASKED
+ワソラン錠40mg,verapamil,tablet (unspecified coating),oral,2,UNKNOWN,verapamil,tablet (unspecified coating),oral,2,UNKNOWN
+コニール錠10mg,benidipine,tablet (unspecified coating),oral,2,UNKNOWN,benidipine,tablet (unspecified coating),oral,2,UNKNOWN
+カルスロット錠10mg,manidipine,tablet (unspecified coating),oral,2,UNKNOWN,manidipine,tablet (unspecified coating),oral,2,UNKNOWN
+アテレック錠10mg,cilnidipine,tablet (unspecified coating),oral,2,UNKNOWN,cilnidipine,tablet (unspecified coating),oral,2,UNKNOWN
+デタントール錠,bunazosin,tablet (unspecified coating),oral,2,UNKNOWN,bunazosin,tablet (unspecified coating),oral,2,UNKNOWN
+ミニプレス錠,prazosin,tablet (unspecified coating),oral,2,UNKNOWN,prazosin,tablet (unspecified coating),oral,2,UNKNOWN
+ハルナールカプセル,tamsulosin,capsule,oral,1,STRONGLY MASKED,tamsulosin,capsule,oral,1,STRONGLY MASKED
+ユリーフ錠4mg,silodosin,tablet (unspecified coating),oral,2,UNKNOWN,silodosin,tablet (unspecified coating),oral,2,UNKNOWN
+フリバスOD錠50mg,naftopidil,OD tablet,oral,2,UNMASKED,naftopidil,OD tablet,oral,2,UNMASKED
+アボルブカプセル,dutasteride,capsule,oral,1,STRONGLY MASKED,dutasteride,capsule,oral,1,STRONGLY MASKED
+プロペシア錠1mg,finasteride,tablet (unspecified coating),oral,2,UNKNOWN,finasteride,tablet (unspecified coating),oral,2,UNKNOWN
+ボルタレン錠25mg,diclofenac,tablet (unspecified coating),oral,2,UNKNOWN,diclofenac,tablet (unspecified coating),oral,2,UNKNOWN
+ボルタレン坐剤,diclofenac,rectal,rectal,0,STRONGLY MASKED,diclofenac,rectal,rectal,0,STRONGLY MASKED
+ボルタレンゲル,diclofenac,topical,topical,0,STRONGLY MASKED,diclofenac,topical,topical,0,STRONGLY MASKED
+プレドニン錠5mg,prednisolone,tablet (unspecified coating),oral,2,UNKNOWN,prednisolone,tablet (unspecified coating),oral,2,UNKNOWN
+デカドロン錠,dexamethasone,tablet (unspecified coating),oral,2,UNKNOWN,dexamethasone,tablet (unspecified coating),oral,2,UNKNOWN
+ザイロリック錠100mg,allopurinol,tablet (unspecified coating),oral,2,UNKNOWN,allopurinol,tablet (unspecified coating),oral,2,UNKNOWN
+トラムールカプセル,tramadol,capsule,oral,1,STRONGLY MASKED,tramadol,capsule,oral,1,STRONGLY MASKED
+デベルザ錠,meclizine,tablet (unspecified coating),oral,2,UNKNOWN,meclizine,tablet (unspecified coating),oral,2,UNKNOWN
+トラベルミン錠,dimenhydrinate,tablet (unspecified coating),oral,2,UNKNOWN,dimenhydrinate,tablet (unspecified coating),oral,2,UNKNOWN
+ドンペリドン錠10mg,domperidone,tablet (unspecified coating),oral,2,UNKNOWN,domperidone,tablet (unspecified coating),oral,2,UNKNOWN
+パタノール点眼液,olopatadine,ophthalmic,topical,0,STRONGLY MASKED,olopatadine,ophthalmic,topical,0,STRONGLY MASKED
+オゼックス錠,tosufloxacin,tablet (unspecified coating),oral,2,UNKNOWN,tosufloxacin,tablet (unspecified coating),oral,2,UNKNOWN
+セレクトール錠200mg,celiprolol,tablet (unspecified coating),oral,2,UNKNOWN,celiprolol,tablet (unspecified coating),oral,2,UNKNOWN
+ザルティア錠5mg,tadalafil,tablet (unspecified coating),oral,2,UNKNOWN,tadalafil,tablet (unspecified coating),oral,2,UNKNOWN
+イスコチン錠,isoniazid,tablet (unspecified coating),oral,2,UNKNOWN,isoniazid,tablet (unspecified coating),oral,2,UNKNOWN
+エテルネブ錠,ethambutol,tablet (unspecified coating),oral,2,UNKNOWN,ethambutol,tablet (unspecified coating),oral,2,UNKNOWN
+ノイロトロピン錠4単位,neurotropin,tablet (unspecified coating),oral,2,UNKNOWN,neurotropin,tablet (unspecified coating),oral,2,UNKNOWN
+フェントステープ,fentanyl,transdermal,transdermal,0,STRONGLY MASKED,fentanyl,transdermal,transdermal,0,STRONGLY MASKED
+オオサカ堂 ビタミンC,vitamin C,tablet (unspecified coating),oral,2,UNKNOWN,,unknown,unknown,,UNKNOWN

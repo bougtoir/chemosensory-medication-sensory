@@ -1,0 +1,685 @@
+compound_id,compound_name
+7,"Quinidine,Quinine sulfate"
+14,Quinidine
+16,Magnesium Sulfate
+32,"Lupulon,Lupulone"
+36,"Humulon,Humulone"
+37,Benzoin
+38,Quinine
+40,"Quinine,Quinine hydrochloride"
+41,Absinthin
+42,Arborescin
+43,Arglabin
+44,Aristolochic acid
+45,Artemorin
+46,Caffeine
+48,Cascarillin
+49,Coumarin
+50,Cucurbitacin B
+51,Falcarindiol
+52,Noscapine
+53,Papaverine
+54,Parthenolide
+55,Quassin
+56,Azathioprine
+57,Benzamide
+58,Carisoprodol
+59,Chlorhexidine
+60,Chlorpheniramine
+61,Diphenhydramine
+62,Diphenidol
+63,"Diphenylthiourea,Sulfocarbanilide,sym-Diphenylthiourea,Thiocarbanilide"
+64,Divinyl sulfoxide
+65,Flufenamic Acid
+66,Haloperidol
+67,Sodium Benzoate
+68,Thiamine
+69,Chloramphenicol
+70,Yohimbine
+71,Amarogentin
+72,Adhumulone
+73,Cohumulone
+74,Colupulone
+75,Isoxanthohumol
+76,Xanthohumol
+77,Dextromethorphan
+78,Sodium thiocyanate
+79,trans-Isohumulone
+80,trans-Isocohumulone
+81,Adlupulone
+82,cis-Isocohumulone
+83,cis-Isohumulone
+84,cis-Isoadhumulone
+85,trans-Isoadhumulone
+86,Sodium cyclamate
+87,Chloroquine
+88,8-prenylnaringenin
+89,Picrotoxinin
+90,(-)-alpha Thujone
+91,Brucine
+92,Colchicine
+93,Dapsone
+94,Denatonium benzoate
+95,"1,10-phenanthroline"
+96,Cromolyn
+97,"Cucurbitacin E,Cucurbitacins"
+98,"Cycloheximid,Cycloheximide"
+99,Erythromycin
+100,Strychnine
+101,Famotidine
+102,"D-Amygdalin,Amygdalin"
+103,Arbutin
+104,Helicin
+106,Sinigrin
+107,Acetylthiourea
+108,allyl isothiocyanate
+109,Caprolactam
+110,Dimethylthioformamide
+111,Ethylpyrazine
+112,N-ethylthiourea
+113,"Ethylene Thiourea,N,N-ethylene thiourea"
+114,Limonin
+115,Methimazole
+117,N-methylthiourea
+118,Phenethyl isothiocyanate
+119,Phenylthiocarbamide  (PTC)
+120,Propylthiouracil
+121,Acetaminophen
+122,Acesulfame K
+123,Aloin
+124,"Grosheimin,Grossheimin"
+125,Saccharin
+126,Andrographolide
+127,Cnicin
+128,Crispolide
+129,Hydrocortisone
+130,Orphenadrine
+131,Tatridin B
+138,"Citric Acid Ethyl ester,Triethyl citrate"
+144,Clonixin
+159,Coumarilic Acid
+181,"3,5-Diiodosalicylic Acid"
+188,Dimethyl Sulfoxide
+221,Gentiobiose
+224,"Ginkgolide A,Gingkolide A"
+282,Linamarin
+315,"Methoxsalen,Xanthotoxin"
+323,"6-Methyl-2-thiouracil,Methylthiouracil"
+348,Nomilin
+352,Oleuropein
+407,Picrotoxin
+444,Quercetin
+461,"D-Salicin,Salicin"
+463,Artemisinin
+465,Santonin (-)-Form
+467,Secobarbital Sodium
+482,Sucrose Octaacetate
+514,Theophylline
+520,"Thiamine Hydrochloride,Vitamin b1"
+539,"Glycerol tributyrate,Tributyrin"
+545,Ursodiol
+567,Ethylhydrocupreine
+634,Chenodiol
+641,Chloroquine  phosphate
+644,Naringenin
+645,Phenyl beta-D-glucopyranoside
+650,Nicotine
+654,Emetine
+657,Cynaropicrin
+672,Umbelliferones
+674,Ofloxacin
+675,Procainamid
+676,Pirenzapin
+683,1-Nitronaphthalene
+689,Acetylpyrazine
+705,L-Histidine
+722,Glyceryl tripropanoate
+732,d-Fenchone
+738,D-camphor
+747,Taurine
+749,Theobromine
+752,"D-phenylalanine,D-Phe,L-phenylalanine,L-Phe"
+800,Genistein
+801,Daidzein
+802,(+/-) Equol
+803,Prunetin
+806,Berberine
+808,"Epigallocatechin gallate, egcg,Epigallocatechin gallate,EGCG"
+808,"Epigallocatechin gallate,Epigallocatechin gallate, egcg,EGCG"
+809,Catechin
+810,Tangeretin
+811,Nobiletin
+813,"(+)-Catechin,EC,Epicatechin,(-)-Epicatechin"
+813,"EC,(+)-Catechin,Epicatechin,(-)-Epicatechin"
+814,"(-)-Epigallocatechin (EGC),Epigallocatechin,Gallocatechol"
+815,"(-)-Epicatechin gallate,Ecg,Epicatechin gallate"
+816,Genistin
+824,Coumestrol
+827,"L-trp,L-tryptophan"
+828,"LW,Leu-trp"
+829,"Phe-trp,Phe-trp phenylalanyltryptophan"
+830,"Trp-Leu,WL"
+831,"WF,Trp-phe"
+832,"Trp-Trp,WW"
+833,"LLL,Leu-Leu-Leu,Leucyl-leucyl-leucine"
+834,"Gly-Leu,Glycyl-l-leucine,Glycylleucine"
+835,"gly-phe,glycyl-l-phenylalanine,Glycylphenylalanine"
+836,"Phe-leu,Phenylalanylleucine"
+837,"Pro-arg,Prolylarginine"
+838,"Phe-phe-phe,FFF,Phenylalanyl-phenylalanyl-phenylalanine"
+840,6-Nitrosaccharin
+859,Apigenin
+860,Chrysin
+861,Chrysoeriol
+862,"5,2'-dihydroxyflavone"
+863,"5,4'-dihydroxyflavone"
+864,"6,4'-dihydroxyflavone"
+865,"7,4-'dihydroxyflavone"
+866,"5,7'-dimethoxyflavonee"
+867,"6,7'-dimethoxyflavone"
+868,Flavone
+869,Genkwanin
+870,5-hydroxyflavone
+871,4'-hydroxyflavone
+872,4'-hydroxy-6-methoxyflavone
+873,4'-hydroxy-7-methoxyflavone
+874,Luteolin
+875,6-methoxyluteolinb
+876,Scutellarein
+877,Tricetin
+878,"5,7,2'-trihydroxyflavone"
+879,"7,3',4'-trihydroxyflavone"
+880,"5,7',4'-trimethoxyflavone"
+881,Datiscetinb
+882,Fisetin
+883,Gossypetind
+884,Herbacetin
+885,Isorhamnetin
+886,"Kaempferol,Kaempherol"
+887,Morin
+888,Myricetind
+889,Quercetagetin
+890,"3,6,3,4-tetrahydroxyflavone"
+891,"3,7,4-trihydroxyflavone"
+892,"Eriodictyolb,Eriodictyol"
+893,Flavanone
+894,"Hesperetin,Hesperitin"
+895,"Homoeriodictyolc,Homoeriodictyol"
+896,Liquiritigenin
+897,Pinocembrin
+898,Fustin
+899,"Silibinind,Silibinin"
+900,"(+)-taxifolin,taxifoline,taxifolin"
+901,Butein
+902,Chalcone
+903,"3,2-dihydroxychalcone,3,2'-Dihydroxychalcone"
+904,"Eriodictyolchalconec,Eriodictyol chalcone"
+905,4-hydroxychalcone
+906,Isoliquiritigenin
+907,"2,2,4-trihydroxychalcone"
+908,"4,2,5-trihydroxychalconee"
+909,Phloretinb
+910,Cyanidin chloridec
+911,Pelargoninidin chloride
+912,Acetylgenistin
+913,Biochanin Ag
+914,"7,4-dimethoxyisoflavone"
+915,Formomonetin
+916,Glyciteing
+917,"Glyciting,Glycitin"
+918,7-hydroxyisoflavoneg
+919,Isoflavone
+920,"6,7,4-trihydroxyisoflavone"
+921,"7,8,4-trihydroxyisoflavone"
+922,"7,3,4-trihydroxyisoflavone"
+923,Resveratrol
+924,"Sulfuretinc,Sulfuretin"
+925,Xanthonee
+926,4-hydroxyanisol
+927,"Hg-12,H.g.-12 (Hoodia Gordonii steroid glycoside)"
+928,Aglycon H.g.-12
+929,1-Naphthoic acid
+930,"1,8-naphthaladehyde acid"
+931,Picrotin
+932,Piperonylic acid
+933,Herbolide D
+934,Pantoprazole
+935,Glimepiride
+936,Malathion
+937,Mefenamic acid
+938,Pemirolast
+939,Miconazole
+940,Salsalate
+941,Niflumic acid
+942,Diclofenac
+946,Costunolide
+947,Denatonium saccharide
+948,"Docosahexaenoic Acid,DHA"
+949,"homoserine lactone, N-hexanoyl-L-"
+950,"homoserine lactone, N-(3-oxooctanoyl)-L-"
+951,"homoserine lactone, N-(3-oxohexanoyl)-L-"
+952,"homoserine lactone, N-butyryl-L-,N-butyryl-L-homoserine (C4-HSL)"
+952,"N-butyryl-L-homoserine (C4-HSL),homoserine lactone, N-butyryl-L-"
+953,Progesterone
+954,Salicylic acid
+955,Sparteine
+956,Sucralose
+957,2-Heptyl-3-hydroxy-quinolone
+958,5-propyl-2-thiouracil
+959,Beta carotene
+961,Androsterone
+962,Atropine
+963,Berberine chloride
+964,cis-11-Methyl-2-dodecenoic acid
+966,"Creatinin,Creatinine"
+967,Cucurbitacin D
+968,Cucurbitacin I
+969,Lidocaine
+970,Ouabain
+971,Pantothenic acid
+972,Pyrocatechin
+973,Phenylbutazone
+974,Phenylethyl isothiocyanate
+975,Raffinose undecaacetate
+976,Tatridin A
+977,Taurocholic acid
+1161,procyanidin C1
+1176,L-menthol
+1180,"CaCl2,calcium chloride"
+1181,magnesium chloride
+1187,per-oxy artemorin
+1188,Epizaluzannin C
+1189,"Germacradien-6,11-dihydroxy-8,12-olide"
+1190,Herbolide A
+1191,Herbolide D acetate
+1192,Nobilin
+1193,Parthenin
+1194,Santamarine
+1195,sintenin
+1196,Speciformin acetate
+1198,tatridn A acetate
+1200,"Dihydro-taurin,dihydro taurin"
+1201,Umbellifolide
+1202,Vulgarolide
+1203,Zaluzannin D
+1204,Marrubiin
+1205,Teuflavin
+1206,Teuflavoside
+1207,Teumarin
+1208,Strychnine-N-oxide
+1224,bergapten
+1226,isopimpinellin
+1227,skimmianine
+1228,2-(1H-indol-3-yl)ethanol
+1234,Stevioside
+1235,Rebaudioside A
+1236,Rebaudioside B
+1237,Rebaudioside C
+1239,Steviolbioside
+1240,Dulcoside A
+1241,Rubusoside
+1247,"PGG,Pentagalloylglucose (PGG)"
+1249,"procyanidin  C2,Procyanidin trimer C2"
+1250,malvidin-3-glucoside
+1253,"WP,Trp-Pro"
+1254,Trp-Trp-Trp
+1269,Lactucin
+1281,ranitidine hydrochloride
+1284,Matrine
+1285,"esculine Aesculin,Esculine,Aesculin"
+1286,2-Naphthyl beta-D-glucopyranoside
+1287,Methyl beta-D-glucoside
+1288,Phenyl beta-D-galactopyranoside
+1289,phenyl alpha-D-glucopyranoside
+1290,2-nitro phenyl beta-D-glucopyranoside
+1294,lactucopicrin
+1295,"11,13-dihydrolactucin"
+1300,"1,3,7,9-Tetramethyluric acid"
+1303,Sinapic acid
+1317,caffeic acid
+1318,"Manganese (II) chloride,Manganese dichloride,MnCl2"
+1319,Ferrous Sulfate
+1327,Mozambioside
+1328,11-O-d-glucosyl-(S)-16-desoxy-17-oxocafestol-2-on
+1329,"11-O-d-glucosyl-15,16-dehydrocafestol-2-on"
+1330,11-O-d-glucosyl-(R)-16-desoxy-17-oxocafestol-2-on
+1331,11-hydroxycafestol-2-on
+1332,17-O-d-glucosyl-11-hydroxycafestol-2-on
+1333,Mozambioside
+1335,Sodium chenodesoxycholate
+1336,Sodium desoxycholate
+1337,Glycocholate sodium
+1338,"Taurolithocholic acid,Taurolithocholate"
+1339,Denatonium saccharide
+1340,"1,10-Phenanthroline,Phenanthroline"
+1341,"Quinine sulphate,Quinine sulfate"
+1342,Sodium taurocholate
+1343,Na-Taurolithocholic acid
+1344,Camphor
+1345,Yohimbine hydrochloride
+1347,"2,2-bipyridine"
+1348,"1,7-phenanthroline"
+1349,"4,7-phenanthroline"
+1350,"2,9-dimethyl-1,10-phenanthroline"
+1351,"4,7-dimethyl-1,10-phenanthroline"
+1352,"5,6-dimethyl-1,10-phenanthroline"
+1353,"1,10-phenanthroline-5,6-dione"
+1354,"1,10-phenanthrolin-5-amine"
+1355,"5-bromo-1,10-phenanthroline"
+1356,"5-chloro-1,10-phenanthroline"
+1357,"5-methyl-1,10-phenanthroline"
+1358,"5-nitro-1,10-phenanthroline"
+1359,"pyrazino[2,3-f] [1,10]phenanthroline"
+1360,"5,6-dimethoxy-1,10-phenanthroline"
+1361,"5,6-diethyl-1,10-phenanthroline"
+1362,"5,6-bis(prop-1-en-2yl)-1,10-phenanthroline"
+1363,"9,10-phenanthrenequinone,9,10-Dihydrophenanthrene"
+1364,"4,4-dimethyl-2,2-bipyridine"
+1384,FALPQYLK
+1416,"LVYPFPGPIHN,Leu-Val-Tyr-Pro-Phe-Pro-Gly-Pro-Ile-His-Asn"
+1425,"YPFPGPIHNS,Tyr-Pro-Phe-Pro-Gly-Pro-Ile-His-Asn-Ser"
+1556,"Iso-Phe,IF,Ile-Phe,Isoleucine-Phenylalanine"
+1557,"FI,Phe-Ile"
+1601,"Gly-Leu-Leu,GLL,Glycyl-Leucyl-Leucine"
+1611,Ligstroside aglycon
+1612,Oleuropein aglycon (closed type)
+1613,Oleocanthalic acid
+1614,Oleomissional
+1615,Elenolic acid
+1617,Oxyphenonium
+1618,Ranitidine
+1620,Denatonium
+1621,Cromolyn
+1622,"Picfeltarraenin I A,Picfelltarraenin IA"
+1623,Liensinine
+1624,Picroside II
+1625,Deacetyl nomilin
+1626,Baicalin
+1627,Baicalein
+1628,Wogonin
+1629,Dehydroandrographolide
+1630,Wogonoside
+1631,Jatrorrhizine
+1632,Oxymatrine
+1633,lw057
+1634,lw070
+1635,lw071
+1636,lw072
+1637,lw076
+1638,lw077
+1639,lw083
+1640,lw084
+1641,lw085
+1642,lw086
+1643,lw101
+1644,lw103
+1645,lw104
+1646,lw105
+1647,lw113
+1648,lw114
+1649,lw119
+1650,lw122
+1651,lw128
+1652,lw130
+1653,lw153
+1654,lw154
+1655,lw167
+1656,lw169
+1657,lw183
+1658,lw190
+1659,lw201
+1660,lw205
+1661,lwbk19
+1662,lwbk20
+1663,lwbk21
+1664,lwjk05
+1665,lwjk06
+1666,lwlb17
+1667,lwlb18
+1668,lwlb19
+1669,lwmr04
+1670,lwmr05
+1671,lwmr06
+1672,lw19a
+1673,lw208
+1674,lw231
+1675,lw253
+1676,lw271
+1677,lw273
+1678,lw306
+1679,lw308
+1680,lw310
+1681,lw317
+1682,lw341
+1683,lw50
+1684,lwph005
+1685,lwtp009
+1686,Desogestrel
+1687,Mebendazole
+1688,Cabozantinib malate (XL184)
+1689,Gestodene
+1690,"Cabozantinib (XL184, BMS-907351)"
+1691,"Artemether,Artemether (SM-224)"
+1692,Griseofulvin
+1693,Etonogestrel
+1694,Norethindrone
+1695,"TSU-68 (SU6668,Orantinib),Orantinib (TSU-68, SU6668)"
+1696,"Fosbretabulin Disodium (Combretastatin A4 Disodium Phosphate, CA4DP),Fosbretabulin (Combretastatin A4 Phosphate (CA4P)) Disodium"
+1697,Bromocriptine mesylate
+1698,Podophyllotoxin
+1699,Vinorelbine
+1700,Vorapaxar
+1701,Levonorgestrel
+1702,Dutasteride
+1703,Meclofenamate sodium
+1704,Flunixin Meglumin
+1705,Medroxyprogesterone acetate
+1706,Vinblastine
+1707,Tolfenamic acid
+1708,Isavuconazole
+1709,Exemestane
+1710,Itraconazole
+1711,LDE225 Diphosphate
+1712,Halobetasol Propionate
+1713,Butoconazole nitrate
+1714,Oxibendazole
+1715,Loteprednol etabonate
+1716,Vinorelbine ditartrate
+1717,Deoxycorticosterone acetate
+1718,Foretinib (GSK1363089)
+1719,Sulconazole nitrate
+1720,"TOK-001,Galeterone (TOK-001)"
+1721,Albendazole
+1722,Monomethyl auristatin E
+1723,Irisflorentin
+1747,Spironolactone
+1748,Simvastatin
+1749,Finasteride
+1751,Sodium 2-(4-methoxybenzoyl)benzoate
+1766,"Chlorpheniramine maleate,Chlorpheniramine maleate salt"
+1782,Ritonavir
+1784,"N-3-Oxo-Dodecanoyl-L-Homoserine Lactone,3-oxo-C12-AHL"
+1786,Cafestol
+1787,Kahweol
+1788,Bengalensol
+1939,Malvidin 3-Glucoside
+1951,Theaflavin-3'-O-gallate
+1952,Theaflavin-3-O-gallate
+1953,Theaflavin
+1972,2-Acetylbenzofuran
+2028,"Soyasaponin I,Soyasaponin Î²b"
+2033,"pelargoninidin chloride,Pelargonidin chloride"
+2036,Malonylgenistin
+2038,Vitamin B1
+2039,Vitamin B6
+2040,"Vitamin D3,vitamin D"
+2041,Vitamin A
+2045,Vanillin
+2052,CSP-1
+2053,glyoxal-derived lysine dimer (GOLD)
+2054,Carboxymethyllysine (CML)
+2074,8-Prenylnaringenin
+2076,8-Prenylkaempferol
+2085,Procyanidin B1
+2086,"Procyanidin B2,Procyanidin B2g (3-O-gallate)"
+2107,7-Methoxycoumarin
+2110,Vanillic acid
+2112,Protocatechuic acid
+2115,Ferulic acid
+2142,"11b,13-dihydrolactucopicrin,11(S),13-Dihydrolactucopicrin,11,13-dihydrolactucopicrin"
+2180,Piperine
+2181,"11,13-dihydrolactucin"
+2182,4-hydroxy-2-heptylquinolone (HHQ)
+2183,herbolide D
+2186,cis-isoadhumulone
+2189,campher
+2192,4-hydroxyanisol
+2193,Acetylgenistin
+2200,d-Phenylalanine
+2201,"L-Trp,L-Tryptophan,D-Trp,D-Tryptophan"
+2202,Artemisinin
+2203,Ferrous Chloride
+2204,Ferric Chloride
+2205,Zinc Sulfate
+2206,Cupric Chloride
+2221,Cyanidin chloride
+2223,Cyanidin chloride
+2224,Pelargonidin chloride
+2227,Aloin
+2230,"Diphenhydramine hydrochloride,Diphenhydramine (DPH)"
+2231,Diphenidol hydrochloride
+2245,"1,10-Phenanthroline monohydrate"
+2272,"catechin-(4,8)-epicatechin,Procyanidin B4"
+2275,Vicine
+2276,"Cholate,Cholic acid"
+2277,Glycocholate
+2278,"Deoxycholate,Deoxycholic acid"
+2279,Lithocholate
+2285,Tenofovir alafenamide
+2286,CL1
+2287,1-Mso-CL2
+2288,1-Msn-CL2
+2289,1-Mso-CL3
+2290,"Cyclolinopeptide E,1-Mso-CL4"
+2291,1-Msn-Cl4
+2292,"1-Mso,3-Met-CL6"
+2293,"1-Mso,3-Mso-CL6"
+2300,Adhumulone
+2305,tannins
+2326,cis-isoadhumulone
+2327,vitamin B6
+2331,"11b,13-dihydrolactucin"
+2333,Phenyl-beta-D-thioglucopyranoside
+2334,4-nitrophenyl-beta-D-mannopyranoside
+2335,Hexyl-beta-D-glucopyranoside
+2336,Phenyl-N-acetyl-beta-D-glucosaminide
+2337,"4-nitrophenyl-beta-D-glucoside,4-Nitrophenyl beta-D-glucopyranoside"
+2338,Tenofovir alafenamide fumarate (TAF)
+2340,Acetone
+2341,Methyl Ethyl Ketone
+2342,2-Pentanone
+2343,Isobutyraldehyde
+2344,gamma-Butyrolactone
+2345,Dimethyl disulfide
+2346,Methanethiol
+2347,Lopinavir
+2348,Ligstroside Aglycon
+2349,Oxyphenonium Bromide
+2350,lukas 4.1
+2351,lukas 4.2
+2352,lukas 4.3
+2353,lukas 8
+2354,lukas 10.1
+2355,lukas 10.2
+2356,lukas 14.1
+2357,lukas 14.2
+2358,lukas 14.3
+2359,lukas 14.4
+2360,lukas 14.5
+2361,lukas 14.6
+2362,lukas 14.7
+2363,lukas 14.8
+2364,lukas 14.9
+2365,lukas 14.10
+2366,lukas 14.11
+2367,lukas 16.1
+2368,lukas 16.2
+2369,lukas 16.3
+2370,lukas 19.1
+2371,lukas 19.2
+2372,lukas 19.3
+2373,lukas 19.4
+2374,lukas 25.1
+2375,lukas 25.2
+2376,lukas 25.3
+2377,lukas 25.4
+2378,lukas 25.5
+2379,lukas 28.1
+2380,lukas 28.2
+2381,lukas 32
+2382,lukas 33
+2383,lukas 34
+2384,lukas 35
+2385,lukas 44
+2387,Acetyl tributyl citrate
+2388,Ethyl vanillin isobutyrate
+2389,I-Fenchone
+2390,Sclareolide
+2391,Muscone
+2392,Vanillin isobutyrate
+2393,C8-AHL
+2394,C4-AHL
+2396,(-)-Camphor
+2397,Aurintricarboxylic acid
+2398,Cucurbitacin B hydrate
+2401,Denatonium benzoate
+2402,Oxyphenonium bromide
+2403,2-(3-Ethylanilino)benzoic acid
+2404,"N-(3,5-Bis(trifluoromethyl)phenyl)anthranilic acid"
+2405,2-(3-Anilinoanilino)benzoic acid
+2406,2-(2-Anilinoanilino)benzoic acid
+2407,2-(3-Benzyloxyphenylamino)benzoic acid
+2408,"2-(3-Benzyloxyphenylamino)-4,5-difluorobenzoic acid"
+2409,2-(2-Naphthylamino)benzoic acid
+2410,"4,5-difluoro-(naphthalen-yl-amino)benzoic acid"
+2411,2-[[3-(Trifluoromethyl)phenyl]methylamino]benzoic acid
+2412,N-(3-ethylphenyl)-2-(2H-tetrazol-5-yl)aniline
+2413,"[2-(1,2,3,4-tetrazol-yl)phenyl]naphthalen amine"
+2414,"[3-(benzyloxy)phenyl]-(1,2,3,4-tetrazol-yl)aniline"
+2415,"2-(1,2,3,4-tetrazol-yl)[3-(trifluoromethyl)phenyl]aniline"
+2416,"[2-(1,2,3,4-tetrazol-yl)phenyl]-3,5-bis(trifluoromethyl)aniline"
+2417,"12,14-bis(trifluoromethyl)-azatricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,9,11,13-heptaene-carboxylic acid"
+2418,Dextromethorphan hydrochloride
+2419,4-Methoxyphenyl-d-glucopyranoside
+2444,"LRP,Leu-Arg-Pro,Leucyl-Arginyl-Proline"
+2458,"Phe-Phe-Pro-Arg,FFPR"
+2579,FALPQYL
+2580,FFVAPFPEVFGKE
+2581,EMPFPKYP
+2586,Nirmatrelvir
+2590,Amarogentin
+2592,"Calcium chloride,CaCl2"
+2593,"Castalagin,Vescalagin"
+2604,Glucoputranjivin
+2605,Grandinin
+2610,"Procyanidin B1,Procyanidin B2g,Procyanidin B4"
+2611,Procyanidin B7
+2612,Punicalagin
+2620,L-Alanine
+2622,Adhumulone
+2624,Herbolide D
+2627,Xanthohumol
+2632,Taurin
+2635,Malvidin-3-glucoside
+2639,"2,2',4'-trihydroxychalcone"
+2645,4-hydroxychalcone
+2646,Iso-Glu-Trp
+2654,Prunasin
+2690,"3,2-dihydroxychalcone"
+2691,"7,4'-dimethoxyisoflavone"
+2695,4-Glucosyloxymandelonitrile
+2696,"Gly-Phe,Glycyl-l-phenylalanine,Glycylphenylalanine"
+2699,3-hydroxydihydrocostunolide (3HDC)
+2705,Osmaronin epoxide
+2709,Sintenin
+2727,Cochicine

@@ -1,0 +1,7 @@
+parser_version=1.0.0
+file=71_MEDICATION_PARSER/medication_parser.py
+sha256=c722341a04419e32b8e999411d5fb4977e809fbbc3038ad519481676a5fa99de
+first_validation=69 (formulary corpus, PASS, n=146)
+realstring_validation=92 (REQUIRED, DEFERRED — no data access; frozen gate)
+status=FROZEN_PENDING_REALSTRING_QC
+frozen_at_utc=2026-10-04

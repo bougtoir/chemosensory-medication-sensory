@@ -1,0 +1,14 @@
+gene,variant,rsid,effect_class,detail,delta_ec50,delta_emax,pmid
+TAS2R38,PAV,rs713598;rs1726866;rs10246939,gain vs AVI,"responds to PTC/PROP/goitrin/methimazole; PROP EC50 2.1uM, PTC 1.1uM",reference,high,15723792
+TAS2R38,AVI,same,loss of function,no detectable response to PTC/PROP; dominant non-taster allele,undefined (no response),~0,15723792
+TAS2R38,"AAI, PVI, AVV, etc.",,altered potency,continuous range of in vitro responses across 6 haplotypes; rare haplotypes lack phenotypic association,intermediate,variable,23632915
+TAS2R38,A49P (sub-haplotype marker),rs713598,proxy marker,P allele tracks PAV-taster function in pediatric studies,,,15687429
+TAS2R19,R299C,rs10772420,altered potency (quinine),GWAS lead for quinine intensity (5.8% variance); salivary-gene confound possible,,,20675712
+TAS2R31,allelic variants,,altered sensitivity (quinine),associates with quinine bitterness + grapefruit liking,,,26024668
+TAS2R9,V187A,,altered sensitivity (ofloxacin),associates with ofloxacin bitterness in humans; BitterDB: ofloxacin->TAS2R9,,,35967977
+TAS2R31/43,multiple,,altered potency (acesulfame-K),Ace-K bitterness varies with receptor polymorphisms,,,23599216
+TAS2R4,differential-activation variant,,compensatory potency (PROP),may restore PROP tasting in AVI carriers,,,38732607
+TAS1R1/TAS1R3,TAS1R1-372T; TAS1R3-757C,,altered potency (umami),TAS1R1-372T more sensitive; TAS1R3-757C less sensitive,shift,,19696921
+TAS1R2,rs12033832,rs12033832,"altered sensitivity (sucrose, BMI-dependent)",G allele -> lower sensitivity + higher sugar intake in BMI>=25,,,26279452
+SCNN1B,rs239345; rs3785368,rs239345;rs3785368,altered sensitivity (salt),AA/TT homozygotes perceive salt less intensely,,,23118204
+TRPA1,rs11988795,rs11988795,altered chemesthesis,"tingling response to ibuprofen formulation, ancestry-independent",,,37685855

@@ -1,0 +1,18 @@
+prediction_id,exposure,indication,indication_confounding_path,observable_confounder,control_strategy,severity
+P01,propylthiouracil,hyperthyroidism,indication itself may alter taste/appetite; disease severity drives drug choice,age/sex/BMI/thyroid Dx availability,restrict to antithyroid users; within-indication formulation/exposure analysis; adjust age+sex+wave,HIGH
+P02,methimazole,hyperthyroidism,same as P01 + first-line status means everyone gets it (less selection),age/sex/wave,within-antithyroid-class comparison vs PTU; adjust age+sex+wave,HIGH
+P03,chloramphenicol,severe infection,indication severity confounds any exposure pattern,none feasible,UNTESTABLE (72),HIGH
+P04,chlorpheniramine,allergy/URI,indication common & mild; syrup choice may reflect age/dysphagia not taste,age/sex/wave/age-stratify,within-drug formulation contrast (syrup vs tablet); adjust age+sex,MEDIUM
+P05,ofloxacin,bacterial infection,ophthalmic vs oral use reflects indication site not taste,route parse,restrict oral route; indication-site stratification,MEDIUM
+P06,quinine/quinidine,malaria/arrhythmia,indication drives availability,none,UNTESTABLE,HIGH
+P07,aggregate EX3 liquids,mixed indications,indication heterogeneity across liquid drugs,drug-class fixed effects,within-drug-class EX3-share analysis; negative controls anchor,HIGH
+P08,sweetened formulations,pediatric/liquid indications,sweetening correlates with age-indication,age,age-restricted analysis; CONDITIONAL per 72,HIGH
+P09,chemesthetic liquids (ibuprofen susp),pain/fever,adult suspension use rare -> indication selection (dysphagia),age/sex,class-level + CONDITIONAL,MEDIUM
+P10,thiourea pool (PTU+methimazole),hyperthyroidism,same as P01/P02,age/sex/wave,independent pooled class prediction (not P01 rescue),MEDIUM
+P11,Ace-K sweetened,sweetener unobservable,sweetener identity not on label,none,UNTESTABLE,HIGH
+P12,erythromycin susp vs tab,infection,adult suspension rare; pediatric use dominates,age,CONDITIONAL; age-stratified contrast,MEDIUM
+N01-N04,parenteral/transdermal controls,various,route bypasses mouth; indication severity differs,none needed,negative control: expect null despite different indications,LOW
+N05-N06/N11,masked oral controls,various,same indication family as positive tests,indication-matched within-drug contrast,null expected if taste is the channel,LOW
+N07-N10,receptor-mismatch controls,various,exposure shared with positive predictions,none,genotype mismatch -> null strengthens specificity,LOW
+N12,supplement use,health behavior,health-consciousness confounds supplement AND medication behavior,FFQ smoking alcohol coffee,behavioral negative control; adjust health-behavior covariates,MEDIUM
+C1-C5,formulation contrasts,same indication by construction,indication held constant within contrast,indication implicit control,this is the strongest confounding control in the design,LOW

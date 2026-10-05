@@ -1,0 +1,5 @@
+step,n
+medication section present in >=1 wave,3000
+both waves answered,2999
+age >= 20 at ph1,2999
+genotype available (>=1 Level-A variant after QC),2999

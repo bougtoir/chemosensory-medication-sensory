@@ -1,0 +1,1109 @@
+receptor_id,receptor,compound_id,compound_name
+1,TAS2R1,32,"Lupulon,Lupulone"
+1,TAS2R1,36,"Humulon,Humulone"
+1,TAS2R1,38,Quinine
+1,TAS2R1,42,Arborescin
+1,TAS2R1,48,Cascarillin
+1,TAS2R1,54,Parthenolide
+1,TAS2R1,62,Diphenidol
+1,TAS2R1,63,"Diphenylthiourea,Sulfocarbanilide,sym-Diphenylthiourea,Thiocarbanilide"
+1,TAS2R1,68,Thiamine
+1,TAS2R1,69,Chloramphenicol
+1,TAS2R1,70,Yohimbine
+1,TAS2R1,71,Amarogentin
+1,TAS2R1,72,Adhumulone
+1,TAS2R1,73,Cohumulone
+1,TAS2R1,74,Colupulone
+1,TAS2R1,75,Isoxanthohumol
+1,TAS2R1,76,Xanthohumol
+1,TAS2R1,77,Dextromethorphan
+1,TAS2R1,78,Sodium thiocyanate
+1,TAS2R1,79,trans-Isohumulone
+1,TAS2R1,80,trans-Isocohumulone
+1,TAS2R1,81,Adlupulone
+1,TAS2R1,82,cis-Isocohumulone
+1,TAS2R1,83,cis-Isohumulone
+1,TAS2R1,84,cis-Isoadhumulone
+1,TAS2R1,85,trans-Isoadhumulone
+1,TAS2R1,86,Sodium cyclamate
+1,TAS2R1,89,Picrotoxinin
+1,TAS2R1,99,Erythromycin
+1,TAS2R1,100,Strychnine
+1,TAS2R1,545,Ursodiol
+1,TAS2R1,634,Chenodiol
+1,TAS2R1,705,L-Histidine
+1,TAS2R1,732,d-Fenchone
+1,TAS2R1,752,"D-phenylalanine,D-Phe,L-phenylalanine,L-Phe"
+1,TAS2R1,827,"L-trp,L-tryptophan"
+1,TAS2R1,828,"LW,Leu-trp"
+1,TAS2R1,829,"Phe-trp,Phe-trp phenylalanyltryptophan"
+1,TAS2R1,832,"Trp-Trp,WW"
+1,TAS2R1,834,"Gly-Leu,Glycyl-l-leucine,Glycylleucine"
+1,TAS2R1,835,"gly-phe,glycyl-l-phenylalanine,Glycylphenylalanine"
+1,TAS2R1,836,"Phe-leu,Phenylalanylleucine"
+1,TAS2R1,838,"Phe-phe-phe,FFF,Phenylalanyl-phenylalanyl-phenylalanine"
+1,TAS2R1,923,Resveratrol
+1,TAS2R1,956,Sucralose
+1,TAS2R1,964,cis-11-Methyl-2-dodecenoic acid
+1,TAS2R1,972,Pyrocatechin
+1,TAS2R1,977,Taurocholic acid
+1,TAS2R1,1254,Trp-Trp-Trp
+1,TAS2R1,1317,caffeic acid
+1,TAS2R1,1338,"Taurolithocholic acid,Taurolithocholate"
+1,TAS2R1,1416,"LVYPFPGPIHN,Leu-Val-Tyr-Pro-Phe-Pro-Gly-Pro-Ile-His-Asn"
+1,TAS2R1,1425,"YPFPGPIHNS,Tyr-Pro-Phe-Pro-Gly-Pro-Ile-His-Asn-Ser"
+1,TAS2R1,1556,"Iso-Phe,IF,Ile-Phe,Isoleucine-Phenylalanine"
+1,TAS2R1,1557,"FI,Phe-Ile"
+1,TAS2R1,1601,"Gly-Leu-Leu,GLL,Glycyl-Leucyl-Leucine"
+1,TAS2R1,1611,Ligstroside aglycon
+1,TAS2R1,1612,Oleuropein aglycon (closed type)
+1,TAS2R1,1620,Denatonium
+1,TAS2R1,1782,Ritonavir
+1,TAS2R1,2028,"Soyasaponin I,Soyasaponin Î²b"
+1,TAS2R1,2038,Vitamin B1
+1,TAS2R1,2200,d-Phenylalanine
+1,TAS2R1,2276,"Cholate,Cholic acid"
+1,TAS2R1,2277,Glycocholate
+1,TAS2R1,2278,"Deoxycholate,Deoxycholic acid"
+1,TAS2R1,2279,Lithocholate
+1,TAS2R1,2285,Tenofovir alafenamide
+1,TAS2R1,2300,Adhumulone
+1,TAS2R1,2326,cis-isoadhumulone
+1,TAS2R1,2338,Tenofovir alafenamide fumarate (TAF)
+1,TAS2R1,2347,Lopinavir
+1,TAS2R1,2348,Ligstroside Aglycon
+1,TAS2R1,2387,Acetyl tributyl citrate
+1,TAS2R1,2444,"LRP,Leu-Arg-Pro,Leucyl-Arginyl-Proline"
+1,TAS2R1,2586,Nirmatrelvir
+1,TAS2R1,2590,Amarogentin
+1,TAS2R1,2620,L-Alanine
+1,TAS2R1,2622,Adhumulone
+1,TAS2R1,2627,Xanthohumol
+1,TAS2R1,2646,Iso-Glu-Trp
+1,TAS2R1,2696,"Gly-Phe,Glycyl-l-phenylalanine,Glycylphenylalanine"
+2,TAS2R2,59,Chlorhexidine
+2,TAS2R2,89,Picrotoxinin
+2,TAS2R2,120,Propylthiouracil
+2,TAS2R2,520,"Thiamine Hydrochloride,Vitamin b1"
+2,TAS2R2,641,Chloroquine  phosphate
+2,TAS2R2,973,Phenylbutazone
+2,TAS2R2,1345,Yohimbine hydrochloride
+2,TAS2R2,2245,"1,10-Phenanthroline monohydrate"
+3,TAS2R3,87,Chloroquine
+3,TAS2R3,2028,"Soyasaponin I,Soyasaponin Î²b"
+4,TAS2R4,38,Quinine
+4,TAS2R4,42,Arborescin
+4,TAS2R4,45,Artemorin
+4,TAS2R4,54,Parthenolide
+4,TAS2R4,55,Quassin
+4,TAS2R4,56,Azathioprine
+4,TAS2R4,60,Chlorpheniramine
+4,TAS2R4,62,Diphenidol
+4,TAS2R4,70,Yohimbine
+4,TAS2R4,71,Amarogentin
+4,TAS2R4,91,Brucine
+4,TAS2R4,92,Colchicine
+4,TAS2R4,93,Dapsone
+4,TAS2R4,94,Denatonium benzoate
+4,TAS2R4,315,"Methoxsalen,Xanthotoxin"
+4,TAS2R4,348,Nomilin
+4,TAS2R4,444,Quercetin
+4,TAS2R4,545,Ursodiol
+4,TAS2R4,738,D-camphor
+4,TAS2R4,752,"D-phenylalanine,D-Phe,L-phenylalanine,L-Phe"
+4,TAS2R4,808,"Epigallocatechin gallate, egcg,Epigallocatechin gallate,EGCG"
+4,TAS2R4,813,"EC,(+)-Catechin,Epicatechin,(-)-Epicatechin"
+4,TAS2R4,827,"L-trp,L-tryptophan"
+4,TAS2R4,828,"LW,Leu-trp"
+4,TAS2R4,829,"Phe-trp,Phe-trp phenylalanyltryptophan"
+4,TAS2R4,830,"Trp-Leu,WL"
+4,TAS2R4,831,"WF,Trp-phe"
+4,TAS2R4,832,"Trp-Trp,WW"
+4,TAS2R4,833,"LLL,Leu-Leu-Leu,Leucyl-leucyl-leucine"
+4,TAS2R4,882,Fisetin
+4,TAS2R4,956,Sucralose
+4,TAS2R4,957,2-Heptyl-3-hydroxy-quinolone
+4,TAS2R4,977,Taurocholic acid
+4,TAS2R4,1228,2-(1H-indol-3-yl)ethanol
+4,TAS2R4,1234,Stevioside
+4,TAS2R4,1235,Rebaudioside A
+4,TAS2R4,1236,Rebaudioside B
+4,TAS2R4,1237,Rebaudioside C
+4,TAS2R4,1239,Steviolbioside
+4,TAS2R4,1240,Dulcoside A
+4,TAS2R4,1241,Rubusoside
+4,TAS2R4,1253,"WP,Trp-Pro"
+4,TAS2R4,1254,Trp-Trp-Trp
+4,TAS2R4,1338,"Taurolithocholic acid,Taurolithocholate"
+4,TAS2R4,1344,Camphor
+4,TAS2R4,1384,FALPQYLK
+4,TAS2R4,1556,"Iso-Phe,IF,Ile-Phe,Isoleucine-Phenylalanine"
+4,TAS2R4,1622,"Picfeltarraenin I A,Picfelltarraenin IA"
+4,TAS2R4,1625,Deacetyl nomilin
+4,TAS2R4,1784,"N-3-Oxo-Dodecanoyl-L-Homoserine Lactone,3-oxo-C12-AHL"
+4,TAS2R4,2201,"L-Trp,L-Tryptophan,D-Trp,D-Tryptophan"
+4,TAS2R4,2276,"Cholate,Cholic acid"
+4,TAS2R4,2277,Glycocholate
+4,TAS2R4,2278,"Deoxycholate,Deoxycholic acid"
+4,TAS2R4,2393,C8-AHL
+4,TAS2R4,2579,FALPQYL
+4,TAS2R4,2580,FFVAPFPEVFGKE
+4,TAS2R4,2581,EMPFPKYP
+4,TAS2R4,2590,Amarogentin
+5,TAS2R5,95,"1,10-phenanthroline"
+5,TAS2R5,808,"Epigallocatechin gallate,Epigallocatechin gallate, egcg,EGCG"
+5,TAS2R5,813,"EC,(+)-Catechin,Epicatechin,(-)-Epicatechin"
+5,TAS2R5,947,Denatonium saccharide
+5,TAS2R5,956,Sucralose
+5,TAS2R5,1161,procyanidin C1
+5,TAS2R5,1247,"PGG,Pentagalloylglucose (PGG)"
+5,TAS2R5,1249,"procyanidin  C2,Procyanidin trimer C2"
+5,TAS2R5,1340,"1,10-Phenanthroline,Phenanthroline"
+5,TAS2R5,1347,"2,2-bipyridine"
+5,TAS2R5,1348,"1,7-phenanthroline"
+5,TAS2R5,1349,"4,7-phenanthroline"
+5,TAS2R5,1350,"2,9-dimethyl-1,10-phenanthroline"
+5,TAS2R5,1351,"4,7-dimethyl-1,10-phenanthroline"
+5,TAS2R5,1352,"5,6-dimethyl-1,10-phenanthroline"
+5,TAS2R5,1353,"1,10-phenanthroline-5,6-dione"
+5,TAS2R5,1354,"1,10-phenanthrolin-5-amine"
+5,TAS2R5,1355,"5-bromo-1,10-phenanthroline"
+5,TAS2R5,1356,"5-chloro-1,10-phenanthroline"
+5,TAS2R5,1357,"5-methyl-1,10-phenanthroline"
+5,TAS2R5,1358,"5-nitro-1,10-phenanthroline"
+5,TAS2R5,1359,"pyrazino[2,3-f] [1,10]phenanthroline"
+5,TAS2R5,1360,"5,6-dimethoxy-1,10-phenanthroline"
+5,TAS2R5,1361,"5,6-diethyl-1,10-phenanthroline"
+5,TAS2R5,1362,"5,6-bis(prop-1-en-2yl)-1,10-phenanthroline"
+5,TAS2R5,1363,"9,10-phenanthrenequinone,9,10-Dihydrophenanthrene"
+5,TAS2R5,1364,"4,4-dimethyl-2,2-bipyridine"
+5,TAS2R5,2028,"Soyasaponin I,Soyasaponin Î²b"
+5,TAS2R5,2085,Procyanidin B1
+5,TAS2R5,2086,"Procyanidin B2,Procyanidin B2g (3-O-gallate)"
+5,TAS2R5,2272,"catechin-(4,8)-epicatechin,Procyanidin B4"
+5,TAS2R5,2305,tannins
+5,TAS2R5,2610,"Procyanidin B1,Procyanidin B2g,Procyanidin B4"
+5,TAS2R5,2611,Procyanidin B7
+5,TAS2R5,2612,Punicalagin
+7,TAS2R7,16,Magnesium Sulfate
+7,TAS2R7,38,Quinine
+7,TAS2R7,46,Caffeine
+7,TAS2R7,53,Papaverine
+7,TAS2R7,60,Chlorpheniramine
+7,TAS2R7,61,Diphenhydramine
+7,TAS2R7,62,Diphenidol
+7,TAS2R7,77,Dextromethorphan
+7,TAS2R7,87,Chloroquine
+7,TAS2R7,96,Cromolyn
+7,TAS2R7,100,Strychnine
+7,TAS2R7,444,Quercetin
+7,TAS2R7,514,Theophylline
+7,TAS2R7,882,Fisetin
+7,TAS2R7,927,"Hg-12,H.g.-12 (Hoodia Gordonii steroid glycoside)"
+7,TAS2R7,928,Aglycon H.g.-12
+7,TAS2R7,956,Sucralose
+7,TAS2R7,966,"Creatinin,Creatinine"
+7,TAS2R7,1180,"CaCl2,calcium chloride"
+7,TAS2R7,1181,magnesium chloride
+7,TAS2R7,1250,malvidin-3-glucoside
+7,TAS2R7,1318,"Manganese (II) chloride,Manganese dichloride,MnCl2"
+7,TAS2R7,1319,Ferrous Sulfate
+7,TAS2R7,1939,Malvidin 3-Glucoside
+7,TAS2R7,2038,Vitamin B1
+7,TAS2R7,2039,Vitamin B6
+7,TAS2R7,2085,Procyanidin B1
+7,TAS2R7,2327,vitamin B6
+7,TAS2R7,2592,"Calcium chloride,CaCl2"
+7,TAS2R7,2593,"Castalagin,Vescalagin"
+7,TAS2R7,2605,Grandinin
+7,TAS2R7,2610,"Procyanidin B1,Procyanidin B2g,Procyanidin B4"
+7,TAS2R7,2612,Punicalagin
+7,TAS2R7,2635,Malvidin-3-glucoside
+8,TAS2R8,54,Parthenolide
+8,TAS2R8,69,Chloramphenicol
+8,TAS2R8,94,Denatonium benzoate
+8,TAS2R8,126,Andrographolide
+8,TAS2R8,352,Oleuropein
+8,TAS2R8,705,L-Histidine
+8,TAS2R8,752,"D-phenylalanine,D-Phe,L-phenylalanine,L-Phe"
+8,TAS2R8,956,Sucralose
+8,TAS2R8,1611,Ligstroside aglycon
+8,TAS2R8,1612,Oleuropein aglycon (closed type)
+8,TAS2R8,1613,Oleocanthalic acid
+8,TAS2R8,1614,Oleomissional
+8,TAS2R8,1615,Elenolic acid
+8,TAS2R8,1782,Ritonavir
+8,TAS2R8,2028,"Soyasaponin I,Soyasaponin Î²b"
+8,TAS2R8,2285,Tenofovir alafenamide
+8,TAS2R8,2338,Tenofovir alafenamide fumarate (TAF)
+8,TAS2R8,2586,Nirmatrelvir
+9,TAS2R9,674,Ofloxacin
+9,TAS2R9,675,Procainamid
+9,TAS2R9,676,Pirenzapin
+10,TAS2R10,37,Benzoin
+10,TAS2R10,38,Quinine
+10,TAS2R10,41,Absinthin
+10,TAS2R10,42,Arborescin
+10,TAS2R10,43,Arglabin
+10,TAS2R10,45,Artemorin
+10,TAS2R10,46,Caffeine
+10,TAS2R10,48,Cascarillin
+10,TAS2R10,49,Coumarin
+10,TAS2R10,50,Cucurbitacin B
+10,TAS2R10,53,Papaverine
+10,TAS2R10,54,Parthenolide
+10,TAS2R10,55,Quassin
+10,TAS2R10,56,Azathioprine
+10,TAS2R10,60,Chlorpheniramine
+10,TAS2R10,62,Diphenidol
+10,TAS2R10,66,Haloperidol
+10,TAS2R10,69,Chloramphenicol
+10,TAS2R10,70,Yohimbine
+10,TAS2R10,77,Dextromethorphan
+10,TAS2R10,87,Chloroquine
+10,TAS2R10,89,Picrotoxinin
+10,TAS2R10,90,(-)-alpha Thujone
+10,TAS2R10,91,Brucine
+10,TAS2R10,93,Dapsone
+10,TAS2R10,94,Denatonium benzoate
+10,TAS2R10,97,"Cucurbitacin E,Cucurbitacins"
+10,TAS2R10,98,"Cycloheximid,Cycloheximide"
+10,TAS2R10,99,Erythromycin
+10,TAS2R10,100,Strychnine
+10,TAS2R10,101,Famotidine
+10,TAS2R10,315,"Methoxsalen,Xanthotoxin"
+10,TAS2R10,444,Quercetin
+10,TAS2R10,465,Santonin (-)-Form
+10,TAS2R10,514,Theophylline
+10,TAS2R10,738,D-camphor
+10,TAS2R10,882,Fisetin
+10,TAS2R10,931,Picrotin
+10,TAS2R10,946,Costunolide
+10,TAS2R10,949,"homoserine lactone, N-hexanoyl-L-"
+10,TAS2R10,950,"homoserine lactone, N-(3-oxooctanoyl)-L-"
+10,TAS2R10,955,Sparteine
+10,TAS2R10,956,Sucralose
+10,TAS2R10,962,Atropine
+10,TAS2R10,967,Cucurbitacin D
+10,TAS2R10,968,Cucurbitacin I
+10,TAS2R10,976,Tatridin A
+10,TAS2R10,1224,bergapten
+10,TAS2R10,1226,isopimpinellin
+10,TAS2R10,1344,Camphor
+10,TAS2R10,1622,"Picfeltarraenin I A,Picfelltarraenin IA"
+10,TAS2R10,1623,Liensinine
+10,TAS2R10,1631,Jatrorrhizine
+10,TAS2R10,2040,"Vitamin D3,vitamin D"
+13,TAS2R13,62,Diphenidol
+13,TAS2R13,94,Denatonium benzoate
+13,TAS2R13,1617,Oxyphenonium
+13,TAS2R13,1782,Ritonavir
+13,TAS2R13,2028,"Soyasaponin I,Soyasaponin Î²b"
+13,TAS2R13,2347,Lopinavir
+13,TAS2R13,2349,Oxyphenonium Bromide
+14,TAS2R14,32,"Lupulon,Lupulone"
+14,TAS2R14,36,"Humulon,Humulone"
+14,TAS2R14,37,Benzoin
+14,TAS2R14,38,Quinine
+14,TAS2R14,41,Absinthin
+14,TAS2R14,42,Arborescin
+14,TAS2R14,43,Arglabin
+14,TAS2R14,44,Aristolochic acid
+14,TAS2R14,45,Artemorin
+14,TAS2R14,46,Caffeine
+14,TAS2R14,48,Cascarillin
+14,TAS2R14,49,Coumarin
+14,TAS2R14,50,Cucurbitacin B
+14,TAS2R14,51,Falcarindiol
+14,TAS2R14,52,Noscapine
+14,TAS2R14,53,Papaverine
+14,TAS2R14,54,Parthenolide
+14,TAS2R14,55,Quassin
+14,TAS2R14,56,Azathioprine
+14,TAS2R14,57,Benzamide
+14,TAS2R14,58,Carisoprodol
+14,TAS2R14,59,Chlorhexidine
+14,TAS2R14,60,Chlorpheniramine
+14,TAS2R14,61,Diphenhydramine
+14,TAS2R14,62,Diphenidol
+14,TAS2R14,63,"Diphenylthiourea,Sulfocarbanilide,sym-Diphenylthiourea,Thiocarbanilide"
+14,TAS2R14,64,Divinyl sulfoxide
+14,TAS2R14,65,Flufenamic Acid
+14,TAS2R14,66,Haloperidol
+14,TAS2R14,67,Sodium Benzoate
+14,TAS2R14,75,Isoxanthohumol
+14,TAS2R14,76,Xanthohumol
+14,TAS2R14,79,trans-Isohumulone
+14,TAS2R14,80,trans-Isocohumulone
+14,TAS2R14,81,Adlupulone
+14,TAS2R14,82,cis-Isocohumulone
+14,TAS2R14,83,cis-Isohumulone
+14,TAS2R14,84,cis-Isoadhumulone
+14,TAS2R14,85,trans-Isoadhumulone
+14,TAS2R14,87,Chloroquine
+14,TAS2R14,88,8-prenylnaringenin
+14,TAS2R14,89,Picrotoxinin
+14,TAS2R14,90,(-)-alpha Thujone
+14,TAS2R14,138,"Citric Acid Ethyl ester,Triethyl citrate"
+14,TAS2R14,144,Clonixin
+14,TAS2R14,181,"3,5-Diiodosalicylic Acid"
+14,TAS2R14,315,"Methoxsalen,Xanthotoxin"
+14,TAS2R14,348,Nomilin
+14,TAS2R14,444,Quercetin
+14,TAS2R14,465,Santonin (-)-Form
+14,TAS2R14,467,Secobarbital Sodium
+14,TAS2R14,514,Theophylline
+14,TAS2R14,539,"Glycerol tributyrate,Tributyrin"
+14,TAS2R14,567,Ethylhydrocupreine
+14,TAS2R14,634,Chenodiol
+14,TAS2R14,644,Naringenin
+14,TAS2R14,672,Umbelliferones
+14,TAS2R14,683,1-Nitronaphthalene
+14,TAS2R14,722,Glyceryl tripropanoate
+14,TAS2R14,732,d-Fenchone
+14,TAS2R14,738,D-camphor
+14,TAS2R14,749,Theobromine
+14,TAS2R14,800,Genistein
+14,TAS2R14,801,Daidzein
+14,TAS2R14,802,(+/-) Equol
+14,TAS2R14,803,Prunetin
+14,TAS2R14,808,"Epigallocatechin gallate, egcg,Epigallocatechin gallate,EGCG"
+14,TAS2R14,809,Catechin
+14,TAS2R14,810,Tangeretin
+14,TAS2R14,811,Nobiletin
+14,TAS2R14,813,"EC,(+)-Catechin,Epicatechin,(-)-Epicatechin"
+14,TAS2R14,814,"(-)-Epigallocatechin (EGC),Epigallocatechin,Gallocatechol"
+14,TAS2R14,815,"(-)-Epicatechin gallate,Ecg,Epicatechin gallate"
+14,TAS2R14,824,Coumestrol
+14,TAS2R14,859,Apigenin
+14,TAS2R14,860,Chrysin
+14,TAS2R14,861,Chrysoeriol
+14,TAS2R14,863,"5,4'-dihydroxyflavone"
+14,TAS2R14,864,"6,4'-dihydroxyflavone"
+14,TAS2R14,865,"7,4-'dihydroxyflavone"
+14,TAS2R14,866,"5,7'-dimethoxyflavonee"
+14,TAS2R14,867,"6,7'-dimethoxyflavone"
+14,TAS2R14,868,Flavone
+14,TAS2R14,872,4'-hydroxy-6-methoxyflavone
+14,TAS2R14,873,4'-hydroxy-7-methoxyflavone
+14,TAS2R14,874,Luteolin
+14,TAS2R14,875,6-methoxyluteolinb
+14,TAS2R14,876,Scutellarein
+14,TAS2R14,878,"5,7,2'-trihydroxyflavone"
+14,TAS2R14,879,"7,3',4'-trihydroxyflavone"
+14,TAS2R14,880,"5,7',4'-trimethoxyflavone"
+14,TAS2R14,881,Datiscetinb
+14,TAS2R14,882,Fisetin
+14,TAS2R14,884,Herbacetin
+14,TAS2R14,885,Isorhamnetin
+14,TAS2R14,886,"Kaempferol,Kaempherol"
+14,TAS2R14,887,Morin
+14,TAS2R14,888,Myricetind
+14,TAS2R14,889,Quercetagetin
+14,TAS2R14,890,"3,6,3,4-tetrahydroxyflavone"
+14,TAS2R14,891,"3,7,4-trihydroxyflavone"
+14,TAS2R14,892,"Eriodictyolb,Eriodictyol"
+14,TAS2R14,893,Flavanone
+14,TAS2R14,894,"Hesperetin,Hesperitin"
+14,TAS2R14,895,"Homoeriodictyolc,Homoeriodictyol"
+14,TAS2R14,896,Liquiritigenin
+14,TAS2R14,897,Pinocembrin
+14,TAS2R14,898,Fustin
+14,TAS2R14,899,"Silibinind,Silibinin"
+14,TAS2R14,900,"(+)-taxifolin,taxifoline,taxifolin"
+14,TAS2R14,901,Butein
+14,TAS2R14,902,Chalcone
+14,TAS2R14,903,"3,2-dihydroxychalcone,3,2'-Dihydroxychalcone"
+14,TAS2R14,904,"Eriodictyolchalconec,Eriodictyol chalcone"
+14,TAS2R14,905,4-hydroxychalcone
+14,TAS2R14,906,Isoliquiritigenin
+14,TAS2R14,907,"2,2,4-trihydroxychalcone"
+14,TAS2R14,908,"4,2,5-trihydroxychalconee"
+14,TAS2R14,909,Phloretinb
+14,TAS2R14,910,Cyanidin chloridec
+14,TAS2R14,911,Pelargoninidin chloride
+14,TAS2R14,913,Biochanin Ag
+14,TAS2R14,914,"7,4-dimethoxyisoflavone"
+14,TAS2R14,915,Formomonetin
+14,TAS2R14,916,Glyciteing
+14,TAS2R14,918,7-hydroxyisoflavoneg
+14,TAS2R14,919,Isoflavone
+14,TAS2R14,920,"6,7,4-trihydroxyisoflavone"
+14,TAS2R14,921,"7,8,4-trihydroxyisoflavone"
+14,TAS2R14,922,"7,3,4-trihydroxyisoflavone"
+14,TAS2R14,923,Resveratrol
+14,TAS2R14,924,"Sulfuretinc,Sulfuretin"
+14,TAS2R14,925,Xanthonee
+14,TAS2R14,926,4-hydroxyanisol
+14,TAS2R14,927,"Hg-12,H.g.-12 (Hoodia Gordonii steroid glycoside)"
+14,TAS2R14,928,Aglycon H.g.-12
+14,TAS2R14,929,1-Naphthoic acid
+14,TAS2R14,930,"1,8-naphthaladehyde acid"
+14,TAS2R14,931,Picrotin
+14,TAS2R14,932,Piperonylic acid
+14,TAS2R14,933,Herbolide D
+14,TAS2R14,934,Pantoprazole
+14,TAS2R14,935,Glimepiride
+14,TAS2R14,936,Malathion
+14,TAS2R14,937,Mefenamic acid
+14,TAS2R14,938,Pemirolast
+14,TAS2R14,939,Miconazole
+14,TAS2R14,940,Salsalate
+14,TAS2R14,941,Niflumic acid
+14,TAS2R14,942,Diclofenac
+14,TAS2R14,946,Costunolide
+14,TAS2R14,948,"Docosahexaenoic Acid,DHA"
+14,TAS2R14,950,"homoserine lactone, N-(3-oxooctanoyl)-L-"
+14,TAS2R14,954,Salicylic acid
+14,TAS2R14,957,2-Heptyl-3-hydroxy-quinolone
+14,TAS2R14,958,5-propyl-2-thiouracil
+14,TAS2R14,961,Androsterone
+14,TAS2R14,969,Lidocaine
+14,TAS2R14,971,Pantothenic acid
+14,TAS2R14,972,Pyrocatechin
+14,TAS2R14,976,Tatridin A
+14,TAS2R14,977,Taurocholic acid
+14,TAS2R14,1226,isopimpinellin
+14,TAS2R14,1227,skimmianine
+14,TAS2R14,1234,Stevioside
+14,TAS2R14,1235,Rebaudioside A
+14,TAS2R14,1236,Rebaudioside B
+14,TAS2R14,1237,Rebaudioside C
+14,TAS2R14,1240,Dulcoside A
+14,TAS2R14,1241,Rubusoside
+14,TAS2R14,1254,Trp-Trp-Trp
+14,TAS2R14,1269,Lactucin
+14,TAS2R14,1294,lactucopicrin
+14,TAS2R14,1300,"1,3,7,9-Tetramethyluric acid"
+14,TAS2R14,1303,Sinapic acid
+14,TAS2R14,1317,caffeic acid
+14,TAS2R14,1338,"Taurolithocholic acid,Taurolithocholate"
+14,TAS2R14,1344,Camphor
+14,TAS2R14,1611,Ligstroside aglycon
+14,TAS2R14,1612,Oleuropein aglycon (closed type)
+14,TAS2R14,1622,"Picfeltarraenin I A,Picfelltarraenin IA"
+14,TAS2R14,1624,Picroside II
+14,TAS2R14,1625,Deacetyl nomilin
+14,TAS2R14,1626,Baicalin
+14,TAS2R14,1627,Baicalein
+14,TAS2R14,1628,Wogonin
+14,TAS2R14,1633,lw057
+14,TAS2R14,1634,lw070
+14,TAS2R14,1635,lw071
+14,TAS2R14,1636,lw072
+14,TAS2R14,1637,lw076
+14,TAS2R14,1638,lw077
+14,TAS2R14,1639,lw083
+14,TAS2R14,1640,lw084
+14,TAS2R14,1641,lw085
+14,TAS2R14,1642,lw086
+14,TAS2R14,1643,lw101
+14,TAS2R14,1644,lw103
+14,TAS2R14,1645,lw104
+14,TAS2R14,1646,lw105
+14,TAS2R14,1647,lw113
+14,TAS2R14,1648,lw114
+14,TAS2R14,1649,lw119
+14,TAS2R14,1650,lw122
+14,TAS2R14,1651,lw128
+14,TAS2R14,1652,lw130
+14,TAS2R14,1653,lw153
+14,TAS2R14,1654,lw154
+14,TAS2R14,1655,lw167
+14,TAS2R14,1656,lw169
+14,TAS2R14,1657,lw183
+14,TAS2R14,1658,lw190
+14,TAS2R14,1659,lw201
+14,TAS2R14,1660,lw205
+14,TAS2R14,1661,lwbk19
+14,TAS2R14,1662,lwbk20
+14,TAS2R14,1663,lwbk21
+14,TAS2R14,1664,lwjk05
+14,TAS2R14,1665,lwjk06
+14,TAS2R14,1666,lwlb17
+14,TAS2R14,1667,lwlb18
+14,TAS2R14,1668,lwlb19
+14,TAS2R14,1669,lwmr04
+14,TAS2R14,1670,lwmr05
+14,TAS2R14,1671,lwmr06
+14,TAS2R14,1672,lw19a
+14,TAS2R14,1673,lw208
+14,TAS2R14,1674,lw231
+14,TAS2R14,1675,lw253
+14,TAS2R14,1676,lw271
+14,TAS2R14,1677,lw273
+14,TAS2R14,1678,lw306
+14,TAS2R14,1679,lw308
+14,TAS2R14,1680,lw310
+14,TAS2R14,1681,lw317
+14,TAS2R14,1682,lw341
+14,TAS2R14,1683,lw50
+14,TAS2R14,1684,lwph005
+14,TAS2R14,1685,lwtp009
+14,TAS2R14,1686,Desogestrel
+14,TAS2R14,1687,Mebendazole
+14,TAS2R14,1688,Cabozantinib malate (XL184)
+14,TAS2R14,1689,Gestodene
+14,TAS2R14,1690,"Cabozantinib (XL184, BMS-907351)"
+14,TAS2R14,1691,"Artemether,Artemether (SM-224)"
+14,TAS2R14,1692,Griseofulvin
+14,TAS2R14,1693,Etonogestrel
+14,TAS2R14,1694,Norethindrone
+14,TAS2R14,1695,"TSU-68 (SU6668,Orantinib),Orantinib (TSU-68, SU6668)"
+14,TAS2R14,1696,"Fosbretabulin Disodium (Combretastatin A4 Disodium Phosphate, CA4DP),Fosbretabulin (Combretastatin A4 Phosphate (CA4P)) Disodium"
+14,TAS2R14,1697,Bromocriptine mesylate
+14,TAS2R14,1698,Podophyllotoxin
+14,TAS2R14,1699,Vinorelbine
+14,TAS2R14,1700,Vorapaxar
+14,TAS2R14,1701,Levonorgestrel
+14,TAS2R14,1702,Dutasteride
+14,TAS2R14,1703,Meclofenamate sodium
+14,TAS2R14,1704,Flunixin Meglumin
+14,TAS2R14,1705,Medroxyprogesterone acetate
+14,TAS2R14,1706,Vinblastine
+14,TAS2R14,1707,Tolfenamic acid
+14,TAS2R14,1708,Isavuconazole
+14,TAS2R14,1709,Exemestane
+14,TAS2R14,1710,Itraconazole
+14,TAS2R14,1711,LDE225 Diphosphate
+14,TAS2R14,1712,Halobetasol Propionate
+14,TAS2R14,1713,Butoconazole nitrate
+14,TAS2R14,1714,Oxibendazole
+14,TAS2R14,1715,Loteprednol etabonate
+14,TAS2R14,1716,Vinorelbine ditartrate
+14,TAS2R14,1717,Deoxycorticosterone acetate
+14,TAS2R14,1718,Foretinib (GSK1363089)
+14,TAS2R14,1719,Sulconazole nitrate
+14,TAS2R14,1720,"TOK-001,Galeterone (TOK-001)"
+14,TAS2R14,1721,Albendazole
+14,TAS2R14,1722,Monomethyl auristatin E
+14,TAS2R14,1723,Irisflorentin
+14,TAS2R14,1747,Spironolactone
+14,TAS2R14,1748,Simvastatin
+14,TAS2R14,1749,Finasteride
+14,TAS2R14,1751,Sodium 2-(4-methoxybenzoyl)benzoate
+14,TAS2R14,1782,Ritonavir
+14,TAS2R14,1784,"N-3-Oxo-Dodecanoyl-L-Homoserine Lactone,3-oxo-C12-AHL"
+14,TAS2R14,1951,Theaflavin-3'-O-gallate
+14,TAS2R14,1952,Theaflavin-3-O-gallate
+14,TAS2R14,1972,2-Acetylbenzofuran
+14,TAS2R14,2028,"Soyasaponin I,Soyasaponin Î²b"
+14,TAS2R14,2033,"pelargoninidin chloride,Pelargonidin chloride"
+14,TAS2R14,2039,Vitamin B6
+14,TAS2R14,2045,Vanillin
+14,TAS2R14,2052,CSP-1
+14,TAS2R14,2074,8-Prenylnaringenin
+14,TAS2R14,2076,8-Prenylkaempferol
+14,TAS2R14,2107,7-Methoxycoumarin
+14,TAS2R14,2110,Vanillic acid
+14,TAS2R14,2112,Protocatechuic acid
+14,TAS2R14,2115,Ferulic acid
+14,TAS2R14,2180,Piperine
+14,TAS2R14,2181,"11,13-dihydrolactucin"
+14,TAS2R14,2182,4-hydroxy-2-heptylquinolone (HHQ)
+14,TAS2R14,2183,herbolide D
+14,TAS2R14,2186,cis-isoadhumulone
+14,TAS2R14,2189,campher
+14,TAS2R14,2192,4-hydroxyanisol
+14,TAS2R14,2221,Cyanidin chloride
+14,TAS2R14,2223,Cyanidin chloride
+14,TAS2R14,2224,Pelargonidin chloride
+14,TAS2R14,2230,"Diphenhydramine hydrochloride,Diphenhydramine (DPH)"
+14,TAS2R14,2276,"Cholate,Cholic acid"
+14,TAS2R14,2277,Glycocholate
+14,TAS2R14,2285,Tenofovir alafenamide
+14,TAS2R14,2286,CL1
+14,TAS2R14,2287,1-Mso-CL2
+14,TAS2R14,2288,1-Msn-CL2
+14,TAS2R14,2289,1-Mso-CL3
+14,TAS2R14,2290,"Cyclolinopeptide E,1-Mso-CL4"
+14,TAS2R14,2291,1-Msn-Cl4
+14,TAS2R14,2292,"1-Mso,3-Met-CL6"
+14,TAS2R14,2293,"1-Mso,3-Mso-CL6"
+14,TAS2R14,2327,vitamin B6
+14,TAS2R14,2338,Tenofovir alafenamide fumarate (TAF)
+14,TAS2R14,2350,lukas 4.1
+14,TAS2R14,2351,lukas 4.2
+14,TAS2R14,2352,lukas 4.3
+14,TAS2R14,2353,lukas 8
+14,TAS2R14,2354,lukas 10.1
+14,TAS2R14,2355,lukas 10.2
+14,TAS2R14,2356,lukas 14.1
+14,TAS2R14,2357,lukas 14.2
+14,TAS2R14,2358,lukas 14.3
+14,TAS2R14,2359,lukas 14.4
+14,TAS2R14,2360,lukas 14.5
+14,TAS2R14,2361,lukas 14.6
+14,TAS2R14,2362,lukas 14.7
+14,TAS2R14,2363,lukas 14.8
+14,TAS2R14,2364,lukas 14.9
+14,TAS2R14,2365,lukas 14.10
+14,TAS2R14,2366,lukas 14.11
+14,TAS2R14,2367,lukas 16.1
+14,TAS2R14,2368,lukas 16.2
+14,TAS2R14,2369,lukas 16.3
+14,TAS2R14,2370,lukas 19.1
+14,TAS2R14,2371,lukas 19.2
+14,TAS2R14,2372,lukas 19.3
+14,TAS2R14,2373,lukas 19.4
+14,TAS2R14,2374,lukas 25.1
+14,TAS2R14,2375,lukas 25.2
+14,TAS2R14,2376,lukas 25.3
+14,TAS2R14,2377,lukas 25.4
+14,TAS2R14,2378,lukas 25.5
+14,TAS2R14,2379,lukas 28.1
+14,TAS2R14,2380,lukas 28.2
+14,TAS2R14,2381,lukas 32
+14,TAS2R14,2382,lukas 33
+14,TAS2R14,2383,lukas 34
+14,TAS2R14,2384,lukas 35
+14,TAS2R14,2385,lukas 44
+14,TAS2R14,2388,Ethyl vanillin isobutyrate
+14,TAS2R14,2389,I-Fenchone
+14,TAS2R14,2390,Sclareolide
+14,TAS2R14,2391,Muscone
+14,TAS2R14,2392,Vanillin isobutyrate
+14,TAS2R14,2393,C8-AHL
+14,TAS2R14,2394,C4-AHL
+14,TAS2R14,2403,2-(3-Ethylanilino)benzoic acid
+14,TAS2R14,2404,"N-(3,5-Bis(trifluoromethyl)phenyl)anthranilic acid"
+14,TAS2R14,2405,2-(3-Anilinoanilino)benzoic acid
+14,TAS2R14,2406,2-(2-Anilinoanilino)benzoic acid
+14,TAS2R14,2407,2-(3-Benzyloxyphenylamino)benzoic acid
+14,TAS2R14,2408,"2-(3-Benzyloxyphenylamino)-4,5-difluorobenzoic acid"
+14,TAS2R14,2409,2-(2-Naphthylamino)benzoic acid
+14,TAS2R14,2410,"4,5-difluoro-(naphthalen-yl-amino)benzoic acid"
+14,TAS2R14,2411,2-[[3-(Trifluoromethyl)phenyl]methylamino]benzoic acid
+14,TAS2R14,2412,N-(3-ethylphenyl)-2-(2H-tetrazol-5-yl)aniline
+14,TAS2R14,2413,"[2-(1,2,3,4-tetrazol-yl)phenyl]naphthalen amine"
+14,TAS2R14,2414,"[3-(benzyloxy)phenyl]-(1,2,3,4-tetrazol-yl)aniline"
+14,TAS2R14,2415,"2-(1,2,3,4-tetrazol-yl)[3-(trifluoromethyl)phenyl]aniline"
+14,TAS2R14,2416,"[2-(1,2,3,4-tetrazol-yl)phenyl]-3,5-bis(trifluoromethyl)aniline"
+14,TAS2R14,2417,"12,14-bis(trifluoromethyl)-azatricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,9,11,13-heptaene-carboxylic acid"
+14,TAS2R14,2627,Xanthohumol
+14,TAS2R14,2639,"2,2',4'-trihydroxychalcone"
+14,TAS2R14,2645,4-hydroxychalcone
+14,TAS2R14,2690,"3,2-dihydroxychalcone"
+14,TAS2R14,2691,"7,4'-dimethoxyisoflavone"
+14,TAS2R14,2699,3-hydroxydihydrocostunolide (3HDC)
+16,TAS2R16,62,Diphenidol
+16,TAS2R16,67,Sodium Benzoate
+16,TAS2R16,102,"D-Amygdalin,Amygdalin"
+16,TAS2R16,103,Arbutin
+16,TAS2R16,104,Helicin
+16,TAS2R16,106,Sinigrin
+16,TAS2R16,221,Gentiobiose
+16,TAS2R16,282,Linamarin
+16,TAS2R16,461,"D-Salicin,Salicin"
+16,TAS2R16,645,Phenyl beta-D-glucopyranoside
+16,TAS2R16,957,2-Heptyl-3-hydroxy-quinolone
+16,TAS2R16,1285,"esculine Aesculin,Esculine,Aesculin"
+16,TAS2R16,1286,2-Naphthyl beta-D-glucopyranoside
+16,TAS2R16,1287,Methyl beta-D-glucoside
+16,TAS2R16,1288,Phenyl beta-D-galactopyranoside
+16,TAS2R16,1289,phenyl alpha-D-glucopyranoside
+16,TAS2R16,1290,2-nitro phenyl beta-D-glucopyranoside
+16,TAS2R16,2028,"Soyasaponin I,Soyasaponin Î²b"
+16,TAS2R16,2275,Vicine
+16,TAS2R16,2333,Phenyl-beta-D-thioglucopyranoside
+16,TAS2R16,2334,4-nitrophenyl-beta-D-mannopyranoside
+16,TAS2R16,2335,Hexyl-beta-D-glucopyranoside
+16,TAS2R16,2336,Phenyl-N-acetyl-beta-D-glucosaminide
+16,TAS2R16,2337,"4-nitrophenyl-beta-D-glucoside,4-Nitrophenyl beta-D-glucopyranoside"
+16,TAS2R16,2604,Glucoputranjivin
+16,TAS2R16,2654,Prunasin
+16,TAS2R16,2695,4-Glucosyloxymandelonitrile
+16,TAS2R16,2705,Osmaronin epoxide
+38,TAS2R38,60,Chlorpheniramine
+38,TAS2R38,62,Diphenidol
+38,TAS2R38,63,"Diphenylthiourea,Sulfocarbanilide,sym-Diphenylthiourea,Thiocarbanilide"
+38,TAS2R38,70,Yohimbine
+38,TAS2R38,78,Sodium thiocyanate
+38,TAS2R38,86,Sodium cyclamate
+38,TAS2R38,106,Sinigrin
+38,TAS2R38,107,Acetylthiourea
+38,TAS2R38,108,allyl isothiocyanate
+38,TAS2R38,109,Caprolactam
+38,TAS2R38,110,Dimethylthioformamide
+38,TAS2R38,111,Ethylpyrazine
+38,TAS2R38,112,N-ethylthiourea
+38,TAS2R38,113,"Ethylene Thiourea,N,N-ethylene thiourea"
+38,TAS2R38,114,Limonin
+38,TAS2R38,115,Methimazole
+38,TAS2R38,117,N-methylthiourea
+38,TAS2R38,118,Phenethyl isothiocyanate
+38,TAS2R38,119,Phenylthiocarbamide  (PTC)
+38,TAS2R38,120,Propylthiouracil
+38,TAS2R38,188,Dimethyl Sulfoxide
+38,TAS2R38,323,"6-Methyl-2-thiouracil,Methylthiouracil"
+38,TAS2R38,806,Berberine
+38,TAS2R38,840,6-Nitrosaccharin
+38,TAS2R38,952,"N-butyryl-L-homoserine (C4-HSL),homoserine lactone, N-butyryl-L-"
+38,TAS2R38,957,2-Heptyl-3-hydroxy-quinolone
+38,TAS2R38,958,5-propyl-2-thiouracil
+38,TAS2R38,1784,"N-3-Oxo-Dodecanoyl-L-Homoserine Lactone,3-oxo-C12-AHL"
+38,TAS2R38,2028,"Soyasaponin I,Soyasaponin Î²b"
+38,TAS2R38,2041,Vitamin A
+38,TAS2R38,2340,Acetone
+38,TAS2R38,2341,Methyl Ethyl Ketone
+38,TAS2R38,2342,2-Pentanone
+38,TAS2R38,2343,Isobutyraldehyde
+38,TAS2R38,2344,gamma-Butyrolactone
+38,TAS2R38,2345,Dimethyl disulfide
+38,TAS2R38,2346,Methanethiol
+39,TAS2R39,38,Quinine
+39,TAS2R39,56,Azathioprine
+39,TAS2R39,60,Chlorpheniramine
+39,TAS2R39,62,Diphenidol
+39,TAS2R39,68,Thiamine
+39,TAS2R39,69,Chloramphenicol
+39,TAS2R39,71,Amarogentin
+39,TAS2R39,87,Chloroquine
+39,TAS2R39,92,Colchicine
+39,TAS2R39,94,Denatonium benzoate
+39,TAS2R39,121,Acetaminophen
+39,TAS2R39,444,Quercetin
+39,TAS2R39,644,Naringenin
+39,TAS2R39,705,L-Histidine
+39,TAS2R39,752,"D-phenylalanine,D-Phe,L-phenylalanine,L-Phe"
+39,TAS2R39,800,Genistein
+39,TAS2R39,801,Daidzein
+39,TAS2R39,802,(+/-) Equol
+39,TAS2R39,808,"Epigallocatechin gallate, egcg,Epigallocatechin gallate,EGCG"
+39,TAS2R39,809,Catechin
+39,TAS2R39,813,"EC,(+)-Catechin,Epicatechin,(-)-Epicatechin"
+39,TAS2R39,814,"(-)-Epigallocatechin (EGC),Epigallocatechin,Gallocatechol"
+39,TAS2R39,815,"(-)-Epicatechin gallate,Ecg,Epicatechin gallate"
+39,TAS2R39,816,Genistin
+39,TAS2R39,824,Coumestrol
+39,TAS2R39,827,"L-trp,L-tryptophan"
+39,TAS2R39,828,"LW,Leu-trp"
+39,TAS2R39,832,"Trp-Trp,WW"
+39,TAS2R39,837,"Pro-arg,Prolylarginine"
+39,TAS2R39,859,Apigenin
+39,TAS2R39,860,Chrysin
+39,TAS2R39,862,"5,2'-dihydroxyflavone"
+39,TAS2R39,863,"5,4'-dihydroxyflavone"
+39,TAS2R39,864,"6,4'-dihydroxyflavone"
+39,TAS2R39,865,"7,4-'dihydroxyflavone"
+39,TAS2R39,866,"5,7'-dimethoxyflavonee"
+39,TAS2R39,868,Flavone
+39,TAS2R39,869,Genkwanin
+39,TAS2R39,870,5-hydroxyflavone
+39,TAS2R39,871,4'-hydroxyflavone
+39,TAS2R39,873,4'-hydroxy-7-methoxyflavone
+39,TAS2R39,874,Luteolin
+39,TAS2R39,875,6-methoxyluteolinb
+39,TAS2R39,876,Scutellarein
+39,TAS2R39,877,Tricetin
+39,TAS2R39,878,"5,7,2'-trihydroxyflavone"
+39,TAS2R39,879,"7,3',4'-trihydroxyflavone"
+39,TAS2R39,881,Datiscetinb
+39,TAS2R39,882,Fisetin
+39,TAS2R39,883,Gossypetind
+39,TAS2R39,884,Herbacetin
+39,TAS2R39,885,Isorhamnetin
+39,TAS2R39,886,"Kaempferol,Kaempherol"
+39,TAS2R39,887,Morin
+39,TAS2R39,888,Myricetind
+39,TAS2R39,889,Quercetagetin
+39,TAS2R39,890,"3,6,3,4-tetrahydroxyflavone"
+39,TAS2R39,891,"3,7,4-trihydroxyflavone"
+39,TAS2R39,892,"Eriodictyolb,Eriodictyol"
+39,TAS2R39,894,"Hesperetin,Hesperitin"
+39,TAS2R39,895,"Homoeriodictyolc,Homoeriodictyol"
+39,TAS2R39,896,Liquiritigenin
+39,TAS2R39,897,Pinocembrin
+39,TAS2R39,898,Fustin
+39,TAS2R39,899,"Silibinind,Silibinin"
+39,TAS2R39,900,"(+)-taxifolin,taxifoline,taxifolin"
+39,TAS2R39,901,Butein
+39,TAS2R39,903,"3,2-dihydroxychalcone,3,2'-Dihydroxychalcone"
+39,TAS2R39,904,"Eriodictyolchalconec,Eriodictyol chalcone"
+39,TAS2R39,906,Isoliquiritigenin
+39,TAS2R39,907,"2,2,4-trihydroxychalcone"
+39,TAS2R39,908,"4,2,5-trihydroxychalconee"
+39,TAS2R39,909,Phloretinb
+39,TAS2R39,910,Cyanidin chloridec
+39,TAS2R39,911,Pelargoninidin chloride
+39,TAS2R39,912,Acetylgenistin
+39,TAS2R39,913,Biochanin Ag
+39,TAS2R39,915,Formomonetin
+39,TAS2R39,916,Glyciteing
+39,TAS2R39,917,"Glyciting,Glycitin"
+39,TAS2R39,918,7-hydroxyisoflavoneg
+39,TAS2R39,920,"6,7,4-trihydroxyisoflavone"
+39,TAS2R39,921,"7,8,4-trihydroxyisoflavone"
+39,TAS2R39,922,"7,3,4-trihydroxyisoflavone"
+39,TAS2R39,923,Resveratrol
+39,TAS2R39,924,"Sulfuretinc,Sulfuretin"
+39,TAS2R39,925,Xanthonee
+39,TAS2R39,947,Denatonium saccharide
+39,TAS2R39,956,Sucralose
+39,TAS2R39,972,Pyrocatechin
+39,TAS2R39,977,Taurocholic acid
+39,TAS2R39,1228,2-(1H-indol-3-yl)ethanol
+39,TAS2R39,1247,"PGG,Pentagalloylglucose (PGG)"
+39,TAS2R39,1254,Trp-Trp-Trp
+39,TAS2R39,1416,"LVYPFPGPIHN,Leu-Val-Tyr-Pro-Phe-Pro-Gly-Pro-Ile-His-Asn"
+39,TAS2R39,1425,"YPFPGPIHNS,Tyr-Pro-Phe-Pro-Gly-Pro-Ile-His-Asn-Ser"
+39,TAS2R39,1556,"Iso-Phe,IF,Ile-Phe,Isoleucine-Phenylalanine"
+39,TAS2R39,1618,Ranitidine
+39,TAS2R39,1951,Theaflavin-3'-O-gallate
+39,TAS2R39,1953,Theaflavin
+39,TAS2R39,2033,"pelargoninidin chloride,Pelargonidin chloride"
+39,TAS2R39,2036,Malonylgenistin
+39,TAS2R39,2038,Vitamin B1
+39,TAS2R39,2045,Vanillin
+39,TAS2R39,2086,"Procyanidin B2,Procyanidin B2g (3-O-gallate)"
+39,TAS2R39,2193,Acetylgenistin
+39,TAS2R39,2200,d-Phenylalanine
+39,TAS2R39,2201,"L-Trp,L-Tryptophan,D-Trp,D-Tryptophan"
+39,TAS2R39,2221,Cyanidin chloride
+39,TAS2R39,2223,Cyanidin chloride
+39,TAS2R39,2224,Pelargonidin chloride
+39,TAS2R39,2276,"Cholate,Cholic acid"
+39,TAS2R39,2277,Glycocholate
+39,TAS2R39,2285,Tenofovir alafenamide
+39,TAS2R39,2338,Tenofovir alafenamide fumarate (TAF)
+39,TAS2R39,2458,"Phe-Phe-Pro-Arg,FFPR"
+39,TAS2R39,2586,Nirmatrelvir
+39,TAS2R39,2590,Amarogentin
+39,TAS2R39,2610,"Procyanidin B1,Procyanidin B2g,Procyanidin B4"
+39,TAS2R39,2620,L-Alanine
+39,TAS2R39,2639,"2,2',4'-trihydroxychalcone"
+39,TAS2R39,2690,"3,2-dihydroxychalcone"
+40,TAS2R40,36,"Humulon,Humulone"
+40,TAS2R40,38,Quinine
+40,TAS2R40,44,Aristolochic acid
+40,TAS2R40,60,Chlorpheniramine
+40,TAS2R40,61,Diphenhydramine
+40,TAS2R40,62,Diphenidol
+40,TAS2R40,72,Adhumulone
+40,TAS2R40,73,Cohumulone
+40,TAS2R40,74,Colupulone
+40,TAS2R40,75,Isoxanthohumol
+40,TAS2R40,76,Xanthohumol
+40,TAS2R40,93,Dapsone
+40,TAS2R40,444,Quercetin
+40,TAS2R40,882,Fisetin
+40,TAS2R40,947,Denatonium saccharide
+40,TAS2R40,971,Pantothenic acid
+40,TAS2R40,2300,Adhumulone
+40,TAS2R40,2622,Adhumulone
+40,TAS2R40,2627,Xanthohumol
+41,TAS2R41,38,Quinine
+41,TAS2R41,44,Aristolochic acid
+41,TAS2R41,54,Parthenolide
+41,TAS2R41,62,Diphenidol
+41,TAS2R41,69,Chloramphenicol
+41,TAS2R41,868,Flavone
+41,TAS2R41,956,Sucralose
+41,TAS2R41,1620,Denatonium
+41,TAS2R41,1628,Wogonin
+41,TAS2R41,2028,"Soyasaponin I,Soyasaponin Î²b"
+42,TAS2R42,2028,"Soyasaponin I,Soyasaponin Î²b"
+43,TAS2R43,38,Quinine
+43,TAS2R43,42,Arborescin
+43,TAS2R43,43,Arglabin
+43,TAS2R43,44,Aristolochic acid
+43,TAS2R43,46,Caffeine
+43,TAS2R43,51,Falcarindiol
+43,TAS2R43,62,Diphenidol
+43,TAS2R43,69,Chloramphenicol
+43,TAS2R43,71,Amarogentin
+43,TAS2R43,94,Denatonium benzoate
+43,TAS2R43,96,Cromolyn
+43,TAS2R43,104,Helicin
+43,TAS2R43,122,Acesulfame K
+43,TAS2R43,123,Aloin
+43,TAS2R43,124,"Grosheimin,Grossheimin"
+43,TAS2R43,125,Saccharin
+43,TAS2R43,444,Quercetin
+43,TAS2R43,514,Theophylline
+43,TAS2R43,808,"Epigallocatechin gallate, egcg,Epigallocatechin gallate,EGCG"
+43,TAS2R43,827,"L-trp,L-tryptophan"
+43,TAS2R43,859,Apigenin
+43,TAS2R43,882,Fisetin
+43,TAS2R43,947,Denatonium saccharide
+43,TAS2R43,971,Pantothenic acid
+43,TAS2R43,1269,Lactucin
+43,TAS2R43,1294,lactucopicrin
+43,TAS2R43,1300,"1,3,7,9-Tetramethyluric acid"
+43,TAS2R43,1327,Mozambioside
+43,TAS2R43,1328,11-O-d-glucosyl-(S)-16-desoxy-17-oxocafestol-2-on
+43,TAS2R43,1329,"11-O-d-glucosyl-15,16-dehydrocafestol-2-on"
+43,TAS2R43,1330,11-O-d-glucosyl-(R)-16-desoxy-17-oxocafestol-2-on
+43,TAS2R43,1331,11-hydroxycafestol-2-on
+43,TAS2R43,1333,Mozambioside
+43,TAS2R43,1620,Denatonium
+43,TAS2R43,1786,Cafestol
+43,TAS2R43,1787,Kahweol
+43,TAS2R43,1788,Bengalensol
+43,TAS2R43,2181,"11,13-dihydrolactucin"
+43,TAS2R43,2227,Aloin
+43,TAS2R43,2292,"1-Mso,3-Met-CL6"
+43,TAS2R43,2590,Amarogentin
+44,TAS2R44,38,Quinine
+44,TAS2R44,44,Aristolochic acid
+44,TAS2R44,54,Parthenolide
+44,TAS2R44,62,Diphenidol
+44,TAS2R44,101,Famotidine
+44,TAS2R44,122,Acesulfame K
+44,TAS2R44,123,Aloin
+44,TAS2R44,125,Saccharin
+44,TAS2R44,126,Andrographolide
+44,TAS2R44,444,Quercetin
+44,TAS2R44,840,6-Nitrosaccharin
+44,TAS2R44,882,Fisetin
+44,TAS2R44,971,Pantothenic acid
+44,TAS2R44,2227,Aloin
+46,TAS2R46,38,Quinine
+46,TAS2R46,41,Absinthin
+46,TAS2R46,42,Arborescin
+46,TAS2R46,43,Arglabin
+46,TAS2R46,45,Artemorin
+46,TAS2R46,46,Caffeine
+46,TAS2R46,48,Cascarillin
+46,TAS2R46,54,Parthenolide
+46,TAS2R46,55,Quassin
+46,TAS2R46,56,Azathioprine
+46,TAS2R46,58,Carisoprodol
+46,TAS2R46,60,Chlorpheniramine
+46,TAS2R46,62,Diphenidol
+46,TAS2R46,69,Chloramphenicol
+46,TAS2R46,70,Yohimbine
+46,TAS2R46,71,Amarogentin
+46,TAS2R46,89,Picrotoxinin
+46,TAS2R46,91,Brucine
+46,TAS2R46,92,Colchicine
+46,TAS2R46,94,Denatonium benzoate
+46,TAS2R46,100,Strychnine
+46,TAS2R46,124,"Grosheimin,Grossheimin"
+46,TAS2R46,126,Andrographolide
+46,TAS2R46,127,Cnicin
+46,TAS2R46,128,Crispolide
+46,TAS2R46,129,Hydrocortisone
+46,TAS2R46,130,Orphenadrine
+46,TAS2R46,131,Tatridin B
+46,TAS2R46,315,"Methoxsalen,Xanthotoxin"
+46,TAS2R46,348,Nomilin
+46,TAS2R46,444,Quercetin
+46,TAS2R46,461,"D-Salicin,Salicin"
+46,TAS2R46,463,Artemisinin
+46,TAS2R46,465,Santonin (-)-Form
+46,TAS2R46,482,Sucrose Octaacetate
+46,TAS2R46,514,Theophylline
+46,TAS2R46,657,Cynaropicrin
+46,TAS2R46,747,Taurine
+46,TAS2R46,806,Berberine
+46,TAS2R46,810,Tangeretin
+46,TAS2R46,811,Nobiletin
+46,TAS2R46,882,Fisetin
+46,TAS2R46,931,Picrotin
+46,TAS2R46,933,Herbolide D
+46,TAS2R46,946,Costunolide
+46,TAS2R46,953,Progesterone
+46,TAS2R46,955,Sparteine
+46,TAS2R46,956,Sucralose
+46,TAS2R46,961,Androsterone
+46,TAS2R46,962,Atropine
+46,TAS2R46,963,Berberine chloride
+46,TAS2R46,967,Cucurbitacin D
+46,TAS2R46,968,Cucurbitacin I
+46,TAS2R46,972,Pyrocatechin
+46,TAS2R46,976,Tatridin A
+46,TAS2R46,977,Taurocholic acid
+46,TAS2R46,1187,per-oxy artemorin
+46,TAS2R46,1188,Epizaluzannin C
+46,TAS2R46,1189,"Germacradien-6,11-dihydroxy-8,12-olide"
+46,TAS2R46,1190,Herbolide A
+46,TAS2R46,1191,Herbolide D acetate
+46,TAS2R46,1192,Nobilin
+46,TAS2R46,1193,Parthenin
+46,TAS2R46,1194,Santamarine
+46,TAS2R46,1195,sintenin
+46,TAS2R46,1196,Speciformin acetate
+46,TAS2R46,1198,tatridn A acetate
+46,TAS2R46,1200,"Dihydro-taurin,dihydro taurin"
+46,TAS2R46,1201,Umbellifolide
+46,TAS2R46,1202,Vulgarolide
+46,TAS2R46,1203,Zaluzannin D
+46,TAS2R46,1204,Marrubiin
+46,TAS2R46,1205,Teuflavin
+46,TAS2R46,1206,Teuflavoside
+46,TAS2R46,1207,Teumarin
+46,TAS2R46,1208,Strychnine-N-oxide
+46,TAS2R46,1254,Trp-Trp-Trp
+46,TAS2R46,1269,Lactucin
+46,TAS2R46,1284,Matrine
+46,TAS2R46,1294,lactucopicrin
+46,TAS2R46,1295,"11,13-dihydrolactucin"
+46,TAS2R46,1300,"1,3,7,9-Tetramethyluric acid"
+46,TAS2R46,1327,Mozambioside
+46,TAS2R46,1328,11-O-d-glucosyl-(S)-16-desoxy-17-oxocafestol-2-on
+46,TAS2R46,1329,"11-O-d-glucosyl-15,16-dehydrocafestol-2-on"
+46,TAS2R46,1330,11-O-d-glucosyl-(R)-16-desoxy-17-oxocafestol-2-on
+46,TAS2R46,1331,11-hydroxycafestol-2-on
+46,TAS2R46,1332,17-O-d-glucosyl-11-hydroxycafestol-2-on
+46,TAS2R46,1333,Mozambioside
+46,TAS2R46,1338,"Taurolithocholic acid,Taurolithocholate"
+46,TAS2R46,1612,Oleuropein aglycon (closed type)
+46,TAS2R46,1622,"Picfeltarraenin I A,Picfelltarraenin IA"
+46,TAS2R46,1623,Liensinine
+46,TAS2R46,1625,Deacetyl nomilin
+46,TAS2R46,1628,Wogonin
+46,TAS2R46,1629,Dehydroandrographolide
+46,TAS2R46,1630,Wogonoside
+46,TAS2R46,1631,Jatrorrhizine
+46,TAS2R46,1632,Oxymatrine
+46,TAS2R46,1786,Cafestol
+46,TAS2R46,1787,Kahweol
+46,TAS2R46,1788,Bengalensol
+46,TAS2R46,2028,"Soyasaponin I,Soyasaponin Î²b"
+46,TAS2R46,2142,"11b,13-dihydrolactucopicrin,11(S),13-Dihydrolactucopicrin,11,13-dihydrolactucopicrin"
+46,TAS2R46,2181,"11,13-dihydrolactucin"
+46,TAS2R46,2202,Artemisinin
+46,TAS2R46,2277,Glycocholate
+46,TAS2R46,2331,"11b,13-dihydrolactucin"
+46,TAS2R46,2586,Nirmatrelvir
+46,TAS2R46,2590,Amarogentin
+46,TAS2R46,2624,Herbolide D
+46,TAS2R46,2632,Taurin
+46,TAS2R46,2709,Sintenin
+47,TAS2R47,36,"Humulon,Humulone"
+47,TAS2R47,41,Absinthin
+47,TAS2R47,45,Artemorin
+47,TAS2R47,48,Cascarillin
+47,TAS2R47,55,Quassin
+47,TAS2R47,62,Diphenidol
+47,TAS2R47,71,Amarogentin
+47,TAS2R47,73,Cohumulone
+47,TAS2R47,74,Colupulone
+47,TAS2R47,75,Isoxanthohumol
+47,TAS2R47,76,Xanthohumol
+47,TAS2R47,89,Picrotoxinin
+47,TAS2R47,91,Brucine
+47,TAS2R47,94,Denatonium benzoate
+47,TAS2R47,126,Andrographolide
+47,TAS2R47,738,D-camphor
+47,TAS2R47,808,"Epigallocatechin gallate, egcg,Epigallocatechin gallate,EGCG"
+47,TAS2R47,1344,Camphor
+47,TAS2R47,1620,Denatonium
+47,TAS2R47,2112,Protocatechuic acid
+47,TAS2R47,2300,Adhumulone
+47,TAS2R47,2590,Amarogentin
+49,TAS2R49,62,Diphenidol
+49,TAS2R49,96,Cromolyn
+49,TAS2R49,315,"Methoxsalen,Xanthotoxin"
+49,TAS2R49,827,"L-trp,L-tryptophan"
+49,TAS2R49,1621,Cromolyn
+49,TAS2R49,1784,"N-3-Oxo-Dodecanoyl-L-Homoserine Lactone,3-oxo-C12-AHL"
+49,TAS2R49,2045,Vanillin
+49,TAS2R49,2053,glyoxal-derived lysine dimer (GOLD)
+49,TAS2R49,2054,Carboxymethyllysine (CML)
+49,TAS2R49,2393,C8-AHL
+50,TAS2R50,71,Amarogentin
+50,TAS2R50,126,Andrographolide
+50,TAS2R50,1629,Dehydroandrographolide
+50,TAS2R50,2590,Amarogentin

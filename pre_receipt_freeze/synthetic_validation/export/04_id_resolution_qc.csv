@@ -1,0 +1,12 @@
+wave,id_source,n_rows
+ph1,drug_id,2993
+ph1,free_text,292
+ph1,unresolved,70
+ph2,drug_id,3350
+ph2,free_text,334
+ph2,kedd_id,<10
+ph2,unresolved,67
+all,flag:drug_id_unknown,<10
+all,flag:kedd_unknown,<10
+all,flag:id_conflict,0
+all,flag:unresolved,137

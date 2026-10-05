@@ -1,0 +1,12 @@
+variable,status,detail,source
+coffee,direct questionnaire item,コーヒー（缶コーヒー以外）,調査票（食）FFQ PDF
+tea,direct questionnaire item,"紅茶, ウーロン茶, 緑茶類",調査票（食）FFQ PDF
+alcohol,direct questionnaire item,種類別頻度・量・フラッシング・酒の強さ,生活調査票
+fermented foods,direct questionnaire item,みそ汁等 (納豆 to confirm in item list),調査票（食）FFQ PDF
+bitter vegetables,unavailable,no dedicated bitter item observed,調査票（食）FFQ PDF
+sweet foods / sugar,direct questionnaire item,砂糖・ミルク item,調査票（食）FFQ PDF
+spicy foods,uncertain,not verified in item list,調査票（食）FFQ PDF
+fruit / vegetables,direct questionnaire item,野菜類・果物 groups,調査票（食）FFQ PDF
+fish / meat,direct questionnaire item,魚介類・肉類 groups,調査票（食）FFQ PDF
+supplements,direct questionnaire item,生活調査票 薬・サプリメント section,生活調査票
+derived nutrients,uncertain,FFQ-derived nutrient variables typical but not verified,public docs

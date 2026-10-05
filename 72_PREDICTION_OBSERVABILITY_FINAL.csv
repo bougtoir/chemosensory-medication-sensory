@@ -1,0 +1,30 @@
+prediction_id,exposure_constructible_from_freetext,outcome_constructible,observability_status,rationale
+P01,PTU via parser (propylthiouracil/プロパジール/チウラジール),cross-wave exposure + formulation gradient,PRE-SPECIFIED BUT CONDITIONALLY TESTABLE,PTU is second-line in Japan; prevalence may be sparse -> PRE-SPECIFIED BUT UNTESTABLE if below floor; never merged into or rescued by P10/P02 (91)
+P02,methimazole (メルカゾール) via parser,exposure + formulation,TESTABLE,first-line antithyroid in Japan; brand map covers
+P03,chloramphenicol capsule/suspension,exposure,PRE-SPECIFIED BUT UNTESTABLE,systemic chloramphenicol essentially absent in Japanese outpatient use (ophthalmic only)
+P04,chlorpheniramine syrup vs tablet (ポララミン),formulation contrast within drug,TESTABLE,common OTC/Rx antihistamine; syrup form maps to EX3
+P05,ofloxacin (タリビット) via parser,exposure,CONDITIONALLY TESTABLE,oral ofloxacin use limited (mostly ophthalmic); proxy rs3741845 availability gate
+P06,quinine/quinidine,exposure,PRE-SPECIFIED BUT UNTESTABLE,near-zero use in Japan outpatient cohort
+P07,aggregate liquid oral meds (EX3 class),EX3 share of oral meds,TESTABLE,class-level exposure does not depend on single-drug prevalence
+P08,sweetened formulations vs plain,formulation contrast,CONDITIONALLY TESTABLE,sweetener content not on label; proxy via pediatric/liquid forms only
+P09,chemesthetic liquids (ibuprofen susp etc.),EX3 liquid class,CONDITIONALLY TESTABLE,adult suspension use uncommon; pediatric proxy not in cohort
+P10,PROP-thiourea aggregate (PTU+methimazole),exposure,TESTABLE,independent pooled thiourea-class prediction; NOT a rescue of P01 (91)
+P11,Ace-K sweetened formulations,formulation,PRE-SPECIFIED BUT UNTESTABLE,sweetener identity not recoverable from questionnaire text
+P12,erythromycin suspension vs enteric tab (エリスロシン),formulation contrast,CONDITIONALLY TESTABLE,macrolide suspensions mainly pediatric; contrast may be sparse in adults
+N01,insulin injection (EX0),exposure,TESTABLE,route control
+N02,gentamicin injection,exposure,PRE-SPECIFIED BUT UNTESTABLE,parenteral aminoglycoside rare outpatient
+N03,remdesivir IV,exposure,PRE-SPECIFIED BUT UNTESTABLE,inpatient-only
+N04,fentanyl patch (EX0),exposure,CONDITIONALLY TESTABLE,oncologic/palliative use; may be sparse
+N05,omeprazole enteric (EX1),exposure,CONDITIONALLY TESTABLE,PPI common; enteric flag parseable
+N06,erythromycin film/enteric tab (EX1),exposure,CONDITIONALLY TESTABLE,masking control paired with P12
+N07,PROP exposure vs TAS2R9,exposure,CONDITIONALLY TESTABLE,receptor-mismatch control shares P01/P10 exposure
+N08,ofloxacin vs TAS2R38,exposure,CONDITIONALLY TESTABLE,receptor-mismatch control shares P05 exposure
+N09,clindamycin liquid vs TAS2R38,exposure,PRE-SPECIFIED BUT UNTESTABLE,clindamycin liquid essentially absent (capsule only in Japan)
+N10,quinine vs TAS1R2,exposure,PRE-SPECIFIED BUT UNTESTABLE,shares P06 exposure (untestable)
+N11,ibuprofen film tab vs TRPA1,exposure,TESTABLE,masking control paired with P09 exposure class
+N12,supplement/health-food use vs TAS2R38,non-drug exposure flag,TESTABLE,behavioral control from supplement screener
+C1,EX3 vs EX1 within TAS2R38-ligand drugs,formulation gradient,TESTABLE,core masking contrast
+C2,oral liquid vs parenteral same drug,route contrast,CONDITIONALLY TESTABLE,same-drug dual route rare outpatient
+C3,suspension vs tablet erythromycin,route contrast,CONDITIONALLY TESTABLE,paired with P12
+C4,OD vs standard tablet,formulation contrast,TESTABLE,"OD products common (アリセプトD, エビリファイOD)"
+C5,enteric vs non-enteric same ingredient,release contrast,CONDITIONALLY TESTABLE,paired ingredients identifiable

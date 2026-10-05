@@ -1,0 +1,12 @@
+theory_id,theory_element,protocol_element,frozen_in,testability
+T01,"Chemosensory phenotype has a genetic component (S = f(G, E), G part)",taste-bud-related gene polymorphisms (approved 20 genes),05,direct (genotype only)
+T02,Acquired plasticity of chemosensory phenotype (E part),not measured in the distribution,27,not tested
+T03,"Drug-related behaviour depends on chemosensory engagement (M = g(S, D))",prescription change ph1→ph2 by receptor-ligand prediction (P01–P12),"06, 14",direct (population association)
+T04,Effect scales with oral sensory exposure,formulation/route information in the medication section,11,conditional direct
+T05,Specificity: no effect without oral exposure or receptor match,negative controls N01–N12,10,direct
+T06,Same variants shape dietary chemosensory phenotype,FFQ ph1/ph2 items,09,secondary triangulation
+T07,Evidence strength predicts effect size,frozen evidence scores,12,direct (calibration)
+T08,Taste receptors as extra-oral chemical sensors (chemical surveillance),"protocol background (gut, airway, innate immunity, metabolism)",25,indirect: compatible only
+T09,Immune mediation,none,25,not tested
+T10,Modifiable sensory component enables intervention,none,27,not tested
+T11,Health-economic / global-health benefit,none,28,not tested

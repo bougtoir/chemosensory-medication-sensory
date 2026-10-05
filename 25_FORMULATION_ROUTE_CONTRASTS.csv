@@ -1,0 +1,6 @@
+cid,drug,fa,fb,ra,rb,direction,order,basis,evidence,alt,falsify
+C1,erythromycin,oral suspension,enteric/film-coated tablet,oral,oral,bitterness-mediated avoidance A>B,suspension > tablet,TAS2R1/10 agonism only on unmasked exposure,BitterDB edges,prescriber formulation choice,reversed or flat gradient
+C2,acetaminophen,liquid/syrup,film tablet,oral,oral,liquid shows stronger genotype-linked aversion,liquid > tablet,TAS2R39 agonism; direct mucosal contact,BitterDB TAS2R39 edge,age selects syrup anyway,flat
+C3,theophylline,elixir,sustained-release tablet,oral,oral,elixir > SR tab,elixir > SR,broad T2R agonism (TAS2R7/10/14/43/46),BitterDB,asthma severity confounds formulation,flat
+C4,potassium chloride,oral liquid/drops,extended-release tablet,oral,oral,liquid > ER tab,liquid > ER,metallic-bitter drops documented; ER wax matrix masks,formulation literature,"GI tolerability, not taste",flat
+C5,insulin (route contrast),none,parenteral,oral,parenteral,genotype effect absent at parenteral,oral-exposed > parenteral=0,no orosensory contact,route logic,systemic T2R biology,parenteral assoc

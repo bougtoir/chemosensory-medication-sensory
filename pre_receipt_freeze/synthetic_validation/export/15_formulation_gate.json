@@ -1,0 +1,6 @@
+{
+  "ex_coverage": 1.0,
+  "min_ex_coverage": 0.7,
+  "parser_gate": "SYNTHETIC-NOT-EVALUATED",
+  "status": "TESTABLE"
+}

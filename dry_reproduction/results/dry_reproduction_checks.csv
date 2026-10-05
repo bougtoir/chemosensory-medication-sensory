@@ -1,0 +1,90 @@
+check_id,component,check,status,observed,expected,note
+M1,manifest,HANDOFF_MANIFEST.csv SHA-256 vs files,DISCREPANCY,"76 match, 0 mismatch, 1 missing (preopening_lock_60-90.zip)",77 match,
+M2,manifest,97 amendment manifest prefixes vs current files,PASS,18/18 match,18,
+M3,manifest,60 pre-opening manifest hashes vs current files,PASS,"24 unchanged, 11 changed and re-hashed in 97, 0 changed without manifest entry (none)",unchanged or superseded via 97,
+M4,manifest,60 stated row count of 13_LOCKED_PREDICTIONS_v2_FINAL.csv,DISCREPANCY,stated 23,actual 24,clerical; hash matches the 24-row file
+R1,raw/pubmed,search_ledger.csv hashes vs stored XML,PASS,20/20,20,rows in a different column schema: none
+R2,raw/pubmed,seed_ledger.csv hashes vs stored XML,PASS,11/11,11,rows in a different column schema: SEED_27569025.xml
+R3,raw/pubmed,XML files without ledger entry,DISCREPANCY,SEED_extra_anchors.xml,none,
+R4,raw/bitterdb,bitterdb_ledger sha256_16 vs stored HTML,PASS,236/236,236,
+R5,raw/pubchem,ledger ok rows with stored JSON,PASS,197/197,197,ledger failures retained: nifedipine retard
+R6,raw/tommo_public,public questionnaire ledger (bytes+SHA-256),PASS,10/10,10,public blank questionnaires only
+P1,search_pool,Stage-1 query XML (20 files) -> unique PMIDs,AUDIT_ONLY,4396,,subset of frozen pool
+P2,search_pool,Stage-1 + ledgered seed XML vs frozen evidence/search_pool.csv,DISCREPANCY,"ledgered=5112, frozen=5125, only-frozen=14, only-ledgered=1",identical PMID sets,
+P2b,search_pool,all stored XML (incl. unledgered SEED_extra_anchors.xml) vs frozen pool,DISCREPANCY,"all=5126, only-frozen=[none], only-XML=[27569025]",identical PMID sets,set-level only; frozen row order and per-row metadata assembly are not encoded in any script
+P3,search_pool,anchor PMID 27569025 present in frozen pool,DISCREPANCY,False,True,"unledgered XML content: SEED_extra_anchors.xml: [1562204, 2185626, 3797487, 6847015, 7148734, 10761934, 10761935, 12595690, 14997422, 15759003, 16636110, 20534469, 20551074, 21940398, 22218679, 23632915, 24413990, 26406243, 27138342, 27711175, 29982450, 30357384, 31006818, 32453275, 36894246, 36929150, 37685855, 39123846, 39535052, 39952694, 41485871, 42162282, 42605530, 42783596]"
+B1,bitterdb,02_bitterdb_scrape.py parse logic applied to stored HTML vs stored ledger,PASS,236/236 ledger rows reproduced,236,script logic yields 1777 edges (non-human pages pass the 'human' regex)
+B2,bitterdb,edges after frozen human-receptor mapping vs frozen ligand table,PASS,1108 edges / 26 receptor ids,1108 edges,requires evidence/bitterdb_human_receptors.csv (curation step not encoded in 02)
+B3,bitterdb,compound table re-derived with 02 logic (unfiltered pages),PASS,684,684,frozen compound table was NOT human-filtered; human-only compounds = 645
+C1,pubchem,drug_chemical_space.csv properties re-derived from stored JSON,PASS,"props 197/197, sha 197/197",197,
+O0,offline rerun,scripts 04-10 exit codes (network blocked),PASS,"04_curate_evidence=0, 05_evidence_graph=0, 06_meta_analysis=0, 07_matrices_predictions=0, 08_figures=0, 09_expansion=0, 10_power_assessment=0",all 0,
+O-03_STUDY_INVENTORY.csv,offline rerun,regenerate 03_STUDY_INVENTORY.csv,DIFFERENT,,byte-identical,"shape (79, 7) vs (78, 7); pmid only-frozen=['27569025'] only-regenerated=[]"
+O-04_VARIANT_EVIDENCE.csv,offline rerun,regenerate 04_VARIANT_EVIDENCE.csv,EXACT,,byte-identical,
+O-05_DRUG_SENSORY_EVIDENCE.csv,offline rerun,regenerate 05_DRUG_SENSORY_EVIDENCE.csv,DIFFERENT,,byte-identical,"shape (17, 14) vs (17, 14); pmid only-frozen=[] only-regenerated=[]; differing cells=5"
+O-06_PLASTICITY_EVIDENCE.csv,offline rerun,regenerate 06_PLASTICITY_EVIDENCE.csv,EXACT,,byte-identical,
+O-evidence/sensory_behavior_evidence.csv,offline rerun,regenerate evidence/sensory_behavior_evidence.csv,EXACT,,byte-identical,
+O-evidence/extraoral_evidence.csv,offline rerun,regenerate evidence/extraoral_evidence.csv,EXACT,,byte-identical,
+O-evidence/evolution_evidence.csv,offline rerun,regenerate evidence/evolution_evidence.csv,EXACT,,byte-identical,
+O-07_EVIDENCE_GRAPH.csv,offline rerun,regenerate 07_EVIDENCE_GRAPH.csv,EXACT,,byte-identical,
+O-08_EVIDENCE_GRAPH.json,offline rerun,regenerate 08_EVIDENCE_GRAPH.json,EXACT,,byte-identical,
+O-09_META_ANALYSIS/meta_results.json,offline rerun,regenerate 09_META_ANALYSIS/meta_results.json,EXACT,,byte-identical,
+O-09_META_ANALYSIS/tas2r38_prop_meta_input.csv,offline rerun,regenerate 09_META_ANALYSIS/tas2r38_prop_meta_input.csv,EXACT,,byte-identical,
+O-09_META_ANALYSIS/README.md,offline rerun,regenerate 09_META_ANALYSIS/README.md,EXACT,,byte-identical,
+O-11_RECEPTOR_DRUG_MATRIX.csv,offline rerun,regenerate 11_RECEPTOR_DRUG_MATRIX.csv,EXACT,,byte-identical,
+O-12_VARIANT_FUNCTION_MATRIX.csv,offline rerun,regenerate 12_VARIANT_FUNCTION_MATRIX.csv,EXACT,,byte-identical,
+O-13_LOCKED_PREDICTIONS.csv,offline rerun,regenerate 13_LOCKED_PREDICTIONS.csv,EXACT,,byte-identical,
+O-23_CANDIDATE_PREDICTIONS_ALL.csv,offline rerun,regenerate 23_CANDIDATE_PREDICTIONS_ALL.csv,EXACT,,byte-identical,
+O-24_PREDICTION_EVIDENCE_AUDIT.csv,offline rerun,regenerate 24_PREDICTION_EVIDENCE_AUDIT.csv,EXACT,,byte-identical,
+O-25_FORMULATION_ROUTE_CONTRASTS.csv,offline rerun,regenerate 25_FORMULATION_ROUTE_CONTRASTS.csv,EXACT,,byte-identical,
+O-26_NEGATIVE_CONTROLS.csv,offline rerun,regenerate 26_NEGATIVE_CONTROLS.csv,EXACT,,byte-identical,
+O-13_LOCKED_PREDICTIONS_v2_PRELIMINARY.csv,offline rerun,regenerate 13_LOCKED_PREDICTIONS_v2_PRELIMINARY.csv,EXACT,,byte-identical,
+O-31_TOMMO_PREDICTION_TESTABILITY_MATRIX.csv,offline rerun,regenerate 31_TOMMO_PREDICTION_TESTABILITY_MATRIX.csv,EXACT,,byte-identical,
+O-33_ALTERNATIVE_EXPLANATION_AUDIT.csv,offline rerun,regenerate 33_ALTERNATIVE_EXPLANATION_AUDIT.csv,EXACT,,byte-identical,
+O-13_LOCKED_PREDICTIONS_v2_FINAL.csv,offline rerun,regenerate 13_LOCKED_PREDICTIONS_v2_FINAL.csv,EXACT,,byte-identical,
+O-figures,offline rerun,figures/*.png (08_figures.py),AUDIT_ONLY,7/7 byte-identical,,rasters are not scientific inputs to locks
+O-power,offline rerun,10_power_assessment.py power values vs 73 table,PASS,9/9 values found in 73,9,
+A-03_STUDY_INVENTORY.csv,anchor-augmented rerun,04 with SEED_27569025 appended to pool: 03_STUDY_INVENTORY.csv,SEMANTIC_MATCH_UNORDERED,,byte-identical,"same rows, different row order; exit=0"
+A-05_DRUG_SENSORY_EVIDENCE.csv,anchor-augmented rerun,04 with SEED_27569025 appended to pool: 05_DRUG_SENSORY_EVIDENCE.csv,SEMANTIC_MATCH_ORDERED,,byte-identical,values equal after numeric normalisation; exit=0
+S1,evidence score,G+H+R+V+Rep+F+O-A recomputed from components (23),PASS,P01=15; P02=14; P03=12; P04=11; P05=9; P06=11; P07=12; P08=7; P09=10; P10=6; P11=7; P12=10,equal to evidence_score column,
+S2,evidence score,component ranges per rubric 21,PASS,none,none,
+S3,evidence score,13_v2_FINAL evidence_score equals 23,PASS,none,none,
+S4,evidence score,13_v2_FINAL evidence_tier equals 23 tier,PASS,none,none,
+G1,gate,count of directional predictions with score>=9 vs 36,DISCREPANCY (errata 61),"recomputed 9 (P01, P02, P03, P04, P05, P06, P07, P09, P12)","36 states 8 (P01–P07, P09, P12)",61 corrects to 9: consistent
+G2,gate,number of directional predictions vs 36,PASS,12,12,
+H-23.primary,hierarchy,primary set according to 23.primary,PASS,"P01, P02, P05","P01, P02, P05",62 is the declared source of truth (82 rule 1)
+H-13_v2_FINAL.primary_or_secondary,hierarchy,primary set according to 13_v2_FINAL.primary_or_secondary,PASS,"P01, P02, P05","P01, P02, P05",62 is the declared source of truth (82 rule 1)
+H-62.confirmatory_status,hierarchy,primary set according to 62.confirmatory_status,PASS,"P01, P02, P05","P01, P02, P05",62 is the declared source of truth (82 rule 1)
+H-82.F-PRIMARY,hierarchy,primary set according to 82.F-PRIMARY,DISCREPANCY,"P01, P02, P05, P10","P01, P02, P05",62 is the declared source of truth (82 rule 1)
+H-README_HANDOFF.F-PRIMARY,hierarchy,primary set according to README_HANDOFF.F-PRIMARY,DISCREPANCY,"P01, P02, P05, P10","P01, P02, P05",62 is the declared source of truth (82 rule 1)
+H-LOCK_STATUS.F-PRIMARY,hierarchy,primary set according to LOCK_STATUS.F-PRIMARY,DISCREPANCY,"P01, P02, P05, P10","P01, P02, P05",62 is the declared source of truth (82 rule 1)
+H-91.P10_status,hierarchy,primary set according to 91.P10_status,PASS,P10=secondary,"P01, P02, P05",62 is the declared source of truth (82 rule 1)
+N1,negative controls,"control IDs identical across 26, 79, 13_v2_FINAL",PASS,12,12,
+N2,negative controls,genotype per control identical across 26/79/13_v2_FINAL,PASS,none,none,
+N3,negative controls,exposure (first token) identical across 26/79/13_v2_FINAL,PASS,none,none,
+N4,negative controls,class labels 26 (regenerated by 09) vs 79 (final),DISCREPANCY (label only),adherence->behavioral; mismatch->receptor-mismatch; published_null->receptor-mismatch,identical,"26 classes: adherence, masking, mismatch, published_null, route | 79 classes: behavioral, masking, receptor-mismatch, route | 36 text: 12 controls across 4 classes (route, masking, mismatch, adherence)"
+N6,contrasts,C1-C5 definitions in 25 (script 09) vs 72 (observability),DISCREPANCY,5/5 differ,same contrast per ID,C1: 25='erythromycin oral suspension vs enteric/film-coated tablet' / 72='EX3 vs EX1 within TAS2R38-ligand drugs' ; C2: 25='acetaminophen liquid/syrup vs film tablet' / 72='oral liquid vs parenteral same drug' ; C3: 25='theophylline elixir vs sustained-release tablet' / 72='suspension vs tablet erythromycin' ; C4: 25='potassium chloride oral liquid/drops vs extended-release tablet' / 72='OD vs standard tablet' ; C5: 25='insulin (route contrast) none vs parenteral' / 72='enteric vs non-enteric same ingredient'
+N5,contrasts,C1-C5 present,PASS,"C1, C2, C3, C4, C5",C1..C5,
+V-docs/17,gate,verdict of docs/17 recorded in LOCK_STATUS chain,PASS,CONDITIONAL GO,present,verdicts are judgments; inputs re-derived in G1/G2/N*/S*
+V-36,gate,verdict of 36 recorded in LOCK_STATUS chain,PASS,CONDITIONAL GO TO PRIMARY VALIDATION,present,verdicts are judgments; inputs re-derived in G1/G2/N*/S*
+V-89,gate,verdict of 89 recorded in LOCK_STATUS chain,PASS,OPEN WITH RESTRICTIONS,present,verdicts are judgments; inputs re-derived in G1/G2/N*/S*
+V-98,gate,verdict of 98 recorded in LOCK_STATUS chain,PASS,OPEN PRIMARY DATA WITH RESTRICTIONS,present,verdicts are judgments; inputs re-derived in G1/G2/N*/S*
+V-chain,gate,"historical gate chain (judgment, not computable)",AUDIT_ONLY,17: CONDITIONAL GO -> 36: CONDITIONAL GO TO PRIMARY VALIDATION -> 89: OPEN WITH RESTRICTIONS -> 98: OPEN PRIMARY DATA WITH RESTRICTIONS,,
+V-17B,gate,docs/17 domain B receptor count vs frozen BitterDB ligand table,PASS,23,23,'76 drug edges' not re-derivable: definition not encoded in any script
+X1,parser,medication_parser.py SHA-256 vs 94,PASS,c722341a04419e32b8e999411d5fb4977e809fbbc3038ad519481676a5fa99de,c722341a04419e32b8e999411d5fb4977e809fbbc3038ad519481676a5fa99de,
+X2,parser,rerun on gold corpus vs frozen validation_output.csv,SEMANTIC_MATCH,True,True,integer vs float exposure codes normalised
+X3,parser,accuracy vs gold labels vs 69 table,PASS,generic_name=145/146; formulation=145/146; route=145/146; oral_sensory_exposure=145/146; taste_masking=146/146,generic_name=145/146; route=145/146; formulation=145/146; oral_sensory_exposure=145/146; taste_masking=146/146,
+X4,parser,real ToMMo-string validation (92),NOT_RUN,requires delivered ToMMo strings,,mandatory gate before any association run; out of scope here
+T1,tests,pytest on frozen package,PASS,"10 passed, 0 failed",0 failed,
+T2,tests,pytest on offline-regenerated package,FAIL,"8 passed, 2 failed",0 failed,tests/test_outputs.py::test_inventory_covers_all_evidence_pmids; tests/test_outputs.py::test_references_have_no_orphans
+E1,exclusion,tracked data/ roots,PASS,"data/raw/bitterdb, data/raw/pubchem, data/raw/pubmed, data/raw/tommo_public",public sources only,
+E2,exclusion,genotype/participant-type files in package,PASS,none,none,
+E3,exclusion,network calls in offline scripts 04-10,PASS,none,none,offline stages also run with a dead proxy
+Z1,handoff zip,files in ZIP identical to package,PASS,"77 common, 0 differ",0 differ,
+Z2,handoff zip,package directories absent from ZIP,INCOMPLETE_HANDOFF,"09_META_ANALYSIS, data, docs, evidence, figures, prediction, scripts, tests",none,"ZIP is a document-level handoff; scripts/tests/raw sources exist only in the git branch, so ZIP-only reproduction is impossible"
+L1,live re-acquisition,live Stage-1 PubMed pool vs frozen Stage-1 XML,SOURCE_DRIFT,4397 PMIDs (+3 / -2),4396 PMIDs,PubMed index growth since freeze; frozen seed/anchor layer not re-queried by 01
+L2,live re-acquisition,live BitterDB human edges (frozen receptor mapping) vs frozen,PASS,1108 (+0 / -0); raw script output 1777,1108,
+L3,live re-acquisition,live PubChem properties vs frozen,PASS,197 resolved; changed: none; new: none,197 resolved,
+L-11_RECEPTOR_DRUG_MATRIX.csv,live re-acquisition,pipeline on live BitterDB/PubChem + frozen pool: 11_RECEPTOR_DRUG_MATRIX.csv,EXACT,,frozen,; exits=[0]
+L-23_CANDIDATE_PREDICTIONS_ALL.csv,live re-acquisition,pipeline on live BitterDB/PubChem + frozen pool: 23_CANDIDATE_PREDICTIONS_ALL.csv,EXACT,,frozen,; exits=[0]
+L-26_NEGATIVE_CONTROLS.csv,live re-acquisition,pipeline on live BitterDB/PubChem + frozen pool: 26_NEGATIVE_CONTROLS.csv,EXACT,,frozen,; exits=[0]
+L-13_LOCKED_PREDICTIONS_v2_FINAL.csv,live re-acquisition,pipeline on live BitterDB/PubChem + frozen pool: 13_LOCKED_PREDICTIONS_v2_FINAL.csv,EXACT,,frozen,; exits=[0]

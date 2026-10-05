@@ -1,0 +1,198 @@
+generic_name,drug_class,route,oral_exposure,formulation_note,cid,mw,xlogp,tpsa,hbd,hba,rotb,charge,inchikey,smiles,sha256_16
+acetaminophen,analgesic,oral,high,tablet/liquid both common,1983,151.16,0.5,49.3,2,2,1,0,RZVAJINKPMORJF-UHFFFAOYSA-N,,4421af0151766f0c
+ibuprofen,NSAID,oral,high,tablet/liquid; pediatric suspension taste-studied,3672,206.28,3.5,37.3,1,2,4,0,HEFNNWSXXWATRW-UHFFFAOYSA-N,,12cb416551776c61
+aspirin,NSAID/antiplatelet,oral,high,tablet/enteric,2244,180.16,1.2,63.6,1,4,3,0,BSYNRYMUTXBXSQ-UHFFFAOYSA-N,,54346bd4fa120236
+diclofenac,NSAID,oral,medium,enteric-coated tablet,3033,296.1,4.4,49.3,2,3,4,0,DCOPUUMXTXDBNB-UHFFFAOYSA-N,,d04461e1c208f430
+naproxen,NSAID,oral,medium,tablet,156391,230.26,3.3,46.5,1,3,3,0,CMWTZPSULFXXJA-VIFPVBQESA-N,,4078a73c5bf4a083
+celecoxib,COX2 inhibitor,oral,low,capsule (low oral-taste exposure),2662,381.4,3.4,86.4,1,7,3,0,RZEKVGVHFLEQIL-UHFFFAOYSA-N,,31bcf4a28ff587eb
+morphine,opioid,oral,high,immediate-release tablet/liquid bitter,5288826,285.34,0.8,52.9,2,4,0,0,BQJCRHHNABKAKU-KBQPJGBKSA-N,,1f2ca2d3453d5f1d
+codeine,opioid,oral,medium,tablet/syrup,5284371,299.4,1.1,41.9,1,4,1,0,OROGSEYTTFOCAN-DNJOTXNNSA-N,,57c8e03b6423a134
+oxycodone,opioid,oral,medium,tablet/liquid,5284603,315.4,1.2,59.0,1,5,1,0,BRUQQQPBMZOVGD-XFKAJCMBSA-N,,d8ef9db0cde43b0c
+tramadol,opioid,oral,medium,tablet/capsule,33741,263.37,2.6,32.7,1,3,4,0,TVYLLZQTGLZFBW-ZBFHGGJFSA-N,,6b6c2bc818000419
+metformin,biguanide,oral,high,tablet; known metallic-bitter taste,4091,129.16,-1.3,91.5,3,1,2,0,XZWYZXLIPXDOLR-UHFFFAOYSA-N,,fb58afd5f71a2069
+gliclazide,sulfonylurea,oral,medium,tablet,3475,323.4,1.5,86.9,2,4,3,0,BOVGTQGAOIONJV-UHFFFAOYSA-N,,cfc0f5347a36aed9
+sitagliptin,DPP4 inhibitor,oral,low,tablet,4369359,407.31,0.7,77.0,1,10,4,0,MFFMDFFZMYYVKS-SECBINFHSA-N,,2109a42ad51d782d
+empagliflozin,SGLT2 inhibitor,oral,low,tablet,11949646,450.9,2.0,109.0,4,7,6,0,OBWASQILIWPZMG-QZMOQZSNSA-N,,f276d7ad8b161a1f
+insulin,peptide,parenteral,none,negative control (non-oral),70678557,5794,-12.8,2450.0,78,89,178,0,YAJCHEVQCOHZDC-QMMNLEPNSA-N,,501b269e0c9f34ff
+warfarin,anticoagulant,oral,medium,tablet,54678486,308.3,2.7,63.6,1,4,4,0,PJVWKTKQMONHTI-UHFFFAOYSA-N,,8c5230ff8ef543d7
+apixaban,DOAC,oral,low,film-coated tablet,10182969,459.5,2.2,111.0,1,5,5,0,QNZCBYKSOIHPEH-UHFFFAOYSA-N,,7209519acf0fbbdd
+clopidogrel,antiplatelet,oral,low,tablet,60606,321.8,3.8,57.8,0,4,4,0,GKTWGGQPFAXNFI-HNNXBMFYSA-N,,7a9d5ac31eaeb721
+atorvastatin,statin,oral,low,film-coated tablet,60823,558.6,5.0,112.0,4,6,12,0,XUKUURHRXDUEBC-KAYWLYCHSA-N,,8df37f8c1f141619
+rosuvastatin,statin,oral,low,tablet,446157,481.5,1.6,149.0,3,10,10,0,BPRHUIZQVSMCRT-VEUZHWNKSA-N,,3287c3f1034880c9
+pravastatin,statin,oral,low,tablet,54687,424.5,1.6,124.0,4,7,11,0,TUZYXOIXSAXUGO-PZAWKZKUSA-N,,47430e8d3358260d
+ezetimibe,lipid,oral,low,tablet,150311,409.4,4.0,60.8,2,5,6,0,OLNTVTPDXPETLC-XPWALMASSA-N,,c62d9d3887353e14
+amlodipine,CCB,oral,medium,tablet/OD tablet (palatability studies exist),2162,408.9,3.0,99.9,2,7,10,0,HTIQEAQVCYTUBX-UHFFFAOYSA-N,,a625c2503d2540f0
+nifedipine,CCB,oral,medium,capsule/CR tablet,4485,346.3,2.2,110.0,1,7,5,0,HYIMSNHJOBLJNT-UHFFFAOYSA-N,,e64a24cdb66bb1d4
+losartan,ARB,oral,medium,tablet,3961,422.9,4.3,92.5,2,5,8,0,PSIFNNKUMBGKDQ-UHFFFAOYSA-N,,78341aaac42a376c
+valsartan,ARB,oral,medium,tablet,60846,435.5,4.4,112.0,2,6,10,0,ACWBQPMHZXGDFX-QFIPXVFZSA-N,,bbfabc6bb62978a2
+candesartan,ARB,oral,medium,tablet,2541,440.5,4.1,119.0,2,7,7,0,HTQMVQVXFRQIKW-UHFFFAOYSA-N,,4b1e5bd5bd28deb0
+enalapril,ACE inhibitor,oral,medium,tablet,5388962,376.4,-0.1,95.9,2,6,10,0,GBXSMTUPTTWBMN-XIRDDKMYSA-N,,44620f68f0817c71
+furosemide,loop diuretic,oral,medium,tablet bitter,3440,330.74,2.0,131.0,3,7,5,0,ZZUFCTLCJUWOSV-UHFFFAOYSA-N,,5944bad0ae33dd7b
+spironolactone,MRA,oral,medium,tablet,5833,416.6,2.9,85.7,0,5,2,0,LXMSZDCAJNLERA-ZHYRCANASA-N,,f96d20f4f9cdb87b
+hydrochlorothiazide,thiazide,oral,medium,tablet,3639,297.7,-0.1,135.0,3,7,1,0,JZUFKLXOESDKRF-UHFFFAOYSA-N,,f2bb0354d7a4d1e2
+metoprolol,beta blocker,oral,medium,tablet,4171,267.36,1.9,50.7,2,4,9,0,IUBSYMUCCVWXPE-UHFFFAOYSA-N,,01f0d35865776156
+propranolol,beta blocker,oral,medium,tablet/liquid,4946,259.34,3.0,41.5,2,3,6,0,AQHHHDLHHXJYJD-UHFFFAOYSA-N,,7503f5bcba2d83cf
+atenolol,beta blocker,oral,medium,tablet,2249,266.34,0.2,84.6,3,4,8,0,METKIMKYRPQLGS-UHFFFAOYSA-N,,76a6c137c856b794
+carvedilol,beta blocker,oral,medium,tablet,2585,406.5,4.2,75.7,3,5,10,0,OGHNVEJMJSYVRP-UHFFFAOYSA-N,,f404727268d52c31
+levothyroxine,thyroid,oral,medium,tablet,5819,776.87,2.4,92.8,3,5,5,0,XUIIKFGFIJCVMT-LBPRGKRZSA-N,,c33265f5af5d2b15
+omeprazole,PPI,oral,low,enteric-coated capsule (masked),4594,345.4,2.2,96.3,1,6,5,0,SUBDBMMJDZJVOS-UHFFFAOYSA-N,,2d8723730d69e5e5
+esomeprazole,PPI,oral,low,enteric-coated (masked),9568614,345.4,2.2,96.3,1,6,5,0,SUBDBMMJDZJVOS-DEOSSOPVSA-N,,8c7960701af101b6
+lansoprazole,PPI,oral,low,enteric-coated/OD,3883,369.4,2.8,87.1,1,8,5,0,MJIHNNLFOKEZEW-UHFFFAOYSA-N,,a168847248cf59fe
+famotidine,H2 blocker,oral,low,tablet,5702160,337.5,-0.6,238.0,4,8,7,0,XUFQPHANEAPEMJ-UHFFFAOYSA-N,,da811baf19776ac8
+clarithromycin,macrolide,oral,high,notoriously bitter tablet/suspension,84029,748.0,3.2,183.0,4,14,8,0,AGOYDEPGAOXOCK-KCBOHYOISA-N,,fe0af62d0e479b3a
+azithromycin,macrolide,oral,high,suspension taste-masked,447043,749.0,4.0,180.0,5,14,7,0,MQTOSJVFKKJCRP-BICOPXKESA-N,,ba6c5667109e68cc
+erythromycin,macrolide,oral,high,bitter; TAS2R10 agonist reported,12560,733.9,2.7,194.0,5,14,7,0,ULGZDMOVFRHVEP-RWJQBGPGSA-N,,08b6a59f0ba76847
+amoxicillin,penicillin,oral,high,suspension flavored,33613,365.4,-2.0,158.0,4,7,4,0,LSQZJLSUYDQPKJ-NJBDSQKTSA-N,,718dc36b2d26c4ce
+cephalexin,cephalosporin,oral,high,suspension,27447,347.4,0.6,138.0,3,6,4,0,ZAIPMKNFIOOWCQ-UEKVPHQBSA-N,,ece916541a723b28
+levofloxacin,fluoroquinolone,oral,medium,tablet bitter,149096,361.4,-0.4,73.3,1,8,2,0,GSDSWSVVBLHKDQ-JTQLQIEISA-N,,2af47f16b626cd08
+ofloxacin,fluoroquinolone,oral,high,TAS2R9-linked bitterness reported,4583,361.4,-0.4,73.3,1,8,2,0,GSDSWSVVBLHKDQ-UHFFFAOYSA-N,,9e57a1eaef6f0d3f
+ciprofloxacin,fluoroquinolone,oral,medium,tablet bitter,2764,331.34,-1.1,72.9,2,7,3,0,MYSWGUAQZAJSOK-UHFFFAOYSA-N,,ae9a2acfe4978027
+moxifloxacin,fluoroquinolone,oral,low,tablet,152946,401.4,0.6,82.1,2,8,4,0,FABPRXSRWADJSP-MEDUHNTESA-N,,bc05993c7a5fc37f
+doxycycline,tetracycline,oral,medium,capsule/tablet,54671203,444.4,-0.7,182.0,6,9,2,0,SGKRLCUYIXIAHR-AKNGSSGZSA-N,,ec6b1a88867ab8c8
+minocycline,tetracycline,oral,medium,capsule,54675783,457.5,-0.6,165.0,5,9,3,0,FFTVPQUHLQBXQZ-KVUCHLLUSA-N,,d1c424e57d703535
+metronidazole,nitroimidazole,oral,high,very bitter tablet,4173,171.15,0.0,83.9,1,4,2,0,VAOCPAMSLUNLGC-UHFFFAOYSA-N,,664faba8fa47f922
+chloroquine,antimalarial,oral,high,bitter; multiple TAS2Rs,2719,319.9,4.6,28.2,1,3,8,0,WHTVZRBIWZFKQO-UHFFFAOYSA-N,,21181bfaf4e6beab
+hydroxychloroquine,antimalarial,oral,high,very bitter tablet,3652,335.9,3.6,48.4,2,4,9,0,XXSMGPRMXLTPCZ-UHFFFAOYSA-N,,4badc8ca2d3149e9
+quinine,antimalarial,oral,high,canonical bitter,3034034,324.4,2.9,45.6,1,4,4,0,LOUPRKONTZGTKE-WZBLMQSHSA-N,,a035bcde74d4243d
+dapsone,antimicrobial,oral,medium,TAS2R agonist reported,2955,248.30,1.0,94.6,2,4,2,0,MQJKPEGWNLWLTK-UHFFFAOYSA-N,,257db5e3d5e615f6
+isoniazid,antitubercular,oral,medium,tablet,3767,137.14,-0.7,68.0,2,3,1,0,QRXWMOHMRWLFEY-UHFFFAOYSA-N,,6823f2d30c073647
+ethambutol,antitubercular,oral,medium,tablet,14052,204.31,-0.1,64.5,4,4,9,0,AEUTYOVWOVBAKS-UWVGGRQHSA-N,,4f59032d2167086c
+pyrazinamide,antitubercular,oral,medium,tablet,1046,123.11,-0.6,68.9,1,3,1,0,IPEHBUMCGVEMRF-UHFFFAOYSA-N,,f04f7fcc23db4640
+oseltamivir,antiviral,oral,medium,capsule/suspension bitter,65028,312.40,1.1,90.7,2,5,8,0,VSZGPKBBMSAYNT-RRFJBIMHSA-N,,6d77b6884ead795d
+valacyclovir,antiviral,oral,medium,tablet,135398742,324.34,-0.9,147.0,3,7,8,0,HDOVUKNUBWVHOX-QMMMGPOBSA-N,,05df929740f7b577
+prednisolone,corticosteroid,oral,high,very bitter; pediatric taste barrier,5755,360.4,1.6,94.8,3,5,2,0,OIGNJSKKLXVSLS-VWUMJDOOSA-N,,2b17b29ff2726228
+prednisone,corticosteroid,oral,high,bitter tablet,5865,358.4,1.5,91.7,2,5,2,0,XOFYZVNMUHMLCC-ZPOLXVRWSA-N,,e078feb98d8e035b
+dexamethasone,corticosteroid,oral,high,bitter,5743,392.5,1.9,94.8,3,6,2,0,UREBDLICKHMUKA-CXSFZGCWSA-N,,fb2e4acdcccbb93f
+hydrocortisone,corticosteroid,oral,high,bitter,5754,362.5,1.6,94.8,3,5,2,0,JYGXADMDTFJGBT-VWUMJDOOSA-N,,0f88ce530c2814b3
+montelukast,LTRA,oral,medium,granules/chewable,5281040,586.2,7.7,95.7,2,5,12,0,UCHDWCPVSPXUMX-TZIWLTJVSA-N,,feacd4791a0e5ef8
+cetirizine,antihistamine,oral,high,liquid bitter,2678,388.9,1.7,53.0,1,5,8,0,ZKLPARSLTMPFCP-UHFFFAOYSA-N,,9ed4106675f62ed6
+loratadine,antihistamine,oral,medium,tablet,3957,382.9,5.2,42.4,0,3,2,0,JCCNYMKQOSZNPW-UHFFFAOYSA-N,,80cf1448604a8c66
+fexofenadine,antihistamine,oral,medium,tablet,3348,501.7,3.0,81.0,3,5,10,0,RWTNPBWLLIMQHL-UHFFFAOYSA-N,,544655e6c1aef8a3
+diphenhydramine,antihistamine,oral,high,bitter elixir,3100,255.35,3.3,12.5,0,2,6,0,ZZVUWRFHKOJYTH-UHFFFAOYSA-N,,17614e3be955b2ae
+chlorpheniramine,antihistamine,oral,high,bitter,2725,274.79,3.4,16.1,0,2,5,0,SOYKEARSMXGVTM-UHFFFAOYSA-N,,2206eb9c5cbd2111
+promethazine,phenothiazine,oral,high,bitter syrup,4927,284.4,4.8,31.8,0,3,3,0,PWWVAXIEGOYWEE-UHFFFAOYSA-N,,ad094b5531ac1cb7
+ondansetron,5HT3 antagonist,oral,medium,OD tablet (masked),4595,293.4,2.3,39.8,0,2,2,0,FELGMEQIXOGIFQ-UHFFFAOYSA-N,,74c5206547d1b381
+domperidone,dopamine antagonist,oral,medium,tablet,3151,425.9,3.9,67.9,2,3,5,0,FGXWKSZFVQUSTL-UHFFFAOYSA-N,,43374a0cb73e32f9
+metoclopramide,dopamine antagonist,oral,medium,tablet,4168,299.79,2.6,67.6,2,4,7,0,TTWJBBZEZQICBI-UHFFFAOYSA-N,,9ede5e4541611748
+sennosides,laxative,oral,medium,tablet,5199,862.7,1.2,348.0,12,20,9,0,IPQVTOJGNYVQEO-UHFFFAOYSA-N,,4f9f536cf01e55b5
+loperamide,antidiarrheal,oral,medium,capsule,3955,477.0,5.0,43.8,1,3,7,0,RDOIQAHITMMDAJ-UHFFFAOYSA-N,,0678ba8d863b8bab
+bismuth subsalicylate,antidiarrheal,oral,high,chalky/astringent liquid,53629521,362.09,,64.2,1,4,0,0,ZREIPSZUJIFJNP-UHFFFAOYSA-K,,8113861c37b2e984
+ferrous sulfate,iron,oral,high,metallic/astringent,24393,151.91,,88.6,0,4,0,0,BAUYGSIQEAFULO-UHFFFAOYSA-L,,24c839aa8ff0da09
+potassium chloride,electrolyte,oral,high,very bitter/salty liquid,4873,74.55,,0.0,0,1,0,0,WCUXLLCKKVVCTQ-UHFFFAOYSA-M,,1b06c89ab3cdf3a6
+calcium carbonate,supplement,oral,high,chalky chewable,10112,100.09,,63.2,0,3,0,0,VTYYLEPIZMXCLO-UHFFFAOYSA-L,,1b47c657ac2a34be
+cholecalciferol,vitamin D,oral,low,oil drops/tablet,5280795,384.6,7.9,20.2,1,1,6,0,QYSXJUFSXHHAJI-YRZJJWOYSA-N,,bc4bde355eb2df8a
+folic acid,vitamin,oral,low,tablet,135398658,441.4,-1.1,209.0,6,10,9,0,OVBPIULPVIDEAO-LBPRGKRZSA-N,,667e915197e30a5c
+cyanocobalamin,vitamin B12,oral,low,tablet,166596686,1355.4,,497.0,12,22,26,0,RMRCNWBMXRMIRW-WZHZPDAFSA-L,,352747ea784b8047
+thiamine,vitamin B1,oral,medium,bitter-ish,1130,265.36,1.0,104.0,2,5,4,1,JZRWCGZRTZMZEH-UHFFFAOYSA-N,,202a0a81126914e5
+ascorbic acid,vitamin C,oral,high,sour chewable,54670067,176.12,-1.6,107.0,4,6,2,0,CIWBSHSKHKDKBQ-JLAZNSOCSA-N,,3bac05c0e1174552
+zinc sulfate,mineral,oral,high,metallic/astringent,24424,161.4,,88.6,0,4,0,0,NWONKYPBYAMBJT-UHFFFAOYSA-L,,c13d21d9d678de18
+fluoxetine,SSRI,oral,medium,capsule/liquid,3386,309.33,4.0,21.3,1,5,6,0,RTHCYVBBDHJXIQ-UHFFFAOYSA-N,,7e6ce9af88f54c3c
+sertraline,SSRI,oral,medium,tablet/liquid,68617,306.2,4.8,12.0,1,1,2,0,VGKDLMBJGBXTGI-SJCJKPOMSA-N,,da45dc45866b69c7
+paroxetine,SSRI,oral,medium,tablet,43815,329.4,3.5,39.7,1,5,4,0,AHOUBRCZNHFOSL-YOEHRIQHSA-N,,ccfbdd8ba7fdd8ef
+escitalopram,SSRI,oral,low,tablet,146570,324.4,3.2,36.3,0,4,5,0,WSEQXVZVJXJVFP-FQEVSTJZSA-N,,231c30dafc9166af
+venlafaxine,SNRI,oral,low,capsule XR,5656,277.4,2.9,32.7,1,3,5,0,PNVNVHUZROJLTJ-UHFFFAOYSA-N,,b62e83673003899d
+duloxetine,SNRI,oral,low,enteric pellet capsule,60835,297.4,4.3,49.5,1,3,6,0,ZEUITGRIYCTCEM-KRWDZBQOSA-N,,5365a7bf8f05b7d0
+amitriptyline,TCA,oral,high,very bitter tablet,2160,277.4,5.0,3.2,0,1,3,0,KRMDCWKBEZIMAB-UHFFFAOYSA-N,,ac8027fafb7fc837
+nortriptyline,TCA,oral,high,bitter,4543,263.4,4.5,12.0,1,1,3,0,PHVGLTMQBUFIQQ-UHFFFAOYSA-N,,7ee6d2febbba1a86
+imipramine,TCA,oral,high,bitter,3696,280.4,4.8,6.5,0,2,4,0,BCGWQEUPMDMJNV-UHFFFAOYSA-N,,3278818de35877c8
+mirtazapine,NaSSA,oral,medium,OD tablet,4205,265.35,3.3,19.4,0,3,0,0,RONZAEMNMFQXRA-UHFFFAOYSA-N,,953f6b967c5fe92e
+trazodone,SARI,oral,medium,tablet,5533,371.9,2.8,42.4,0,4,5,0,PHLBKPHSAVXXEF-UHFFFAOYSA-N,,9a7680e445238eae
+quetiapine,antipsychotic,oral,low,film tablet,5002,383.5,2.1,73.6,1,5,6,0,URKOMYMAXPYINW-UHFFFAOYSA-N,,7778485db0f7a807
+olanzapine,antipsychotic,oral,medium,OD tablet wafer bitter,135398745,312.4,2.9,59.1,1,4,1,0,KVWDHTXUZHCGIO-UHFFFAOYSA-N,,ce8b4a1a0ff6740d
+risperidone,antipsychotic,oral,medium,OD/liquid bitter,5073,410.5,2.7,61.9,0,6,4,0,RAPZEAPATHNIPO-UHFFFAOYSA-N,,280cedc56957e8df
+aripiprazole,antipsychotic,oral,medium,OD tablet,60795,448.4,4.6,44.8,1,4,7,0,CEUORZQYGODEFX-UHFFFAOYSA-N,,264ae0b3f3a3d708
+haloperidol,antipsychotic,oral,high,TAS2R46 agonist reported; drops bitter,3559,375.9,3.2,40.5,1,4,6,0,LNEPOXFFQSENCJ-UHFFFAOYSA-N,,6664ae014e122647
+clozapine,antipsychotic,oral,medium,tablet,135398737,326.8,3.1,30.9,1,3,1,0,QZUDBNBUXVUHMW-UHFFFAOYSA-N,,6b6856b46c89199b
+lamotrigine,antiepileptic,oral,high,very bitter chewable,3878,256.09,1.4,90.7,2,5,1,0,PYZRQGJRPPTADH-UHFFFAOYSA-N,,6626f0c40c8aed18
+levetiracetam,antiepileptic,oral,high,very bitter liquid,5284583,170.21,-0.3,63.4,1,2,3,0,HPHUVLMMVZITSG-LURJTMIESA-N,,46bfbf3f5a016fb8
+valproate,antiepileptic,oral,high,bitter syrup/sprinkle,3549980,143.20,3.4,40.1,0,2,4,-1,NIJJYAXOARWZEE-UHFFFAOYSA-M,,c5a815aa143dcecd
+carbamazepine,antiepileptic,oral,high,suspension,2554,236.27,2.5,46.3,1,1,0,0,FFGPTBGBLSHEPO-UHFFFAOYSA-N,,9312b3f68050d2d0
+topiramate,antiepileptic,oral,high,very bitter,5284627,339.36,-0.8,124.0,1,9,3,0,KJADKKWYZYXHBB-XBWDGYHZSA-N,,3b0ee0764c050e78
+gabapentin,antiepileptic,oral,medium,capsule/liquid,3446,171.24,-1.1,63.3,2,3,3,0,UGJMXCAKCUNAIE-UHFFFAOYSA-N,,05c7850ebf09c38e
+pregabalin,antiepileptic,oral,medium,capsule,5486971,159.23,-1.6,63.3,2,3,5,0,AYXYPKUFHZROOJ-ZETCQYMHSA-N,,167b90c3c3adb044
+phenytoin,antiepileptic,oral,high,suspension bitter,1775,252.27,2.5,58.2,2,2,2,0,CXOFVDLJLONNDW-UHFFFAOYSA-N,,5c572801ae6c2add
+lithium carbonate,mood stabilizer,oral,medium,tablet/capsule salty-bitter,11125,73.9,,63.2,0,3,0,0,XGZVUEUWXADBQD-UHFFFAOYSA-L,,fe8f9585e5db09f1
+methylphenidate,stimulant,oral,medium,tablet/capsule,4158,233.31,0.2,38.3,1,3,4,0,DUGOZIWVEXMGBE-UHFFFAOYSA-N,,4cee32f361968f0c
+lisdexamfetamine,stimulant,oral,medium,capsule,11597698,263.38,1.2,81.1,3,3,8,0,VOBHXZCDAVEXEY-JSGCOSHPSA-N,,dbade34cf7453b35
+atomoxetine,NRI,oral,low,capsule,54841,255.35,3.7,21.3,1,2,6,0,VHGCDTVCOLNTBX-QGZVFWFLSA-N,,7da7c9e95291e50e
+donepezil,AChEI,oral,medium,OD tablet,3152,379.5,4.3,38.8,0,4,6,0,ADEBPBSSDYVVLD-UHFFFAOYSA-N,,720a420053a8f14f
+memantine,NMDA,oral,medium,tablet,4054,179.30,3.3,26.0,1,1,0,0,BUGYDGFZZOZRHP-UHFFFAOYSA-N,,d123e62e5d775d35
+alendronate,bisphosphonate,oral,medium,tablet (swallow whole),2088,249.10,-6.5,161.0,6,8,5,0,OGSPWJRAVKPPFI-UHFFFAOYSA-N,,86b0a68a970a5919
+risedronate,bisphosphonate,oral,medium,tablet,5245,283.11,-3.1,148.0,5,8,4,0,IIDJRNMFWXDHID-UHFFFAOYSA-N,,84ce690ee7167761
+allopurinol,xanthine oxidase inh,oral,medium,tablet,135401907,136.11,-0.7,70.1,2,3,0,0,OFCNXPDARWKPPY-UHFFFAOYSA-N,,557ff4367f960dfb
+colchicine,anti-gout,oral,high,bitter; TAS2R agonist reported,6167,399.4,1.0,83.1,1,6,5,0,IAKHMKGGTNLKSZ-INIZCTEOSA-N,,5bb560f76b93f49f
+febuxostat,xanthine oxidase inh,oral,low,tablet,134018,316.4,3.9,111.0,1,6,5,0,BQSJTQLCZDPROO-UHFFFAOYSA-N,,b95424cc06b0a417
+sildenafil,PDE5 inhibitor,oral,low,film tablet,135398744,474.6,1.5,118.0,1,8,7,0,BNRNXUUZRGQAQC-UHFFFAOYSA-N,,5fa6fe86a55e2e63
+tamsulosin,alpha blocker,oral,low,capsule,129211,408.5,2.7,108.0,2,7,11,0,DRHKJLXJIQTDTD-OAHLLOKOSA-N,,15cf456e4b4cbcd5
+dutasteride,5ARI,oral,low,capsule,6918296,528.5,5.4,58.2,2,8,2,0,JWJOTENAMICLJG-QWBYCMEYSA-N,,cedd65d584a02bc9
+finasteride,5ARI,oral,low,tablet,57363,372.5,3.0,58.2,2,2,2,0,DBEPLOCGEIEOCV-WSBQPABSSA-N,,481e35ea46c52d4f
+theophylline,xanthine,oral,high,bitter,2153,180.16,0.0,69.3,1,3,0,0,ZFXYFBGIUFBOJW-UHFFFAOYSA-N,,9a0f7f78db369222
+caffeine,xanthine,oral,high,canonical bitter,2519,194.19,-0.1,58.4,0,3,0,0,RYYVLZVUVIJVGH-UHFFFAOYSA-N,,31258f744117e63c
+pseudoephedrine,decongestant,oral,high,bitter,7028,165.23,0.9,32.3,2,2,3,0,KWGRBVOPPLSCSI-WCBMZHEXSA-N,,b1692c8dda6f242f
+guaifenesin,expectorant,oral,high,bitter syrup,3516,198.22,1.4,58.9,2,4,5,0,HSRJKNPTNIJEKV-UHFFFAOYSA-N,,c2d0fedfd123a7cc
+dextromethorphan,antitussive,oral,high,bitter syrup,5360696,271.4,3.4,12.5,0,2,1,0,MKXZASYAUGDDCJ-NJAFHUGGSA-N,,6895b0bad4e75691
+levodopa,dopamine precursor,oral,medium,tablet,6047,197.19,-2.7,104.0,4,5,3,0,WTDRDQBEARUVNC-LURJTMIESA-N,,1bc025befcda0a09
+ropinirole,dopamine agonist,oral,low,tablet,5095,260.37,2.7,32.3,1,2,7,0,UHSKFQJFRQCDBE-UHFFFAOYSA-N,,cd57279b8436f87b
+levocetirizine,antihistamine,oral,high,bitter liquid,1549000,388.9,1.7,53.0,1,5,8,0,ZKLPARSLTMPFCP-OAQYLSRUSA-N,,f3f455f6c9ba8833
+azelastine,antihistamine,intranasal,medium,nasal spray (bitter via retro-nasal),2267,381.9,4.4,35.9,0,3,3,0,MBUVEWMHONZEQD-UHFFFAOYSA-N,,5d4e9fb3a4a3c90f
+cyclobenzaprine,muscle relaxant,oral,medium,tablet,2895,275.4,5.2,3.2,0,1,3,0,JURKNVYFZMSNLP-UHFFFAOYSA-N,,084c392385abb305
+carisoprodol,muscle relaxant,oral,medium,TAS2R14 agonist reported,2576,260.33,1.9,90.7,2,4,9,0,OFZCIYFFPZCNJE-UHFFFAOYSA-N,,4595239920c97131
+baclofen,muscle relaxant,oral,medium,tablet,2284,213.66,-1.0,63.3,2,3,4,0,KPYSYYIEGFHWSV-UHFFFAOYSA-N,,e0276aaa5decd8b1
+tizanidine,muscle relaxant,oral,medium,tablet,5487,253.71,1.1,90.4,2,4,2,0,XFYDIVBRZNQMJC-UHFFFAOYSA-N,,990dde48f80d5fd1
+naltrexone,opioid antagonist,oral,medium,tablet,5360515,341.4,1.9,70.0,2,5,2,0,DQCKKXVULJGBQN-XFWGSAIBSA-N,,e08e18b0e209a779
+vardenafil,PDE5 inhibitor,oral,low,tablet,135400189,488.6,2.5,118.0,1,8,8,0,SECKRCOLJRRGGV-UHFFFAOYSA-N,,0bc01aedda332533
+sumatriptan,triptan,oral,medium,tablet,5358,295.40,0.9,73.6,2,4,6,0,KQKPFRSPSRPDEB-UHFFFAOYSA-N,,07a79bdd0c4d7502
+zolmitriptan,triptan,oral,medium,OD,60857,287.36,2.2,57.4,2,3,5,0,ULSDMUVEXKOYBU-ZDUSSCGKSA-N,,31c7eb946d2e7912
+acetazolamide,carbonic anhydrase,oral,medium,bitter tablet,1986,222.3,-0.3,152.0,2,7,2,0,BZKPWHYZMXOIDC-UHFFFAOYSA-N,,d87a2f55f4cba898
+allopregnanolone,neurosteroid,parenteral,none,negative control (non-oral),92786,318.5,4.9,37.3,1,2,1,0,AURFZBICLPNKBZ-SYBPFIFISA-N,,d0ac95671b2b6888
+gentamicin,aminoglycoside,parenteral,none,negative control (non-oral),3467,477.6,-4.1,200.0,8,12,7,0,CEAZRRDELHUEMR-UHFFFAOYSA-N,,79baa84b0379cbb7
+remdesivir,antiviral,parenteral,none,negative control (non-oral),121304016,602.6,1.9,204.0,4,13,14,0,RWWYLEGWBNMMLJ-YSOARWBDSA-N,,483b856ec922444c
+adrenaline,vasopressor,parenteral,none,negative control (non-oral),5816,183.20,-1.4,72.7,4,4,3,0,UCTWMZQNUQWSLP-VIFPVBQESA-N,,b6334f8f30202036
+insulin glargine,peptide,parenteral,none,negative control (non-oral),118984454,6063,-14.1,2590.0,85,92,191,0,COCFEDIXXNGUNL-RFKWWTKHSA-N,,b73dea73944eca42
+sodium chloride,electrolyte,oral,high,salty reference/negative-control taste axis,5234,58.44,,0.0,0,1,0,0,FAPWRFPIFSIZLT-UHFFFAOYSA-M,,32be6aaeb2f40392
+sucrose,nutrient,oral,high,sweet negative control (non-drug),5988,342.30,-3.7,190.0,8,11,5,0,CZMRCDWAGMRECN-UGDNZRGBSA-N,,3a7d5dcc2234286f
+saccharin,sweetener,oral,high,TAS2R31/43 agonist; bitter-sweet,5143,183.19,0.9,71.6,1,3,0,0,CVHZOJJKTDOEJC-UHFFFAOYSA-N,,49995af9470367a3
+denatonium benzoate,aversive agent,oral,high,canonical bitter reference,19518,446.6,,69.2,1,3,7,0,VWTINHYPRWEBQY-UHFFFAOYSA-N,,8ba1f0df69fe2989
+propylthiouracil,antithyroid,oral,high,TAS2R38 probe compound,657298,170.23,0.8,73.2,2,2,2,0,KNAHARQHSZJURB-UHFFFAOYSA-N,,0d670ef7cbd9d764
+captopril,ACE inhibitor,oral,medium,tablet; sulfhydryl taste notes,44093,217.29,0.3,58.6,2,4,3,0,FAKRSMQSSFJEIM-RQJHMYQMSA-N,,00c402d5b6742294
+digoxin,cardiac glycoside,oral,low,tablet/elixir,2724385,780.9,1.3,203.0,6,14,7,0,LTMHDMANZUZIPE-PUGKRICDSA-N,,2f3a5edc7c0861a2
+diltiazem,CCB,oral,medium,tablet,39186,414.5,3.1,84.4,0,6,7,0,HSUGRBWQSSZJOP-RTWAWAEBSA-N,,6a69140fa3f1cff9
+verapamil,CCB,oral,medium,tablet,2520,454.6,3.8,64.0,0,6,13,0,SGTNSNPWRIOYBX-UHFFFAOYSA-N,,ff45675f69a6d084
+lacosamide,antiepileptic,oral,medium,tablet/syrup,219078,250.29,0.3,67.4,2,3,6,0,VPPJLAIAVCUEMN-GFCCVEGCSA-N,,b1843f031a289318
+oxcarbazepine,antiepileptic,oral,high,suspension bitter,34312,252.27,1.7,63.4,1,2,0,0,CTRLABGOLIVAIY-UHFFFAOYSA-N,,d50a66515790f221
+zonisamide,antiepileptic,oral,medium,capsule,5734,212.23,0.2,94.6,1,5,2,0,UBQNRHZMVUUOMG-UHFFFAOYSA-N,,8ca7b6bf230b12e7
+rifampicin,antitubercular,oral,high,suspension bitter,135398735,822.9,4.9,220.0,6,15,5,0,JQXXHWHPUNPDRT-WLSIYKJHSA-N,,93343320e9ef953e
+linezolid,oxazolidinone,oral,medium,suspension,441401,337.35,0.7,71.1,1,6,4,0,TYZROVQLWOKYKF-ZDUSSCGKSA-N,,466705dad836cf4f
+voriconazole,antifungal,oral,medium,suspension,71616,349.31,1.5,76.7,1,8,5,0,BCEHBSKCWLPMDN-MGPLVRAMSA-N,,0ae9e7de6cdf2a34
+fluconazole,antifungal,oral,medium,suspension/tablet,3365,306.27,0.4,81.7,1,7,5,0,RFHAOTPXVQNOHP-UHFFFAOYSA-N,,afad3c513e24aa72
+nitrofurantoin,urinary antibiotic,oral,medium,capsule/suspension,6604200,238.16,-0.5,121.0,1,6,2,0,NXFQHRVNIOXGAQ-YCRREMRBSA-N,,b9f15f17f10e143d
+trimethoprim,antibiotic,oral,high,suspension bitter,5578,290.32,0.9,106.0,2,7,5,0,IEDVJHCEMCRBQM-UHFFFAOYSA-N,,51ce9737ebc94109
+sulfamethoxazole,antibiotic,oral,high,suspension bitter,5329,253.28,0.9,107.0,2,6,3,0,JLKIGFTWXXRPMT-UHFFFAOYSA-N,,aa9e49be1afddf8c
+ciclesonide,corticosteroid,inhaled,low,negative control (low oral taste),6918155,540.7,5.3,99.1,1,7,6,0,LUKZNWIVRBCLON-GXOBDPJESA-N,,5e9852ee002305db
+budesonide,corticosteroid,inhaled,low,negative control (inhaled),5281004,430.5,2.5,93.1,2,6,4,0,VOVIALXJUBGFJZ-KWVAZRHASA-N,,d06ca600cd4dabd3
+fluticasone,corticosteroid,inhaled,low,negative control (inhaled),5311101,444.5,3.2,99.9,2,8,3,0,MGNNYOODZCAHBA-GQKYHHCASA-N,,ea2aa8be4e86ca6a
+salbutamol,beta2 agonist,inhaled,low,inhaled aerosol,2083,239.31,0.3,72.7,4,4,5,0,NDAUXUAQIAJITI-UHFFFAOYSA-N,,4e99fed131155c04
+carvedilol phosphate,beta blocker,oral,low,CR capsule,11954344,1027.0,,308.0,13,19,20,0,LHNYXTULDSJZRB-UHFFFAOYSA-N,,bc9fc5305ea9819d
+mesalamine,5-ASA,oral,medium,enteric/PR,4075,153.14,1.3,83.6,3,4,1,0,KBOPZPXVLCULAV-UHFFFAOYSA-N,,f9f75fd1c14c3d15
+tacrolimus,immunosuppressant,oral,medium,capsule/granules,445643,804.0,2.7,178.0,3,12,7,0,QJJXYPPXXYFBGM-LFZNUXCKSA-N,,297b7ad6fecd3909
+mycophenolate,immunosuppressant,oral,medium,suspension bitter,6918995,319.3,3.8,95.9,1,6,5,-1,HPNSFSBZBAHARI-RUDMXATFSA-M,,1f7f7138064f0bc5
+hydroxyurea,cytotoxic,oral,medium,capsule,3657,76.055,-1.8,75.4,3,2,0,0,VSNHCAURESNICA-UHFFFAOYSA-N,,474032bee99e97a8
+imatinib,TKI,oral,low,film tablet,5291,493.6,3.5,86.3,2,7,7,0,KTUFNOKKBVMGRW-UHFFFAOYSA-N,,fba5e57327c9acba
+lenalidomide,immunomodulatory,oral,low,capsule,216326,259.26,-0.5,92.5,2,4,1,0,GOTYRUGSSMKFNF-UHFFFAOYSA-N,,b44957c30a5ad641
+sacubitril valsartan,ARNI,oral,low,film tablet,24755620,847.0,,205.0,4,11,22,0,XTKIDERFOUYBDE-QEPKIHTBSA-N,,74dacbc1b54e5877
+fenofibrate,fibrate,oral,low,capsule,3339,360.8,5.2,52.6,0,4,7,0,YMTINGFKWWXKFG-UHFFFAOYSA-N,,c12762f18f62831c
+potassium iodide,electrolyte,oral,high,metallic-bitter drops,4875,166.0028,,0.0,0,1,0,0,NLKNQRATVPKPDG-UHFFFAOYSA-M,,1a8b9ed0c941869a
+chlorphenamine,antihistamine,oral,high,bitter,2725,274.79,3.4,16.1,0,2,5,0,SOYKEARSMXGVTM-UHFFFAOYSA-N,,2206eb9c5cbd2111
+dimenhydrinate,antihistamine,oral,medium,tablet,10660,470.0,,81.8,1,5,6,0,NFLLKCVHYJRNRH-UHFFFAOYSA-N,,529585ba46b0ef02
+meclizine,antihistamine,oral,medium,tablet,4034,390.9,5.8,6.5,0,2,5,0,OCJYIGYOJCODJL-UHFFFAOYSA-N,,d0785d863a6e2abc
+ursodeoxycholic acid,bile acid,oral,medium,capsule,31401,392.6,4.9,77.8,3,4,4,0,RUDATBOHQWOJDD-UZVSRGJWSA-N,,9200397f72043640
+lactulose,osmotic laxative,oral,high,sweet syrup,11333,342.30,-4.3,190.0,8,11,5,0,JCQLYHFGKNRPGE-FCVZTGTOSA-N,,970b933028a0e94f
+sodium picosulfate,laxative,oral,medium,drops,68654,481.4,,163.0,0,9,5,0,GOZDTZWAMGHLDY-UHFFFAOYSA-L,,b6f2796ffca3a31d
+prucalopride,5HT4 agonist,oral,low,film tablet,3052762,367.9,2.0,76.8,2,5,6,0,ZPMNHBXQOOVQJL-UHFFFAOYSA-N,,ed4c05af4d60fb88
+chlordiazepoxide,benzodiazepine,oral,medium,capsule,2712,299.75,2.4,48.2,1,3,1,0,BUCORZSTKDOEKQ-UHFFFAOYSA-N,,d45165a40589d166
+diazepam,benzodiazepine,oral,medium,tablet/liquid,3016,284.74,3.0,32.7,0,2,1,0,AAOVKJBEBIDNHE-UHFFFAOYSA-N,,2e64982ef062267c
+lorazepam,benzodiazepine,oral,medium,tablet,3958,321.2,2.4,61.7,2,3,1,0,DIWRORZWFLOCLC-UHFFFAOYSA-N,,0a99f1ee9b3f52cb
+alprazolam,benzodiazepine,oral,medium,tablet/OD bitter,2118,308.8,2.1,43.1,0,3,1,0,VREFGVBLTWBCJP-UHFFFAOYSA-N,,0b586597458d205f
+zolpidem,hypnotic,oral,low,tablet,5732,307.4,2.5,37.6,0,2,3,0,ZAFYATHCZYHLPB-UHFFFAOYSA-N,,16b4d5dafec2725a
+eszopiclone,hypnotic,oral,high,notorious metallic-bitter,969472,388.8,0.5,91.8,0,7,3,0,GBBSUAFBMRNDJC-INIZCTEOSA-N,,495e577a070e9f26
+melatonin,hormone,oral,low,tablet,896,232.28,0.8,54.1,2,2,4,0,DRLFMBDRBRZALE-UHFFFAOYSA-N,,722af5d5a0823ec4

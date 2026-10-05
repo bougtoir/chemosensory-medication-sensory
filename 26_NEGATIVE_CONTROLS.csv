@@ -1,0 +1,13 @@
+nid,cls,gene,drug,route,expect,rationale,flag
+N01,route,TAS2R38,insulin,parenteral,null,no oral chemosensory exposure,
+N02,route,TAS2R38,gentamicin,parenteral,null,no oral exposure; ototoxicity is not taste,systemic T2R biology possible but not orosensory
+N03,route,TAS2R38,remdesivir,IV,null,no oral exposure,
+N04,route,TAS2R38,fentanyl patch,transdermal,null,bypasses oral mucosa,systemic exposure exists
+N05,masking,TAS2R38,omeprazole (enteric-coated),oral,null or attenuated,enteric coat removes oral exposure,partial masking only; chewing voids it
+N06,masking,TAS2R38,erythromycin enteric/film-coated tab,oral,attenuated vs suspension,film coat delays release,
+N07,mismatch,TAS2R9,PROP,oral,null,"PROP ligand is TAS2R38, not TAS2R9",
+N08,mismatch,TAS2R38,ofloxacin,oral,null,ofloxacin edge is TAS2R9; no TAS2R38 edge in BitterDB,broad-spectrum receptor activity not excluded
+N09,published_null,TAS2R38,clindamycin liquid,oral,null,2026 prospective n=67: rs713598 null,low power; treat as weak control
+N10,mismatch,TAS1R2,quinine,oral,null,quinine is bitter/T2R-ligand; TAS1R2 is sweet,
+N11,masking,TRPA1,ibuprofen film-coated tablet,oral,attenuated vs suspension,coating removes chemesthetic contact,
+N12,adherence,TAS2R38,supplement / health-food use,oral (mixed),null for the association,"tests generic healthcare-seeking/adherence, not drug taste",some supplements are bitter; interpret jointly with N05

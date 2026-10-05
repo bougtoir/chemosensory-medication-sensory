@@ -1,0 +1,173 @@
+添付した以下の4点を、必ず最初にすべて確認してください。
+
+1. `tommo申請書.docx`
+2. `tommo研究計画.docx`
+3. `tommoデータセット.xlsx`
+4. `CHEMOSENSORY_TOMMO_LEGACY_SESSION_HANDOFF.zip`
+
+本セッションは新規Devinセッションですが、研究そのものを一から再設計するセッションではありません。
+
+`CHEMOSENSORY_TOMMO_LEGACY_SESSION_HANDOFF.zip` には、これまで別セッションで行った
+
+- 理論形成
+- dry evidence synthesis
+- prediction freeze
+- negative-control設計
+- GO / CONDITIONAL GO gate
+- ToMMo testability audit
+- pre-opening lock
+- genotype / haplotype実装方針
+- medication parser方針
+- formulation / route / oral sensory exposure分類
+- formal mechanistic gradient
+- continuous calibration
+- multiple-testing hierarchy
+- interpretation rules
+- amendment policy
+- primary-validation handoff
+
+の履歴と凍結済み判断が含まれています。
+
+このZIPは単なる参考資料ではなく、本研究のpre-ToMMo scientific historyを示す正式なhandoff packageとして扱ってください。
+
+一方、本研究における最上位の制約は、添付した正式な
+
+`tommo研究計画.docx`
+および
+`tommo申請書.docx`
+
+です。
+
+また、実際の分譲予定データ範囲は
+
+`tommoデータセット.xlsx`
+
+と、研究計画記載の味蕾関連SNP情報です。
+
+したがって、本セッションでは最初に必ず、
+
+A. 正式なToMMo研究計画
+B. 実際の分譲予定データ
+C. 旧セッションのfrozen scientific decisions
+
+の3者を照合し、
+
+`PROTOCOL_DISTRIBUTION_FREEZE_RECONCILIATION.md`
+
+を作成してください。
+
+この文書では、旧セッションの各分析・予測・negative control・gradient・calibration・SAP項目について、
+
+- KEEP AS CONFIRMATORY
+- KEEP AS SECONDARY
+- KEEP AS NEGATIVE CONTROL
+- KEEP AS EXPLORATORY
+- UNTESTABLE WITH DISTRIBUTED DATA
+- REQUIRES PROTOCOL AMENDMENT
+- SUPERSEDED BY APPROVED-PROTOCOL REQUIREMENT
+
+のいずれかに分類してください。
+
+重要：
+
+旧セッションでfreezeされた項目は、正式研究計画や実分譲予定データと矛盾しない限り、そのpre-specification statusを維持してください。
+
+一方、旧freezeの一部が正式研究計画または実分譲予定データの範囲を超える場合は、
+
+- 勝手に実行しない
+- 勝手に削除しない
+- 勝手に別の解析へ置き換えない
+
+でください。
+
+その場合は明示的に
+
+`UNTESTABLE WITH DISTRIBUTED DATA`
+または
+`REQUIRES PROTOCOL AMENDMENT`
+
+として履歴を残してください。
+
+また、旧handoff内の `OPEN PRIMARY DATA WITH RESTRICTIONS` は、今回の新規セッションで直ちに参加者レベル解析を開始してよい、という意味には解釈しないでください。
+
+これは旧セッション時点のhistorical gate decisionです。
+
+今回の新規セッションでは、
+
+旧freeze
+→ protocol/data reconciliation
+→ final pre-receipt freeze
+→ independent timestamp
+→ ToMMo data receipt
+→ offline validation
+
+という順序を維持してください。
+
+本セッションの第一目的は、
+
+近日分譲予定のToMMo個票データを受領する前に、
+
+- 理論
+- 仮説
+- SNP解析階層
+- longitudinal medication-change endpoint
+- negative controls
+- mechanistic gradient
+- calibration
+- multiple-testing plan
+- interpretation rules
+- confirmatory / secondary / exploratory境界
+- 完全オフライン解析コード
+
+を最終的にfreezeし、第三者が後から検証可能なtimestamp packageを完成させることです。
+
+参加者レベルToMMoデータは、まだ解析しないでください。
+
+特に、本研究のprimary medication phenotypeは単純なcurrent medication useよりも、正式研究計画に沿ったph1→ph2の
+
+- 用量変更
+- active ingredient change
+- within-class switch
+- medication addition
+- medication removal
+
+などのlongitudinal medication-change phenotypeを中心に設計してください。
+
+FFQ ph1 / ph2は、事前に限定したchemosensory phenotypeのsecondary triangulationとして利用する計画をfreezeしてください。
+
+Drug ID / KEDD IDが利用可能な場合は、薬剤同定ではそれらのstructured identifiersを優先し、free textはbrand / formulation / route補完とQCに使用してください。
+
+claims dataは、実際の分譲ファイルに含まれることが確認されるまではprimary analysisの前提にしないでください。
+
+本研究の中心となる科学的ストーリーは維持してください。
+
+すなわち、
+
+「味覚・chemosensory phenotypeには遺伝的成分だけでなく後天的可塑性が存在する。
+もしこのchemosensory interfaceが薬剤関連反応にも関与するなら、薬剤に対する個体差にも修正可能な成分が存在する可能性がある。
+これは将来的に、薬剤を患者に合わせて変更するだけではなく、患者側の修正可能な感覚表現型を調整するというprecision medicineの新しい方向につながり得る。
+さらに介入効果が実証されれば、安価で有効な既存薬・特許切れ薬の利用可能性を拡大し、医療費とpublic-healthの両立に寄与し得る。」
+
+という研究アークです。
+
+ただし現在のToMMo研究で直接実証できる範囲と、
+
+- sensory plasticity
+- 食育 / sensory conditioning
+- medication-response modification
+- health-economic benefit
+- global-health benefit
+
+という将来仮説は厳密に区別してください。
+
+ToMMo研究から未検証の介入効果を結論してはいけません。
+
+今回のToMMo解析は、
+
+「このchemosensory systemが実際に薬剤関連の個体差を予測する」
+
+という、将来介入へ進むためのpopulation-level foundationを検証する位置づけです。
+
+`PROTOCOL_DISTRIBUTION_FREEZE_RECONCILIATION.md` が完成するまでは、新しい科学的分析案を追加しないでください。
+
+その後、fileとして添付したメインプロンプトを実行してくださfい。

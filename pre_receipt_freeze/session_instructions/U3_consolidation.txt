@@ -1,0 +1,12 @@
+All instructions added during this session before ToMMo participant-level data receipt must be consolidated into the final pre-receipt protocol, decision log, amendment log, and timestamp package.
+
+Preserve the chronology of when each instruction was introduced and classify each instruction as:
+- scientific
+- technical
+- reproducibility-related
+- data-security-related
+- publication/interpretation-related
+
+Do not leave any scientifically consequential instruction only in chat history.
+
+Before finalizing the timestamp package, perform a completeness check against the full session history and confirm that all pre-receipt instructions have been incorporated into the frozen deliverables.

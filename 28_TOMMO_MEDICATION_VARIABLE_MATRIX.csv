@@ -1,0 +1,19 @@
+variable,status,evidence,source
+exact medication name,CONFIRMED AVAILABLE,free text 商品名や成分等,調査票（生活）【５】baseline/phase2 PDF
+generic name,LIKELY AVAILABLE,derivable from free text,調査票（生活）【５】baseline/phase2 PDF
+brand name,CONFIRMED AVAILABLE,free text; example アダラートCR錠,調査票（生活）【５】baseline/phase2 PDF
+drug class,LIKELY AVAILABLE,derivable from name,調査票（生活）【５】baseline/phase2 PDF
+dose,CONFIRMED AVAILABLE,1回の使用量 (units incl. mg),調査票（生活）【５】baseline/phase2 PDF
+frequency,CONFIRMED AVAILABLE,"使用頻度 週・日・回, 頓用",調査票（生活）【５】baseline/phase2 PDF
+formulation,LIKELY AVAILABLE,brand suffix + unit categories; no dedicated field,調査票（生活）【５】baseline/phase2 PDF
+route,LIKELY AVAILABLE,unit/name parse; patch/inhaler explicitly included,調査票（生活）【５】baseline/phase2 PDF
+current use,CONFIRMED AVAILABLE,過去2週間 screener,調査票（生活）【５】baseline/phase2 PDF
+past use / start,LIKELY AVAILABLE,使用期間 年・月,調査票（生活）【５】baseline/phase2 PDF
+repeated-wave use,CONFIRMED AVAILABLE,same section waves 1&2,調査票（生活）【５】baseline/phase2 PDF
+start/stop transitions,LIKELY AVAILABLE,cross-wave discordance constructible,waves 1+2
+reason for discontinuation,LIKELY UNAVAILABLE,no field observed,調査票（生活）【５】baseline/phase2 PDF
+prescribing indication,LIKELY AVAILABLE,derivable from disease-history fields,調査票（生活）【５】baseline/phase2 PDF
+supplement use,CONFIRMED AVAILABLE,same section,調査票（生活）【５】baseline/phase2 PDF
+health-food use,CONFIRMED AVAILABLE,same section,調査票（生活）【５】baseline/phase2 PDF
+OTC medication use,CONFIRMED AVAILABLE,drugstore purchase explicit,調査票（生活）【５】baseline/phase2 PDF
+claims medication records,LIKELY AVAILABLE (restricted),"dbTMM 2.3.4 服薬情報/医科レセプト, 健診相乗り型",dbTMM release notes 2.3.4

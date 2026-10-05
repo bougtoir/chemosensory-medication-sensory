@@ -1,0 +1,156 @@
+{
+ "application_gene_appendix": [],
+ "approved_genes": [
+  "GNAT3",
+  "GNG13",
+  "ITPR3",
+  "OTOP1",
+  "PLCB2",
+  "SCNN1A",
+  "SCNN1B",
+  "SCNN1D",
+  "SCNN1G",
+  "TAS1R1",
+  "TAS1R2",
+  "TAS1R3",
+  "TAS2R10",
+  "TAS2R14",
+  "TAS2R16",
+  "TAS2R38",
+  "TAS2R46",
+  "TAS2R8",
+  "TAS2R9",
+  "TRPM5"
+ ],
+ "approved_genes_source": "attached plan gene line + TAS2R8 restored from typo 'AS2R8'",
+ "dataset": {
+  "ancestry_pc_rows": 0,
+  "claims_rows": 0,
+  "dose_rows": 180,
+  "drug_id_rows": 90,
+  "duration_rows": 180,
+  "ffq_rows": 741,
+  "frequency_rows": 180,
+  "genotype_rows": 0,
+  "kedd_id_rows": 90,
+  "medication_name_rows": 270,
+  "metabolome_rows": 3,
+  "nonempty_rows": 8128,
+  "not_selected": [
+   "メタボローム情報 / MS (GC-MS) メタボローム解析 / 半定量",
+   "MS (LC-MS) メタボローム解析 / AbsoluteIDQ p180キットによる定量",
+   "MxP Quant 500キットによる定量",
+   "内部標準法による定量",
+   "半定量（高速液体クロマトグラフ、C18カラム）",
+   "半定量（高速液体クロマトグラフ、HILICカラム）",
+   "半定量（超高速液体クロマトグラフ）",
+   "NMRメタボローム解析 / 定量"
+  ],
+  "prescription_source_rows": 90,
+  "release": "リリース 3.1.1 地域住民・三世代コホート 宮城（20歳以上）ベースライン・第2段階調査 86K",
+  "selected_files": [
+   "対象情報 / 基本情報 / demographics.{utf8|sjis}.csv",
+   "コホート種別情報 / cohort_profile.{utf8|sjis}.csv",
+   "健康調査情報 / ベースライン調査期間 / 検体検査情報 / laboratory_test.ph1.{utf8|sjis}.csv",
+   "(第1段階調査期間) / 調査票情報 / 調査票（生活・食） / 調査票（生活） / qa_lifestyle.ph1.{utf8|sjis}.csv",
+   "調査票（食） / qa_ffq.ph1.{utf8|sjis}.csv",
+   "生理機能検査情報 / physiological_test.ph1.{utf8|sjis}.csv",
+   "第2段階調査期間 / 検体検査情報 / laboratory_test.ph2.{utf8|sjis}.csv",
+   "調査票情報 / 調査票（生活・食） / 調査票（生活） / qa_lifestyle.ph2.{utf8|sjis}.csv",
+   "調査票（食） / qa_ffq.ph2.{utf8|sjis}.csv",
+   "生理機能検査情報 / physiological_test.ph2.{utf8|sjis}.csv"
+  ],
+  "sheets": [
+   "分譲対象",
+   "参考資料 基本情報",
+   "コホート種別情報",
+   "健康調査情報 検体検査情報",
+   "調査票情報",
+   "生理機能検査情報",
+   "第1･2段階データ収集状況"
+  ],
+  "taste_rows": 18
+ },
+ "documents": {
+  "application": {
+   "bytes": 36179,
+   "file": "tommo申請書.docx",
+   "sha256": "9cd2b24324c905d28024f68bdc40df4570e74bcb2c414033fefefed010f2b9f6"
+  },
+  "dataset": {
+   "bytes": 748338,
+   "file": "tommoデータセット.xlsx",
+   "sha256": "f77fb87cb76f631b01f7c04b6a66e1667074a11b6f56d38e17cf442a2f34d465"
+  },
+  "plan": {
+   "bytes": 156273,
+   "file": "tommo研究計画.docx",
+   "sha256": "c81cdef22d61a732f8053b83dcddb439e8824207a2692e5bc4280275ae1988cd"
+  },
+  "revised_application": {
+   "bytes": 29487,
+   "file": "003_shinsei_2025-0057_20260613_修正版.docx",
+   "sha256": "c2ca53c4b69e61c65813a8183d5e4f3633a169c549c5f1ca3856d8731b295af8"
+  },
+  "revised_plan": {
+   "bytes": 131470,
+   "file": "004_keikaku_2025-0057_20260613_修正版.docx",
+   "sha256": "055a277e6f0b1284beb0fe43cc19c6fa5d506747f66aa0ce1ea55464d4ec116d"
+  }
+ },
+ "plan_age20": true,
+ "plan_both_waves": false,
+ "plan_gene_line_genes": [
+  "GNAT3",
+  "GNG13",
+  "ITPR3",
+  "OTOP1",
+  "PLCB2",
+  "SCNN1A",
+  "SCNN1B",
+  "SCNN1D",
+  "SCNN1G",
+  "TAS1R1",
+  "TAS1R2",
+  "TAS1R3",
+  "TAS2R10",
+  "TAS2R14",
+  "TAS2R16",
+  "TAS2R38",
+  "TAS2R46",
+  "TAS2R9",
+  "TRPM5"
+ ],
+ "plan_gene_line_typo": true,
+ "plan_mentions_claims": true,
+ "plan_mentions_gwas": true,
+ "revised_application_gene_appendix": [
+  "GNAT3",
+  "GNG13",
+  "ITPR3",
+  "OTOP1",
+  "PLCB2",
+  "SCNN1A",
+  "SCNN1B",
+  "SCNN1D",
+  "SCNN1G",
+  "TAS1R1",
+  "TAS1R2",
+  "TAS1R3",
+  "TAS2R10",
+  "TAS2R14",
+  "TAS2R16",
+  "TAS2R38",
+  "TAS2R46",
+  "TAS2R8",
+  "TAS2R9",
+  "TRPM5"
+ ],
+ "revised_plan_both_waves": true,
+ "revised_plan_candidate_categories": true,
+ "revised_plan_gwas_replaced": true,
+ "revised_vs_approved_genes": {
+  "only_attached": [],
+  "only_revised": []
+ }
+}

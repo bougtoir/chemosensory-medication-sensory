@@ -1,0 +1,16 @@
+{
+  "pattern": "D",
+  "reason": "no directional support; controls null",
+  "claim_level": "no detectable population signature (informative null only for adequately powered tests)",
+  "level5_claims": "prohibited in all patterns (85 rule 4)",
+  "calibration": {
+    "n_frozen": 12,
+    "n_in_scope": 8,
+    "n_evaluable": 5,
+    "min_evaluable": 5,
+    "rho": 0.0,
+    "p_perm_one_sided": 0.5146485351464853,
+    "status": "EVALUATED"
+  },
+  "note": "isolated SNP-drug association without gradient support is never proof of the general framework (85 rule 1b)"
+}

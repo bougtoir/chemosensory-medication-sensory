@@ -1,0 +1,8 @@
+variant,gene,status,detail,snps
+TAS2R38_PAV,TAS2R38,DIRECTLY TESTABLE,EM diplotype; missing(non-PAV/AVI or low posterior)=0.1033; hap freq PAV=0.445 AVI=0.502,rs713598;rs1726866;rs10246939
+TAS2R9_V187A,TAS2R9,TESTABLE WITH PRE-SPECIFIED PROXY,"proxy rsSYNPROXY r2=0.913 (within-sample, genotype-only)",rsSYNPROXY
+TAS1R2_rs12033832,TAS1R2,DIRECTLY TESTABLE,,rs12033832
+TAS2R19_rs10772420,TAS2R19,REQUIRES PROTOCOL AMENDMENT (not analysed),outside approved 20-gene universe,rs10772420
+TRPA1_rs11988795,TRPA1,REQUIRES PROTOCOL AMENDMENT (not analysed),outside approved 20-gene universe,rs11988795
+TAS2R4_unresolved,TAS2R4,REQUIRES PROTOCOL AMENDMENT (not analysed),outside approved 20-gene universe,
+TAS2R43_46,TAS2R43,REQUIRES PROTOCOL AMENDMENT (not analysed),outside approved 20-gene universe,

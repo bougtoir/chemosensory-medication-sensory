@@ -1,0 +1,21 @@
+operation,data_domain,authorization_state,required_condition
+read survey questionnaire metadata,metadata,ALLOWED,
+read dbTMM variable catalog,metadata,ALLOWED,
+verify variant availability in genotype panel,genotype availability only,CONDITIONAL,"dbTMM catalog check only; no allele frequencies"
+genotype QC (MAF/HWE/missingness/PCs),genotype,CONDITIONAL,"no outcome joined; QC report only"
+run medication parser on free-text,medication text,ALLOWED,"parser v1.0.0 frozen; no genotype joined"
+compute exposure counts per drug/class,medication,ALLOWED,"genotype-blind aggregate counts only"
+compute wave structure/missingness,medication/waves,ALLOWED,
+linkage/consent structure assessment,metadata,ALLOWED,
+join genotype to medication outcomes,genotype+outcome,FORBIDDEN,"only after explicit OPEN decision (89)"
+estimate genotype-outcome association,genotype+outcome,FORBIDDEN,"only after explicit OPEN decision (89)"
+inspect genotype frequency by outcome,genotype+outcome,FORBIDDEN,"only after explicit OPEN decision (89)"
+inspect outcome by genotype strata,genotype+outcome,FORBIDDEN,"only after explicit OPEN decision (89)"
+descriptive exposure prevalence overall,medication,CONDITIONAL,"allowed only as aggregate counts during exposure-parsing QC; no cross-tabs with genotype or covariates other than wave"
+run SAP families F-PRIMARY/F-SECONDARY/F-CONTRAST,genotype+outcome,FORBIDDEN,"only after explicit OPEN decision (89)"
+run calibration (81),results,FORBIDDEN,"after all family tests closed; requires OPEN"
+any amendment to frozen files,protocol,CONDITIONAL,"only via 88_AMENDMENT_POLICY_FINAL.md"
+sample actual ToMMo medication strings for parser QC,medication text,REQUIRED_BEFORE_ANALYSIS,"genotype-blind random sample; no genotype join; required gate before any association run (Amendment 2)"
+redefine or pool a drug-level prediction into a class prediction,protocol,FORBIDDEN,"Amendment 91: UNTESTABLE stays UNTESTABLE; never merged/rescued"
+run mechanistic gradient test (95),genotype+outcome,FORBIDDEN,"only after explicit OPEN decision (89/98); F-GRADIENT family"
+run continuous calibration (96),results,FORBIDDEN,"after all family tests closed; requires OPEN"

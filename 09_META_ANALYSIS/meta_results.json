@@ -1,0 +1,15 @@
+{
+ "fisher_TAS2R38_PROP_PTC": {
+  "k": 8,
+  "chi2": 588.7324975792999,
+  "df": 16,
+  "p": 0.0,
+  "note": "same construct (PROP/PTC-bitterness association); one null (non-cognate drug) included as informative"
+ },
+ "direction_test_GxS1": {
+  "positive": 24,
+  "negative": 4,
+  "p": 8.999556303024292e-05
+ },
+ "scale_heterogeneity": "Suprathreshold gLMS, detection thresholds, recognition thresholds, taster-class frequencies are NOT pooled into a single effect size (spec rule). Pooled ES meta-analysis not defensible; p-combination + direction synthesis used instead."
+}
